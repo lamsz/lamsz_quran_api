@@ -1,35 +1,13 @@
 {
-    "id": "1",
+    "id": 1,
     "name": "الفاتحة",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "In the Name of Allah, the Most Gracious, the Most Merciful."
-        },
-        {
-            "id": "2",
-            "text": "Al-Hamd be to Allah, the Lord of all that exists."
-        },
-        {
-            "id": "3",
-            "text": "Ar-Rahman (the Most Gracious), Ar-Rahim (the Most Merciful)."
-        },
-        {
-            "id": "4",
-            "text": "The Owner of the Day of Recompense."
-        },
-        {
-            "id": "5",
-            "text": "You we worship, and You we ask for help."
-        },
-        {
-            "id": "6",
-            "text": "Guide us to the straight path."
-        },
-        {
-            "id": "7",
-            "text": "The way of those upon whom You have bestowed Your grace, not (that) of those who earned Your anger, nor of those who went astray."
-        }
-    ]
+        "In the Name of Allah, the Most Gracious, the Most Merciful.",
+        "Al-Hamd be to Allah, the Lord of all that exists.",
+        "Ar-Rahman (the Most Gracious), Ar-Rahim (the Most Merciful).",
+        "The Owner of the Day of Recompense.",
+        "You we worship, and You we ask for help.",
+        "Guide us to the straight path.",
+        "The way of those upon whom You have bestowed Your grace, not (that) of those who earned Your anger, nor of those who went astray."
+      ]
 }

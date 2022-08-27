@@ -1,215 +1,58 @@
 {
-    "id": "69",
+    "id": 69,
     "name": "الحاقة",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Al-Haqqah!"
-        },
-        {
-            "id": "2",
-            "text": "What is Al-Haqqah"
-        },
-        {
-            "id": "3",
-            "text": "And what will make you know what Al-Haqqah is"
-        },
-        {
-            "id": "4",
-            "text": "Thamud and `Ad denied the Qari`ah!"
-        },
-        {
-            "id": "5",
-            "text": "As for Thamud, they were destroyed by the Taghiyah!"
-        },
-        {
-            "id": "6",
-            "text": "And as for `Ad, they were destroyed by a wind, Sarsar `Atiyah!"
-        },
-        {
-            "id": "7",
-            "text": "Which Allah imposed on them for seven nights and eight days Husum, so that you could see men lying toppled, as if they were trunks of date palms, Khawiyah!"
-        },
-        {
-            "id": "8",
-            "text": "Do you see any remnants of them"
-        },
-        {
-            "id": "9",
-            "text": "And Fir`awn, and those before him, and the cities overthrown committed Al-Khati'ah."
-        },
-        {
-            "id": "10",
-            "text": "And they disobeyed their Lord's Messenger, so He seized them with a punishment that was Rabiyah."
-        },
-        {
-            "id": "11",
-            "text": "Verily, when the water rose beyond its limits, We carried you in the ship."
-        },
-        {
-            "id": "12",
-            "text": "That We might make it an admonition for you and that it might be retained by the retaining ears."
-        },
-        {
-            "id": "13",
-            "text": "Then when the Trumpet will be blown with one blowing."
-        },
-        {
-            "id": "14",
-            "text": "And the earth and the mountains shall be removed from their places, and crushed with a single crushing."
-        },
-        {
-            "id": "15",
-            "text": "Then on that Day shall the Event occur."
-        },
-        {
-            "id": "16",
-            "text": "And the heaven will be rent asunder, for that Day it will be frail and torn up."
-        },
-        {
-            "id": "17",
-            "text": "And the angels will be on its sides, and eight angels will, that Day, bear the Throne of your Lord above them."
-        },
-        {
-            "id": "18",
-            "text": "That Day shall you be brought to Judgement, not a secret of you will be hidden."
-        },
-        {
-            "id": "19",
-            "text": "Then as for him who will be given his Record in his right hand will say: \"Here! read my Record!\""
-        },
-        {
-            "id": "20",
-            "text": "\"Surely, I did believe that I shall meet my account!\""
-        },
-        {
-            "id": "21",
-            "text": "So, he shall be in a life, well-pleasing."
-        },
-        {
-            "id": "22",
-            "text": "In a lofty Paradise,"
-        },
-        {
-            "id": "23",
-            "text": "The fruits in bunches whereof will be low and near at hand."
-        },
-        {
-            "id": "24",
-            "text": "Eat and drink at ease for that which you have sent on before you in days past!"
-        },
-        {
-            "id": "25",
-            "text": "But as for him who will be given his Record in his left hand, will say: \"I wish that I had not been given my Record!\""
-        },
-        {
-            "id": "26",
-            "text": "\"And that I had never known how my account is!\""
-        },
-        {
-            "id": "27",
-            "text": "\"Would that it had been my end!\""
-        },
-        {
-            "id": "28",
-            "text": "\"My wealth has not availed me;\""
-        },
-        {
-            "id": "29",
-            "text": "\"My power has gone from me!\""
-        },
-        {
-            "id": "30",
-            "text": "(It will be said): \"Seize him and fetter him;\""
-        },
-        {
-            "id": "31",
-            "text": "\"Then throw him in the blazing Fire.\""
-        },
-        {
-            "id": "32",
-            "text": "\"Then fasten him on a chain whereof the length is seventy cubits!\""
-        },
-        {
-            "id": "33",
-            "text": "Verily, he used not to believe in Allah, the Most Great,"
-        },
-        {
-            "id": "34",
-            "text": "And urged not the feeding of the poor."
-        },
-        {
-            "id": "35",
-            "text": "So, no friend has he here this Day,"
-        },
-        {
-            "id": "36",
-            "text": "Nor any food except filth from Ghislin."
-        },
-        {
-            "id": "37",
-            "text": "None will eat it except the Khati'un."
-        },
-        {
-            "id": "38",
-            "text": "So, I swear by whatsoever you see,"
-        },
-        {
-            "id": "39",
-            "text": "And by whatsoever you see not,"
-        },
-        {
-            "id": "40",
-            "text": "That this is verily the word of an honored Messenger."
-        },
-        {
-            "id": "41",
-            "text": "It is not the word of a poet, little is that you believe!"
-        },
-        {
-            "id": "42",
-            "text": "Nor is it the word of a soothsayer, little is that you remember!"
-        },
-        {
-            "id": "43",
-            "text": "This is the revelation sent down from the Lord of all that exists."
-        },
-        {
-            "id": "44",
-            "text": "And if he had forged a false saying concerning Us,"
-        },
-        {
-            "id": "45",
-            "text": "We surely would have seized him by his right hand,"
-        },
-        {
-            "id": "46",
-            "text": "And then We certainly would have cut off Al-Watin from him,"
-        },
-        {
-            "id": "47",
-            "text": "And none of you could have prevented it from him."
-        },
-        {
-            "id": "48",
-            "text": "And verily, this is a Reminder for those who have Taqwa."
-        },
-        {
-            "id": "49",
-            "text": "And verily, We know that there are some among you that deny."
-        },
-        {
-            "id": "50",
-            "text": "And indeed it will be an anguish for the disbelievers."
-        },
-        {
-            "id": "51",
-            "text": "And verily, it (this Qur'an) is an absolute truth with certainty."
-        },
-        {
-            "id": "52",
-            "text": "So, glorify the Name of your Lord, the Most Great."
-        }
-    ]
+        "Al-Haqqah!",
+        "What is Al-Haqqah",
+        "And what will make you know what Al-Haqqah is",
+        "Thamud and `Ad denied the Qari`ah!",
+        "As for Thamud, they were destroyed by the Taghiyah!",
+        "And as for `Ad, they were destroyed by a wind, Sarsar `Atiyah!",
+        "Which Allah imposed on them for seven nights and eight days Husum, so that you could see men lying toppled, as if they were trunks of date palms, Khawiyah!",
+        "Do you see any remnants of them",
+        "And Fir`awn, and those before him, and the cities overthrown committed Al-Khati'ah.",
+        "And they disobeyed their Lord's Messenger, so He seized them with a punishment that was Rabiyah.",
+        "Verily, when the water rose beyond its limits, We carried you in the ship.",
+        "That We might make it an admonition for you and that it might be retained by the retaining ears.",
+        "Then when the Trumpet will be blown with one blowing.",
+        "And the earth and the mountains shall be removed from their places, and crushed with a single crushing.",
+        "Then on that Day shall the Event occur.",
+        "And the heaven will be rent asunder, for that Day it will be frail and torn up.",
+        "And the angels will be on its sides, and eight angels will, that Day, bear the Throne of your Lord above them.",
+        "That Day shall you be brought to Judgement, not a secret of you will be hidden.",
+        "Then as for him who will be given his Record in his right hand will say: \"Here! read my Record!\"",
+        "\"Surely, I did believe that I shall meet my account!\"",
+        "So, he shall be in a life, well-pleasing.",
+        "In a lofty Paradise,",
+        "The fruits in bunches whereof will be low and near at hand.",
+        "Eat and drink at ease for that which you have sent on before you in days past!",
+        "But as for him who will be given his Record in his left hand, will say: \"I wish that I had not been given my Record!\"",
+        "\"And that I had never known how my account is!\"",
+        "\"Would that it had been my end!\"",
+        "\"My wealth has not availed me;\"",
+        "\"My power has gone from me!\"",
+        "(It will be said): \"Seize him and fetter him;\"",
+        "\"Then throw him in the blazing Fire.\"",
+        "\"Then fasten him on a chain whereof the length is seventy cubits!\"",
+        "Verily, he used not to believe in Allah, the Most Great,",
+        "And urged not the feeding of the poor.",
+        "So, no friend has he here this Day,",
+        "Nor any food except filth from Ghislin.",
+        "None will eat it except the Khati'un.",
+        "So, I swear by whatsoever you see,",
+        "And by whatsoever you see not,",
+        "That this is verily the word of an honored Messenger.",
+        "It is not the word of a poet, little is that you believe!",
+        "Nor is it the word of a soothsayer, little is that you remember!",
+        "This is the revelation sent down from the Lord of all that exists.",
+        "And if he had forged a false saying concerning Us,",
+        "We surely would have seized him by his right hand,",
+        "And then We certainly would have cut off Al-Watin from him,",
+        "And none of you could have prevented it from him.",
+        "And verily, this is a Reminder for those who have Taqwa.",
+        "And verily, We know that there are some among you that deny.",
+        "And indeed it will be an anguish for the disbelievers.",
+        "And verily, it (this Qur'an) is an absolute truth with certainty.",
+        "So, glorify the Name of your Lord, the Most Great."
+      ]
 }

@@ -1,31 +1,12 @@
 {
-    "id": "114",
+    "id": 114,
     "name": "الناس",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Say: \"I seek refuge with the Lord of An-Nas,\""
-        },
-        {
-            "id": "2",
-            "text": "\"The King of An-Nas,\""
-        },
-        {
-            "id": "3",
-            "text": "\"The God of An-Nas,\""
-        },
-        {
-            "id": "4",
-            "text": "\"From the evil of the whisperer who withdraws.\""
-        },
-        {
-            "id": "5",
-            "text": "\"Who whispers in the breasts of An-Nas.\""
-        },
-        {
-            "id": "6",
-            "text": "\"Of Jinn and An-Nas.\""
-        }
-    ]
+        "Say: \"I seek refuge with the Lord of An-Nas,\"",
+        "\"The King of An-Nas,\"",
+        "\"The God of An-Nas,\"",
+        "\"From the evil of the whisperer who withdraws.\"",
+        "\"Who whispers in the breasts of An-Nas.\"",
+        "\"Of Jinn and An-Nas.\""
+      ]
 }

@@ -1,23 +1,10 @@
 {
-    "id": "106",
+    "id": 106,
     "name": "قريش",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "For the Ilaf of the Quraysh."
-        },
-        {
-            "id": "2",
-            "text": "Their Ilaf caravans, in winter and in summer."
-        },
-        {
-            "id": "3",
-            "text": "So, let them worship the Lord of this House."
-        },
-        {
-            "id": "4",
-            "text": "Who has fed them against hunger, and has made them safe from fear."
-        }
-    ]
+        "For the Ilaf of the Quraysh.",
+        "Their Ilaf caravans, in winter and in summer.",
+        "So, let them worship the Lord of this House.",
+        "Who has fed them against hunger, and has made them safe from fear."
+      ]
 }

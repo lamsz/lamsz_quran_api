@@ -1,19 +1,9 @@
 {
-    "id": "108",
+    "id": 108,
     "name": "الكوثر",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Verily, We have granted you Al-Kawthar."
-        },
-        {
-            "id": "2",
-            "text": "Therefore turn in prayer to your Lord and sacrifice."
-        },
-        {
-            "id": "3",
-            "text": "For he who hates you, he will be cut off."
-        }
-    ]
+        "Verily, We have granted you Al-Kawthar.",
+        "Therefore turn in prayer to your Lord and sacrifice.",
+        "For he who hates you, he will be cut off."
+      ]
 }

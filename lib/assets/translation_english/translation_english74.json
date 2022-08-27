@@ -1,231 +1,62 @@
 {
-    "id": "74",
+    "id": 74,
     "name": "المدثر",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "O you enveloped in garments!"
-        },
-        {
-            "id": "2",
-            "text": "Arise and warn!"
-        },
-        {
-            "id": "3",
-            "text": "And magnify your Lord!"
-        },
-        {
-            "id": "4",
-            "text": "And purify your garments!"
-        },
-        {
-            "id": "5",
-            "text": "And keep away from Ar-Rujz!"
-        },
-        {
-            "id": "6",
-            "text": "And give not a thing in order to have more."
-        },
-        {
-            "id": "7",
-            "text": "And be patient for the sake of your Lord!"
-        },
-        {
-            "id": "8",
-            "text": "Then, when the Naqur is sounded."
-        },
-        {
-            "id": "9",
-            "text": "Truly, that Day will be a Hard Day."
-        },
-        {
-            "id": "10",
-            "text": "Far from easy for the disbelievers."
-        },
-        {
-            "id": "11",
-            "text": "Leave Me alone (to deal) with whom I created lonely."
-        },
-        {
-            "id": "12",
-            "text": "And then granted him resources in abundance."
-        },
-        {
-            "id": "13",
-            "text": "And children attending."
-        },
-        {
-            "id": "14",
-            "text": "And made life smooth and comfortable for him."
-        },
-        {
-            "id": "15",
-            "text": "After all that he desires that I should give more."
-        },
-        {
-            "id": "16",
-            "text": "Nay! Verily, he has been opposing Our Ayat."
-        },
-        {
-            "id": "17",
-            "text": "I shall force him to Sa`ud!"
-        },
-        {
-            "id": "18",
-            "text": "Verily, he thought and plotted."
-        },
-        {
-            "id": "19",
-            "text": "So let him be cursed, how he plotted!"
-        },
-        {
-            "id": "20",
-            "text": "And once more let him be cursed, how he plotted!"
-        },
-        {
-            "id": "21",
-            "text": "Then he thought."
-        },
-        {
-            "id": "22",
-            "text": "Then he frowned and he looked in a bad tempered way;"
-        },
-        {
-            "id": "23",
-            "text": "Then he turned back, and was proud."
-        },
-        {
-            "id": "24",
-            "text": "Then he said: \"This is nothing but magic from that of old,"
-        },
-        {
-            "id": "25",
-            "text": "\"This is nothing but the word of a human being!\""
-        },
-        {
-            "id": "26",
-            "text": "I will cast him into Saqar."
-        },
-        {
-            "id": "27",
-            "text": "And what will make you know (exactly) what Saqar is"
-        },
-        {
-            "id": "28",
-            "text": "It spares not, nor does it leave (anything)!"
-        },
-        {
-            "id": "29",
-            "text": "Scorching for the humans!"
-        },
-        {
-            "id": "30",
-            "text": "Over it are nineteen."
-        },
-        {
-            "id": "31",
-            "text": "And We have set none but angels as guardians of the Fire. And We have fixed their number only as a trial for the disbelievers, in order that the People of the Scripture may arrive at a certainty and that the believers may increase in faith, and that no doubt may be left for the People of the Scripture and the believers, and that those in whose hearts is a disease and the disbelievers may say: \"What does Allah intend by this example\" Thus Allah leads astray whom He wills and guides whom He wills. And none can know the hosts of your Lord but He. And this is nothing but a reminder to mankind."
-        },
-        {
-            "id": "32",
-            "text": "Nay! And by the moon."
-        },
-        {
-            "id": "33",
-            "text": "And by the night when it withdraws."
-        },
-        {
-            "id": "34",
-            "text": "And by the dawn when it brightens."
-        },
-        {
-            "id": "35",
-            "text": "Verily, it is but one of the greatest (signs)."
-        },
-        {
-            "id": "36",
-            "text": "A warning to mankind"
-        },
-        {
-            "id": "37",
-            "text": "To any of you that chooses to go forward, or to remain behind."
-        },
-        {
-            "id": "38",
-            "text": "Every person is a pledge for what he has earned,"
-        },
-        {
-            "id": "39",
-            "text": "Except those on the Right."
-        },
-        {
-            "id": "40",
-            "text": "In Gardens they will ask one another,"
-        },
-        {
-            "id": "41",
-            "text": "About criminals (and they will say to them):"
-        },
-        {
-            "id": "42",
-            "text": "\"What has caused you to enter Hell\""
-        },
-        {
-            "id": "43",
-            "text": "They will say: \"We were not of those who used to offer the Salah,\""
-        },
-        {
-            "id": "44",
-            "text": "\"Nor did we feed the poor;\""
-        },
-        {
-            "id": "45",
-            "text": "\"And we used to speak falsehood with vain speakers.\""
-        },
-        {
-            "id": "46",
-            "text": "\"And we used to deny the Day of Recompense,\""
-        },
-        {
-            "id": "47",
-            "text": "\"Until Al-Yaqin came to us.\""
-        },
-        {
-            "id": "48",
-            "text": "So no intercession of intercessors will be of any use to them."
-        },
-        {
-            "id": "49",
-            "text": "Then what is wrong with them that they turn away from admonition"
-        },
-        {
-            "id": "50",
-            "text": "As if they were wild donkeys."
-        },
-        {
-            "id": "51",
-            "text": "Fleeing from a Qaswarah."
-        },
-        {
-            "id": "52",
-            "text": "Nay, everyone of them desires that he should be given pages spread out."
-        },
-        {
-            "id": "53",
-            "text": "Nay! But they fear not the Hereafter."
-        },
-        {
-            "id": "54",
-            "text": "Nay, verily, this is an admonition."
-        },
-        {
-            "id": "55",
-            "text": "So, whosoever wills receives admonition from it!"
-        },
-        {
-            "id": "56",
-            "text": "And they will not receive admonition unless Allah wills; He is the One, deserving of the Taqwa and He is the One Who forgives."
-        }
-    ]
+        "O you enveloped in garments!",
+        "Arise and warn!",
+        "And magnify your Lord!",
+        "And purify your garments!",
+        "And keep away from Ar-Rujz!",
+        "And give not a thing in order to have more.",
+        "And be patient for the sake of your Lord!",
+        "Then, when the Naqur is sounded.",
+        "Truly, that Day will be a Hard Day.",
+        "Far from easy for the disbelievers.",
+        "Leave Me alone (to deal) with whom I created lonely.",
+        "And then granted him resources in abundance.",
+        "And children attending.",
+        "And made life smooth and comfortable for him.",
+        "After all that he desires that I should give more.",
+        "Nay! Verily, he has been opposing Our Ayat.",
+        "I shall force him to Sa`ud!",
+        "Verily, he thought and plotted.",
+        "So let him be cursed, how he plotted!",
+        "And once more let him be cursed, how he plotted!",
+        "Then he thought.",
+        "Then he frowned and he looked in a bad tempered way;",
+        "Then he turned back, and was proud.",
+        "Then he said: \"This is nothing but magic from that of old,",
+        "\"This is nothing but the word of a human being!\"",
+        "I will cast him into Saqar.",
+        "And what will make you know (exactly) what Saqar is",
+        "It spares not, nor does it leave (anything)!",
+        "Scorching for the humans!",
+        "Over it are nineteen.",
+        "And We have set none but angels as guardians of the Fire. And We have fixed their number only as a trial for the disbelievers, in order that the People of the Scripture may arrive at a certainty and that the believers may increase in faith, and that no doubt may be left for the People of the Scripture and the believers, and that those in whose hearts is a disease and the disbelievers may say: \"What does Allah intend by this example\" Thus Allah leads astray whom He wills and guides whom He wills. And none can know the hosts of your Lord but He. And this is nothing but a reminder to mankind.",
+        "Nay! And by the moon.",
+        "And by the night when it withdraws.",
+        "And by the dawn when it brightens.",
+        "Verily, it is but one of the greatest (signs).",
+        "A warning to mankind",
+        "To any of you that chooses to go forward, or to remain behind.",
+        "Every person is a pledge for what he has earned,",
+        "Except those on the Right.",
+        "In Gardens they will ask one another,",
+        "About criminals (and they will say to them):",
+        "\"What has caused you to enter Hell\"",
+        "They will say: \"We were not of those who used to offer the Salah,\"",
+        "\"Nor did we feed the poor;\"",
+        "\"And we used to speak falsehood with vain speakers.\"",
+        "\"And we used to deny the Day of Recompense,\"",
+        "\"Until Al-Yaqin came to us.\"",
+        "So no intercession of intercessors will be of any use to them.",
+        "Then what is wrong with them that they turn away from admonition",
+        "As if they were wild donkeys.",
+        "Fleeing from a Qaswarah.",
+        "Nay, everyone of them desires that he should be given pages spread out.",
+        "Nay! But they fear not the Hereafter.",
+        "Nay, verily, this is an admonition.",
+        "So, whosoever wills receives admonition from it!",
+        "And they will not receive admonition unless Allah wills; He is the One, deserving of the Taqwa and He is the One Who forgives."
+      ]
 }
