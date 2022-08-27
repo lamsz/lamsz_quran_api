@@ -1,19 +1,9 @@
 ﻿{
-  "id": "surat103",
+  "id": 103,
   "name": "العصر",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Demi masa."
-    },
-    {
-      "id": "2",
-      "text": "Sesungguhnya manusia itu benar-benar dalam kerugian,"
-    },
-    {
-      "id": "3",
-      "text": "kecuali orang-orang yang beriman dan mengerjakan amal saleh dan nasehat menasehati supaya mentaati kebenaran dan nasehat menasehati supaya menetapi kesabaran."
-    }
+    "Demi masa.",
+    "Sesungguhnya manusia itu benar-benar dalam kerugian,",
+    "kecuali orang-orang yang beriman dan mengerjakan amal saleh dan nasehat menasehati supaya mentaati kebenaran dan nasehat menasehati supaya menetapi kesabaran."
   ]
 }

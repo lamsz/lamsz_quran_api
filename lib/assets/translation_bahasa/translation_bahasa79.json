@@ -1,191 +1,52 @@
 ﻿{
-  "id": "79",
+  "id": 79,
   "name": "النازعات",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Demi (malaikat-malaikat) yang mencabut (nyawa) dengan keras,"
-    },
-    {
-      "id": "2",
-      "text": "dan (malaikat-malaikat) yang mencabut (nyawa) dengan lemah-lembut,"
-    },
-    {
-      "id": "3",
-      "text": "dan (malaikat-malaikat) yang turun dari langit dengan cepat,"
-    },
-    {
-      "id": "4",
-      "text": "dan (malaikat-malaikat) yang mendahului dengan kencang,"
-    },
-    {
-      "id": "5",
-      "text": "dan (malaikat-malaikat) yang mengatur urusan (dunia)."
-    },
-    {
-      "id": "6",
-      "text": "(Sesungguhnya kamu akan dibangkitkan) pada hari ketika tiupan pertama menggoncang alam,"
-    },
-    {
-      "id": "7",
-      "text": "tiupan pertama itu diiringi oleh tiupan kedua."
-    },
-    {
-      "id": "8",
-      "text": "Hati manusia pada waktu itu sangat takut,"
-    },
-    {
-      "id": "9",
-      "text": "Pandangannya tunduk."
-    },
-    {
-      "id": "10",
-      "text": "(Orang-orang kafir) berkata: \"Apakah sesungguhnya kami benar-benar dikembalikan kepada kehidupan semula?"
-    },
-    {
-      "id": "11",
-      "text": "Apakah (akan dibangkitkan juga) apabila kami telah menjadi tulang belulang yang hancur lumat?\""
-    },
-    {
-      "id": "12",
-      "text": "Mereka berkata: \"Kalau demikian, itu adalah suatu pengembalian yang merugikan\"."
-    },
-    {
-      "id": "13",
-      "text": "Sesungguhnya pengembalian itu hanyalah satu kali tiupan saja,"
-    },
-    {
-      "id": "14",
-      "text": "maka dengan serta merta mereka hidup kembali di permukaan bumi."
-    },
-    {
-      "id": "15",
-      "text": "Sudah sampaikah kepadamu (ya Muhammad) kisah Musa."
-    },
-    {
-      "id": "16",
-      "text": "Tatkala Tuhannya memanggilnya di lembah suci ialah Lembah Thuwa;"
-    },
-    {
-      "id": "17",
-      "text": "\"Pergilah kamu kepada Fir'aun, sesungguhnya dia telah melampaui batas,"
-    },
-    {
-      "id": "18",
-      "text": "dan katakanlah (kepada Fir'aun): \"Adakah keinginan bagimu untuk membersihkan diri (dari kesesatan)\"."
-    },
-    {
-      "id": "19",
-      "text": "Dan kamu akan kupimpin ke jalan Tuhanmu agar supaya kamu takut kepada-Nya?\""
-    },
-    {
-      "id": "20",
-      "text": "Lalu Musa memperlihatkan kepadanya mukjizat yang besar."
-    },
-    {
-      "id": "21",
-      "text": "Tetapi Fir'aun mendustakan dan mendurhakai."
-    },
-    {
-      "id": "22",
-      "text": "Kemudian dia berpaling seraya berusaha menantang (Musa)."
-    },
-    {
-      "id": "23",
-      "text": "Maka dia mengumpulkan (pembesar-pembesarnya) lalu berseru memanggil kaumnya."
-    },
-    {
-      "id": "24",
-      "text": "(Seraya) berkata: \"Akulah tuhanmu yang paling tinggi\"."
-    },
-    {
-      "id": "25",
-      "text": "Maka Allah mengazabnya dengan azab di akhirat dan azab di dunia."
-    },
-    {
-      "id": "26",
-      "text": "Sesungguhnya pada yang demikian itu terdapat pelajaran bagi orang yang takut (kepada Tuhannya)."
-    },
-    {
-      "id": "27",
-      "text": "Apakah kamu lebih sulit penciptaanya ataukah langit? Allah telah membinanya,"
-    },
-    {
-      "id": "28",
-      "text": "Dia meninggikan bangunannya lalu menyempurnakannya,"
-    },
-    {
-      "id": "29",
-      "text": "dan Dia menjadikan malamnya gelap gulita, dan menjadikan siangnya terang benderang."
-    },
-    {
-      "id": "30",
-      "text": "Dan bumi sesudah itu dihamparkan-Nya."
-    },
-    {
-      "id": "31",
-      "text": "Ia memancarkan daripadanya mata airnya, dan (menumbuhkan) tumbuh-tumbuhannya."
-    },
-    {
-      "id": "32",
-      "text": "Dan gunung-gunung dipancangkan-Nya dengan teguh,"
-    },
-    {
-      "id": "33",
-      "text": "(semua itu) untuk kesenanganmu dan untuk binatang-binatang ternakmu."
-    },
-    {
-      "id": "34",
-      "text": "Maka apabila malapetaka yang sangat besar (hari kiamat) telah datang."
-    },
-    {
-      "id": "35",
-      "text": "Pada hari (ketika) manusia teringat akan apa yang telah dikerjakannya,"
-    },
-    {
-      "id": "36",
-      "text": "dan diperlihatkan neraka dengan jelas kepada setiap orang yang melihat."
-    },
-    {
-      "id": "37",
-      "text": "Adapun orang yang melampaui batas,"
-    },
-    {
-      "id": "38",
-      "text": "dan lebih mengutamakan kehidupan dunia,"
-    },
-    {
-      "id": "39",
-      "text": "maka sesungguhnya nerakalah tempat tinggal(nya)."
-    },
-    {
-      "id": "40",
-      "text": "Dan adapun orang-orang yang takut kepada kebesaran Tuhannya dan menahan diri dari keinginan hawa nafsunya,"
-    },
-    {
-      "id": "41",
-      "text": "maka sesungguhnya surgalah tempat tinggal(nya)."
-    },
-    {
-      "id": "42",
-      "text": "(Orang-orang kafir) bertanya kepadamu (Muhammad) tentang hari kebangkitan, kapankah terjadinya?"
-    },
-    {
-      "id": "43",
-      "text": "Siapakah kamu (maka) dapat menyebutkan (waktunya)?"
-    },
-    {
-      "id": "44",
-      "text": "Kepada Tuhanmulah dikembalikan kesudahannya (ketentuan waktunya)."
-    },
-    {
-      "id": "45",
-      "text": "Kamu hanyalah pemberi peringatan bagi siapa yang takut kepadanya (hari berbangkit)"
-    },
-    {
-      "id": "46",
-      "text": "Pada hari mereka melihat hari berbangkit itu, mereka merasa seakan-akan tidak tinggal (di dunia) melainkan (sebentar saja) di waktu sore atau pagi hari."
-    }
+    "Demi (malaikat-malaikat) yang mencabut (nyawa) dengan keras,",
+    "dan (malaikat-malaikat) yang mencabut (nyawa) dengan lemah-lembut,",
+    "dan (malaikat-malaikat) yang turun dari langit dengan cepat,",
+    "dan (malaikat-malaikat) yang mendahului dengan kencang,",
+    "dan (malaikat-malaikat) yang mengatur urusan (dunia).",
+    "(Sesungguhnya kamu akan dibangkitkan) pada hari ketika tiupan pertama menggoncang alam,",
+    "tiupan pertama itu diiringi oleh tiupan kedua.",
+    "Hati manusia pada waktu itu sangat takut,",
+    "Pandangannya tunduk.",
+    "(Orang-orang kafir) berkata: \"Apakah sesungguhnya kami benar-benar dikembalikan kepada kehidupan semula?",
+    "Apakah (akan dibangkitkan juga) apabila kami telah menjadi tulang belulang yang hancur lumat?\"",
+    "Mereka berkata: \"Kalau demikian, itu adalah suatu pengembalian yang merugikan\".",
+    "Sesungguhnya pengembalian itu hanyalah satu kali tiupan saja,",
+    "maka dengan serta merta mereka hidup kembali di permukaan bumi.",
+    "Sudah sampaikah kepadamu (ya Muhammad) kisah Musa.",
+    "Tatkala Tuhannya memanggilnya di lembah suci ialah Lembah Thuwa;",
+    "\"Pergilah kamu kepada Fir'aun, sesungguhnya dia telah melampaui batas,",
+    "dan katakanlah (kepada Fir'aun): \"Adakah keinginan bagimu untuk membersihkan diri (dari kesesatan)\".",
+    "Dan kamu akan kupimpin ke jalan Tuhanmu agar supaya kamu takut kepada-Nya?\"",
+    "Lalu Musa memperlihatkan kepadanya mukjizat yang besar.",
+    "Tetapi Fir'aun mendustakan dan mendurhakai.",
+    "Kemudian dia berpaling seraya berusaha menantang (Musa).",
+    "Maka dia mengumpulkan (pembesar-pembesarnya) lalu berseru memanggil kaumnya.",
+    "(Seraya) berkata: \"Akulah tuhanmu yang paling tinggi\".",
+    "Maka Allah mengazabnya dengan azab di akhirat dan azab di dunia.",
+    "Sesungguhnya pada yang demikian itu terdapat pelajaran bagi orang yang takut (kepada Tuhannya).",
+    "Apakah kamu lebih sulit penciptaanya ataukah langit? Allah telah membinanya,",
+    "Dia meninggikan bangunannya lalu menyempurnakannya,",
+    "dan Dia menjadikan malamnya gelap gulita, dan menjadikan siangnya terang benderang.",
+    "Dan bumi sesudah itu dihamparkan-Nya.",
+    "Ia memancarkan daripadanya mata airnya, dan (menumbuhkan) tumbuh-tumbuhannya.",
+    "Dan gunung-gunung dipancangkan-Nya dengan teguh,",
+    "(semua itu) untuk kesenanganmu dan untuk binatang-binatang ternakmu.",
+    "Maka apabila malapetaka yang sangat besar (hari kiamat) telah datang.",
+    "Pada hari (ketika) manusia teringat akan apa yang telah dikerjakannya,",
+    "dan diperlihatkan neraka dengan jelas kepada setiap orang yang melihat.",
+    "Adapun orang yang melampaui batas,",
+    "dan lebih mengutamakan kehidupan dunia,",
+    "maka sesungguhnya nerakalah tempat tinggal(nya).",
+    "Dan adapun orang-orang yang takut kepada kebesaran Tuhannya dan menahan diri dari keinginan hawa nafsunya,",
+    "maka sesungguhnya surgalah tempat tinggal(nya).",
+    "(Orang-orang kafir) bertanya kepadamu (Muhammad) tentang hari kebangkitan, kapankah terjadinya?",
+    "Siapakah kamu (maka) dapat menyebutkan (waktunya)?",
+    "Kepada Tuhanmulah dikembalikan kesudahannya (ketentuan waktunya).",
+    "Kamu hanyalah pemberi peringatan bagi siapa yang takut kepadanya (hari berbangkit)",
+    "Pada hari mereka melihat hari berbangkit itu, mereka merasa seakan-akan tidak tinggal (di dunia) melainkan (sebentar saja) di waktu sore atau pagi hari."
   ]
 }

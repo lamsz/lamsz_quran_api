@@ -1,51 +1,17 @@
 ﻿{
-  "id": "surat101",
+  "id": 101,
   "name": "القارعة",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Hari Kiamat,"
-    },
-    {
-      "id": "2",
-      "text": "apakah hari Kiamat itu?"
-    },
-    {
-      "id": "3",
-      "text": "Tahukah kamu apakah hari Kiamat itu?"
-    },
-    {
-      "id": "4",
-      "text": "Pada hari itu manusia adalah seperti anai-anai yang bertebaran,"
-    },
-    {
-      "id": "5",
-      "text": "dan gunung-gunung adalah seperti bulu yang dihambur-hamburkan."
-    },
-    {
-      "id": "6",
-      "text": "Dan adapun orang-orang yang berat timbangan (kebaikan)nya,"
-    },
-    {
-      "id": "7",
-      "text": "maka dia berada dalam kehidupan yang memuaskan."
-    },
-    {
-      "id": "8",
-      "text": "Dan adapun orang-orang yang ringan timbangan (kebaikan)nya,"
-    },
-    {
-      "id": "9",
-      "text": "maka tempat kembalinya adalah neraka Hawiyah."
-    },
-    {
-      "id": "10",
-      "text": "Tahukah kamu apakah neraka Hawiyah itu?"
-    },
-    {
-      "id": "11",
-      "text": "(Yaitu) api yang sangat panas."
-    }
+    "Hari Kiamat,",
+    "apakah hari Kiamat itu?",
+    "Tahukah kamu apakah hari Kiamat itu?",
+    "Pada hari itu manusia adalah seperti anai-anai yang bertebaran,",
+    "dan gunung-gunung adalah seperti bulu yang dihambur-hamburkan.",
+    "Dan adapun orang-orang yang berat timbangan (kebaikan)nya,",
+    "maka dia berada dalam kehidupan yang memuaskan.",
+    "Dan adapun orang-orang yang ringan timbangan (kebaikan)nya,",
+    "maka tempat kembalinya adalah neraka Hawiyah.",
+    "Tahukah kamu apakah neraka Hawiyah itu?",
+    "(Yaitu) api yang sangat panas."
   ]
 }
