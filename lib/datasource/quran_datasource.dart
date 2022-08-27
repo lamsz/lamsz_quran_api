@@ -1,6 +1,5 @@
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import '../model/surah_header_model.dart';
@@ -18,7 +17,6 @@ class QuranDatasource {
   var packageName = 'lamsz_quran_api';
   Future<List<SurahHeaderModel>> getSurahList() async {
     if (surahList.isEmpty) {
-      debugPrint('call from json quran surah');
       String data = await rootBundle
           .loadString('packages/$packageName/lib/assets/quran_surah.json');
       var dataList = json.decode(data);
@@ -33,7 +31,6 @@ class QuranDatasource {
       {required int surahNumber, required String translationLang}) async {
     //call if the object still empty
     if (surah.id == null || surah.id != surahNumber) {
-      debugPrint('call json surah ${surahNumber}');
       surah = await getSurahArabicContent(surahNumber);
       var surahTransliteration = await getSurahTranslationContent(
           surahNumber: surahNumber, lang: 'transliteration');
