@@ -1,19 +1,9 @@
 {
-    "id": "103",
+    "id": 103,
     "name": "العصر",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "wa<strong>a</strong>l'a<u>sh</u>r<strong>i</strong>"
-        },
-        {
-            "id": "2",
-            "text": "inna <strong>a</strong>l-ins<u>aa</u>na lafii khusr<strong>in</strong>"
-        },
-        {
-            "id": "3",
-            "text": "ill<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wa'amiluu <strong>al</strong><u>shshaa</u>li<u>haa</u>ti wataw<u>aas</u>aw bi<strong>a</strong>l<u>h</u>aqqi wataw<u>aas</u>aw bi<strong>al</strong><u>shsh</u>abr<strong>i</strong>"
-        }
-    ]
+        "wa<strong>a</strong>l'a<u>sh</u>r<strong>i</strong>",
+        "inna <strong>a</strong>l-ins<u>aa</u>na lafii khusr<strong>in</strong>",
+        "ill<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wa'amiluu <strong>al</strong><u>shshaa</u>li<u>haa</u>ti wataw<u>aas</u>aw bi<strong>a</strong>l<u>h</u>aqqi wataw<u>aas</u>aw bi<strong>al</strong><u>shsh</u>abr<strong>i</strong>"
+      ]
 }

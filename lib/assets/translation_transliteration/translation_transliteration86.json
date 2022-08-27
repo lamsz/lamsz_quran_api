@@ -1,75 +1,23 @@
 {
-    "id": "86",
+    "id": 86,
     "name": "الطارق",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "wa<strong>al</strong>ssam<u>aa</u>-i wa<strong>al</strong><u>ththaa</u>riq<strong>i</strong>"
-        },
-        {
-            "id": "2",
-            "text": "wam<u>aa</u> adr<u>aa</u>ka m<u>aa</u> <strong>al</strong><u>ththaa</u>riq<strong>u</strong>"
-        },
-        {
-            "id": "3",
-            "text": "a<strong>l</strong>nnajmu <strong>al</strong>tsts<u>aa</u>qib<strong>u</strong>"
-        },
-        {
-            "id": "4",
-            "text": "in kullu nafsin lamm<u>aa</u> 'alayh<u>aa</u> <u>haa</u>fi<u>zh</u><strong>un</strong>"
-        },
-        {
-            "id": "5",
-            "text": "falyan<u>zh</u>uri <strong>a</strong>l-ins<u>aa</u>nu mimma khuliq<strong>a</strong>"
-        },
-        {
-            "id": "6",
-            "text": "khuliqa min m<u>aa</u>-in d<u>aa</u>fiq<strong>in</strong>"
-        },
-        {
-            "id": "7",
-            "text": "yakhruju min bayni <strong>al</strong><u>shsh</u>ulbi wa<strong>al</strong>ttar<u>aa</u>-ib<strong>i</strong>"
-        },
-        {
-            "id": "8",
-            "text": "innahu 'al<u>aa</u> raj'ihi laq<u>aa</u>dir<strong>un</strong>"
-        },
-        {
-            "id": "9",
-            "text": "yawma tubl<u>aa</u> <strong>al</strong>ssar<u>aa</u>-ir<strong>u</strong>"
-        },
-        {
-            "id": "10",
-            "text": "fam<u>aa</u> lahu min quwwatin wal<u>aa</u> n<u>aas</u>ir<strong>in</strong>"
-        },
-        {
-            "id": "11",
-            "text": "wa<strong>al</strong>ssam<u>aa</u>-i <u>dzaa</u>ti <strong>al</strong>rraj'<strong>i</strong>"
-        },
-        {
-            "id": "12",
-            "text": "wa<strong>a</strong>l-ar<u>dh</u>i <u>dzaa</u>ti <strong>al</strong><u>shsh</u>ad'<strong>i</strong>"
-        },
-        {
-            "id": "13",
-            "text": "innahu laqawlun fa<u>sh</u>l<strong>un</strong>"
-        },
-        {
-            "id": "14",
-            "text": "wam<u>aa</u> huwa bi<strong>a</strong>lhazl<strong>i</strong>"
-        },
-        {
-            "id": "15",
-            "text": "innahum yakiiduuna kayd<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "16",
-            "text": "wa-akiidu kayd<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "17",
-            "text": "famahhili <strong>a</strong>lk<u>aa</u>firiina amhilhum ruwayd<u>aa</u><strong>n</strong>"
-        }
-    ]
+        "wa<strong>al</strong>ssam<u>aa</u>-i wa<strong>al</strong><u>ththaa</u>riq<strong>i</strong>",
+        "wam<u>aa</u> adr<u>aa</u>ka m<u>aa</u> <strong>al</strong><u>ththaa</u>riq<strong>u</strong>",
+        "a<strong>l</strong>nnajmu <strong>al</strong>tsts<u>aa</u>qib<strong>u</strong>",
+        "in kullu nafsin lamm<u>aa</u> 'alayh<u>aa</u> <u>haa</u>fi<u>zh</u><strong>un</strong>",
+        "falyan<u>zh</u>uri <strong>a</strong>l-ins<u>aa</u>nu mimma khuliq<strong>a</strong>",
+        "khuliqa min m<u>aa</u>-in d<u>aa</u>fiq<strong>in</strong>",
+        "yakhruju min bayni <strong>al</strong><u>shsh</u>ulbi wa<strong>al</strong>ttar<u>aa</u>-ib<strong>i</strong>",
+        "innahu 'al<u>aa</u> raj'ihi laq<u>aa</u>dir<strong>un</strong>",
+        "yawma tubl<u>aa</u> <strong>al</strong>ssar<u>aa</u>-ir<strong>u</strong>",
+        "fam<u>aa</u> lahu min quwwatin wal<u>aa</u> n<u>aas</u>ir<strong>in</strong>",
+        "wa<strong>al</strong>ssam<u>aa</u>-i <u>dzaa</u>ti <strong>al</strong>rraj'<strong>i</strong>",
+        "wa<strong>a</strong>l-ar<u>dh</u>i <u>dzaa</u>ti <strong>al</strong><u>shsh</u>ad'<strong>i</strong>",
+        "innahu laqawlun fa<u>sh</u>l<strong>un</strong>",
+        "wam<u>aa</u> huwa bi<strong>a</strong>lhazl<strong>i</strong>",
+        "innahum yakiiduuna kayd<u>aa</u><strong>n</strong>",
+        "wa-akiidu kayd<u>aa</u><strong>n</strong>",
+        "famahhili <strong>a</strong>lk<u>aa</u>firiina amhilhum ruwayd<u>aa</u><strong>n</strong>"
+      ]
 }

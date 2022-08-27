@@ -1,27 +1,11 @@
 {
-    "id": "105",
+    "id": 105,
     "name": "الفيل",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "alam tara kayfa fa'ala rabbuka bi-a<u>sh</u>-<u>haa</u>bi <strong>a</strong>lfiil<strong>i</strong>"
-        },
-        {
-            "id": "2",
-            "text": "alam yaj'al kaydahum fii ta<u>dh</u>liil<strong>in</strong>"
-        },
-        {
-            "id": "3",
-            "text": "wa-arsala 'alayhim <u>th</u>ayran ab<u>aa</u>biil<strong>a</strong>"
-        },
-        {
-            "id": "4",
-            "text": "tarmiihim bi<u>h</u>ij<u>aa</u>ratin min sijjiil<strong>in</strong>"
-        },
-        {
-            "id": "5",
-            "text": "faja'alahum ka'a<u>sh</u>fin ma/kuul<strong>in</strong>"
-        }
-    ]
+        "alam tara kayfa fa'ala rabbuka bi-a<u>sh</u>-<u>haa</u>bi <strong>a</strong>lfiil<strong>i</strong>",
+        "alam yaj'al kaydahum fii ta<u>dh</u>liil<strong>in</strong>",
+        "wa-arsala 'alayhim <u>th</u>ayran ab<u>aa</u>biil<strong>a</strong>",
+        "tarmiihim bi<u>h</u>ij<u>aa</u>ratin min sijjiil<strong>in</strong>",
+        "faja'alahum ka'a<u>sh</u>fin ma/kuul<strong>in</strong>"
+      ]
 }

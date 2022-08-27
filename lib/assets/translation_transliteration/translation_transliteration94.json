@@ -1,39 +1,14 @@
 {
-    "id": "94",
+    "id": 94,
     "name": "الشرح",
-    "remark": "",
-    "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "alam nasyra<u>h</u> laka <u>sh</u>adrak<strong>a</strong>"
-        },
-        {
-            "id": "2",
-            "text": "wawa<u>dh</u>a'n<u>aa</u> 'anka wizrak<strong>a</strong>"
-        },
-        {
-            "id": "3",
-            "text": "<strong>al</strong>la<u>dz</u>ii anqa<u>dh</u>a <u>zh</u>ahrak<strong>a</strong>"
-        },
-        {
-            "id": "4",
-            "text": "warafa'n<u>aa</u> laka <u>dz</u>ikrak<strong>a</strong>"
-        },
-        {
-            "id": "5",
-            "text": "fa-inna ma'a <strong>a</strong>l'usri yusr<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "6",
-            "text": "inna ma'a <strong>a</strong>l'usri yusr<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "7",
-            "text": "fa-i<u>dzaa</u> faraghta fa<strong>i</strong>n<u>sh</u>ab"
-        },
-        {
-            "id": "8",
-            "text": "wa-il<u>aa</u> rabbika fa<strong>i</strong>rghab"
-        }
-    ]
+    "ayaTranslation":[
+        "alam nasyra<u>h</u> laka <u>sh</u>adrak<strong>a</strong>",
+        "wawa<u>dh</u>a'n<u>aa</u> 'anka wizrak<strong>a</strong>",
+        "<strong>al</strong>la<u>dz</u>ii anqa<u>dh</u>a <u>zh</u>ahrak<strong>a</strong>",
+        "warafa'n<u>aa</u> laka <u>dz</u>ikrak<strong>a</strong>",
+        "fa-inna ma'a <strong>a</strong>l'usri yusr<u>aa</u><strong>n</strong>",
+        "inna ma'a <strong>a</strong>l'usri yusr<u>aa</u><strong>n</strong>",
+        "fa-i<u>dzaa</u> faraghta fa<strong>i</strong>n<u>sh</u>ab",
+        "wa-il<u>aa</u> rabbika fa<strong>i</strong>rghab"
+      ]
 }

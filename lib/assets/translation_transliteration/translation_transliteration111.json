@@ -1,27 +1,11 @@
 {
-    "id": "111",
+    "id": 111,
     "name": "المسد",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "tabbat yad<u>aa</u> abii lahabin watab<strong>ba</strong>"
-        },
-        {
-            "id": "2",
-            "text": "m<u>aa</u> aghn<u>aa</u> 'anhu m<u>aa</u>luhu wam<u>aa</u> kasab<strong>a</strong>"
-        },
-        {
-            "id": "3",
-            "text": "saya<u>sh</u>l<u>aa</u> n<u>aa</u>ran <u>dzaa</u>ta lahab<strong>in</strong>"
-        },
-        {
-            "id": "4",
-            "text": "wa<strong>i</strong>mra-atuhu <u>h</u>amm<u>aa</u>lata <strong>a</strong>l<u>h</u>a<u>th</u>ab<strong>i</strong>"
-        },
-        {
-            "id": "5",
-            "text": "fii jiidih<u>aa</u> <u>h</u>ablun min masad<strong>in</strong>"
-        }
-    ]
+        "tabbat yad<u>aa</u> abii lahabin watab<strong>ba</strong>",
+        "m<u>aa</u> aghn<u>aa</u> 'anhu m<u>aa</u>luhu wam<u>aa</u> kasab<strong>a</strong>",
+        "saya<u>sh</u>l<u>aa</u> n<u>aa</u>ran <u>dzaa</u>ta lahab<strong>in</strong>",
+        "wa<strong>i</strong>mra-atuhu <u>h</u>amm<u>aa</u>lata <strong>a</strong>l<u>h</u>a<u>th</u>ab<strong>i</strong>",
+        "fii jiidih<u>aa</u> <u>h</u>ablun min masad<strong>in</strong>"
+      ]
 }
