@@ -1,95 +1,28 @@
 {
-    "id": "85",
+    "id": 85,
     "name": "البروج",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "wa<strong>al</strong>ssam<u>aa</u>-i <u>dzaa</u>ti <strong>a</strong>lburuuj<strong>i</strong>"
-        },
-        {
-            "id": "2",
-            "text": "wa<strong>a</strong>lyawmi <strong>a</strong>lmaw'uud<strong>i</strong>"
-        },
-        {
-            "id": "3",
-            "text": "wa<strong>a</strong>lyawmi <strong>a</strong>lmaw'uud<strong>i</strong>"
-        },
-        {
-            "id": "4",
-            "text": "qutila a<u>sh</u>-<u>haa</u>bu <strong>a</strong>lukhduud<strong>i</strong>"
-        },
-        {
-            "id": "5",
-            "text": "a<strong>l</strong>nn<u>aa</u>ri <u>dzaa</u>ti <strong>a</strong>lwaquud<strong>i</strong>"
-        },
-        {
-            "id": "6",
-            "text": "i<u>dz</u> hum 'alayh<u>aa</u> qu'uud<strong>un</strong>"
-        },
-        {
-            "id": "7",
-            "text": "wahum 'al<u>aa</u> m<u>aa</u> yaf'aluuna bi<strong>a</strong>lmu/miniina syuhuud<strong>un</strong>"
-        },
-        {
-            "id": "8",
-            "text": "wam<u>aa</u> naqamuu minhum ill<u>aa</u> an yu/minuu bi<strong>al</strong>l<u>aa</u>hi <strong>a</strong>l'aziizi <strong>a</strong>l<u>h</u>amiid<strong>i</strong>"
-        },
-        {
-            "id": "9",
-            "text": "<strong>al</strong>la<u>dz</u>ii lahu mulku <strong>al</strong>ssam<u>aa</u>w<u>aa</u>ti wa<strong>a</strong>l-ar<u>dh</u>i wa<strong>al</strong>l<u>aa</u>hu 'al<u>aa</u> kulli syay-in syahiid<strong>un</strong>"
-        },
-        {
-            "id": "10",
-            "text": "inna <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wa'amiluu <strong>al</strong><u>shshaa</u>li<u>haa</u>ti lahum jann<u>aa</u>tun tajrii min ta<u>h</u>tih<u>aa</u> <strong>a</strong>l-anh<u>aa</u>ru <u>dzaa</u>lika <strong>a</strong>lfawzu <strong>a</strong>lkabiir<strong>u</strong>"
-        },
-        {
-            "id": "11",
-            "text": "inna <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wa'amiluu <strong>al</strong><u>shshaa</u>li<u>haa</u>ti lahum jann<u>aa</u>tun tajrii min ta<u>h</u>tih<u>aa</u> <strong>a</strong>l-anh<u>aa</u>ru <u>dzaa</u>lika <strong>a</strong>lfawzu <strong>a</strong>lkabiir<strong>u</strong>"
-        },
-        {
-            "id": "12",
-            "text": "inna ba<u>th</u>sya rabbika lasyadiid<strong>un</strong>"
-        },
-        {
-            "id": "13",
-            "text": "innahu huwa yubdi-u wayu'iid<strong>u</strong>"
-        },
-        {
-            "id": "14",
-            "text": "wahuwa <strong>a</strong>lghafuuru <strong>a</strong>lwaduud<strong>u</strong>"
-        },
-        {
-            "id": "15",
-            "text": "<u>dz</u>uu <strong>a</strong>l'arsyi <strong>a</strong>lmajiid<strong>i</strong>"
-        },
-        {
-            "id": "16",
-            "text": "fa''<u>aa</u>lun lim<u>aa</u> yuriid<strong>u</strong>"
-        },
-        {
-            "id": "17",
-            "text": "hal at<u>aa</u>ka <u>h</u>adiitsu <strong>a</strong>ljunuud<strong>i</strong>"
-        },
-        {
-            "id": "18",
-            "text": "fir'awna watsamuud<strong>a</strong>"
-        },
-        {
-            "id": "19",
-            "text": "bali <strong>al</strong>la<u>dz</u>iina kafaruu fii tak<u>dz</u>iib<strong>in</strong>"
-        },
-        {
-            "id": "20",
-            "text": "wa<strong>al</strong>l<u>aa</u>hu min war<u>aa</u>-ihim mu<u>h</u>ii<u>th</u><strong>un</strong>"
-        },
-        {
-            "id": "21",
-            "text": "bal huwa qur-<u>aa</u>nun majiid<strong>un</strong>"
-        },
-        {
-            "id": "22",
-            "text": "fii law<u>h</u>in ma<u>h</u>fuu<u>zh</u><strong>in</strong>"
-        }
-    ]
+        "wa<strong>al</strong>ssam<u>aa</u>-i <u>dzaa</u>ti <strong>a</strong>lburuuj<strong>i</strong>",
+        "wa<strong>a</strong>lyawmi <strong>a</strong>lmaw'uud<strong>i</strong>",
+        "wa<strong>a</strong>lyawmi <strong>a</strong>lmaw'uud<strong>i</strong>",
+        "qutila a<u>sh</u>-<u>haa</u>bu <strong>a</strong>lukhduud<strong>i</strong>",
+        "a<strong>l</strong>nn<u>aa</u>ri <u>dzaa</u>ti <strong>a</strong>lwaquud<strong>i</strong>",
+        "i<u>dz</u> hum 'alayh<u>aa</u> qu'uud<strong>un</strong>",
+        "wahum 'al<u>aa</u> m<u>aa</u> yaf'aluuna bi<strong>a</strong>lmu/miniina syuhuud<strong>un</strong>",
+        "wam<u>aa</u> naqamuu minhum ill<u>aa</u> an yu/minuu bi<strong>al</strong>l<u>aa</u>hi <strong>a</strong>l'aziizi <strong>a</strong>l<u>h</u>amiid<strong>i</strong>",
+        "<strong>al</strong>la<u>dz</u>ii lahu mulku <strong>al</strong>ssam<u>aa</u>w<u>aa</u>ti wa<strong>a</strong>l-ar<u>dh</u>i wa<strong>al</strong>l<u>aa</u>hu 'al<u>aa</u> kulli syay-in syahiid<strong>un</strong>",
+        "inna <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wa'amiluu <strong>al</strong><u>shshaa</u>li<u>haa</u>ti lahum jann<u>aa</u>tun tajrii min ta<u>h</u>tih<u>aa</u> <strong>a</strong>l-anh<u>aa</u>ru <u>dzaa</u>lika <strong>a</strong>lfawzu <strong>a</strong>lkabiir<strong>u</strong>",
+        "inna <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wa'amiluu <strong>al</strong><u>shshaa</u>li<u>haa</u>ti lahum jann<u>aa</u>tun tajrii min ta<u>h</u>tih<u>aa</u> <strong>a</strong>l-anh<u>aa</u>ru <u>dzaa</u>lika <strong>a</strong>lfawzu <strong>a</strong>lkabiir<strong>u</strong>",
+        "inna ba<u>th</u>sya rabbika lasyadiid<strong>un</strong>",
+        "innahu huwa yubdi-u wayu'iid<strong>u</strong>",
+        "wahuwa <strong>a</strong>lghafuuru <strong>a</strong>lwaduud<strong>u</strong>",
+        "<u>dz</u>uu <strong>a</strong>l'arsyi <strong>a</strong>lmajiid<strong>i</strong>",
+        "fa''<u>aa</u>lun lim<u>aa</u> yuriid<strong>u</strong>",
+        "hal at<u>aa</u>ka <u>h</u>adiitsu <strong>a</strong>ljunuud<strong>i</strong>",
+        "fir'awna watsamuud<strong>a</strong>",
+        "bali <strong>al</strong>la<u>dz</u>iina kafaruu fii tak<u>dz</u>iib<strong>in</strong>",
+        "wa<strong>al</strong>l<u>aa</u>hu min war<u>aa</u>-ihim mu<u>h</u>ii<u>th</u><strong>un</strong>",
+        "bal huwa qur-<u>aa</u>nun majiid<strong>un</strong>",
+        "fii law<u>h</u>in ma<u>h</u>fuu<u>zh</u><strong>in</strong>"
+      ]
 }

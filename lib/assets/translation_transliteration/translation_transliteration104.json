@@ -1,43 +1,15 @@
 {
-    "id": "104",
+    "id": 104,
     "name": "الهمزة",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "waylun likulli humazatin lumaza<strong>tin</strong>"
-        },
-        {
-            "id": "2",
-            "text": "<strong>al</strong>la<u>dz</u>ii jama'a m<u>aa</u>lan wa'addadah<strong>u</strong>"
-        },
-        {
-            "id": "3",
-            "text": "ya<u>h</u>sabu anna m<u>aa</u>lahu akhladah<strong>u</strong>"
-        },
-        {
-            "id": "4",
-            "text": "kall<u>aa</u> layunba<u>dz</u>anna fii <strong>a</strong>l<u>h</u>u<u>th</u>ama<strong>ti</strong>"
-        },
-        {
-            "id": "5",
-            "text": "wam<u>aa</u> adr<u>aa</u>ka m<u>aa</u> <strong>a</strong>l<u>h</u>u<u>th</u>ama<strong>tu</strong>"
-        },
-        {
-            "id": "6",
-            "text": "n<u>aa</u>ru <strong>al</strong>l<u>aa</u>hi <strong>a</strong>lmuuqada<strong>tu</strong>"
-        },
-        {
-            "id": "7",
-            "text": "<strong>al</strong>latii ta<u>ththh</u>ali'u 'al<u>aa</u> <strong>a</strong>l-af-ida<strong>ti</strong>"
-        },
-        {
-            "id": "8",
-            "text": "lnnah<u>aa</u> 'alayhim mu/<u>sh</u>ada<strong>tun</strong>"
-        },
-        {
-            "id": "9",
-            "text": "fii 'amadin mumaddada<strong>tin</strong>"
-        }
-    ]
+        "waylun likulli humazatin lumaza<strong>tin</strong>",
+        "<strong>al</strong>la<u>dz</u>ii jama'a m<u>aa</u>lan wa'addadah<strong>u</strong>",
+        "ya<u>h</u>sabu anna m<u>aa</u>lahu akhladah<strong>u</strong>",
+        "kall<u>aa</u> layunba<u>dz</u>anna fii <strong>a</strong>l<u>h</u>u<u>th</u>ama<strong>ti</strong>",
+        "wam<u>aa</u> adr<u>aa</u>ka m<u>aa</u> <strong>a</strong>l<u>h</u>u<u>th</u>ama<strong>tu</strong>",
+        "n<u>aa</u>ru <strong>al</strong>l<u>aa</u>hi <strong>a</strong>lmuuqada<strong>tu</strong>",
+        "<strong>al</strong>latii ta<u>ththh</u>ali'u 'al<u>aa</u> <strong>a</strong>l-af-ida<strong>ti</strong>",
+        "lnnah<u>aa</u> 'alayhim mu/<u>sh</u>ada<strong>tun</strong>",
+        "fii 'amadin mumaddada<strong>tin</strong>"
+      ]
 }

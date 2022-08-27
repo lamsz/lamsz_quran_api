@@ -1,51 +1,17 @@
 {
-    "id": "93",
+    "id": 93,
     "name": "الضحى",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "wa<strong>al</strong><u>dhdh</u>u<u>haa</u>"
-        },
-        {
-            "id": "2",
-            "text": "wa<strong>a</strong>llayli i<u>dzaa</u> saj<u>aa</u>"
-        },
-        {
-            "id": "3",
-            "text": "m<u>aa</u> wadda'aka rabbuka wam<u>aa</u> qal<u>aa</u>"
-        },
-        {
-            "id": "4",
-            "text": "walal-<u>aa</u>khiratu khayrun laka mina <strong>a</strong>l-uul<u>aa</u>"
-        },
-        {
-            "id": "5",
-            "text": "walasawfa yu'<u>th</u>iika rabbuka fatar<u>daa</u>"
-        },
-        {
-            "id": "6",
-            "text": "alam yajidka yatiiman fa<u>aa</u>w<u>aa</u>"
-        },
-        {
-            "id": "7",
-            "text": "wawajadaka <u>daa</u>llan fahad<u>aa</u>"
-        },
-        {
-            "id": "8",
-            "text": "wawajadaka '<u>aa</u>-ilan fa-aghn<u>aa</u>"
-        },
-        {
-            "id": "9",
-            "text": "fa-amm<u>aa</u> <strong>a</strong>lyatiima fal<u>aa</u> taqhar"
-        },
-        {
-            "id": "10",
-            "text": "wa-amm<u>aa</u> <strong>al</strong>ss<u>aa</u>-ila fal<u>aa</u> tanhar"
-        },
-        {
-            "id": "11",
-            "text": "wa-amm<u>aa</u> bini'mati rabbika fa<u>h</u>addits"
-        }
-    ]
+        "wa<strong>al</strong><u>dhdh</u>u<u>haa</u>",
+        "wa<strong>a</strong>llayli i<u>dzaa</u> saj<u>aa</u>",
+        "m<u>aa</u> wadda'aka rabbuka wam<u>aa</u> qal<u>aa</u>",
+        "walal-<u>aa</u>khiratu khayrun laka mina <strong>a</strong>l-uul<u>aa</u>",
+        "walasawfa yu'<u>th</u>iika rabbuka fatar<u>daa</u>",
+        "alam yajidka yatiiman fa<u>aa</u>w<u>aa</u>",
+        "wawajadaka <u>daa</u>llan fahad<u>aa</u>",
+        "wawajadaka '<u>aa</u>-ilan fa-aghn<u>aa</u>",
+        "fa-amm<u>aa</u> <strong>a</strong>lyatiima fal<u>aa</u> taqhar",
+        "wa-amm<u>aa</u> <strong>al</strong>ss<u>aa</u>-ila fal<u>aa</u> tanhar",
+        "wa-amm<u>aa</u> bini'mati rabbika fa<u>h</u>addits"
+      ]
 }

@@ -1,51 +1,17 @@
 {
-    "id": "100",
+    "id": 100,
     "name": "العاديات",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "wa<strong>a</strong>l'<u>aa</u>diy<u>aa</u>ti <u>dh</u>ab<u>haa</u><strong>n</strong>"
-        },
-        {
-            "id": "2",
-            "text": "fa<strong>a</strong>lmuuriy<u>aa</u>ti qad<u>haa</u><strong>n</strong>"
-        },
-        {
-            "id": "3",
-            "text": "fa<strong>a</strong>lmughiir<u>aa</u>ti <u>sh</u>ub<u>haa</u><strong>n</strong>"
-        },
-        {
-            "id": "4",
-            "text": "fa-atsarna bihi naq'<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "5",
-            "text": "fawasa<u>th</u>na bihi jam'<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "6",
-            "text": "inna <strong>a</strong>l-ins<u>aa</u>na lirabbihi lakanuud<strong>un</strong>"
-        },
-        {
-            "id": "7",
-            "text": "wa-innahu 'al<u>aa</u> <u>dzaa</u>lika lasyahiid<strong>un</strong>"
-        },
-        {
-            "id": "8",
-            "text": "wa-innahu li<u>h</u>ubbi <strong>a</strong>lkhayri lasyadiid<strong>un</strong>"
-        },
-        {
-            "id": "9",
-            "text": "afal<u>aa</u> ya'lamu i<u>dzaa</u> bu'tsira m<u>aa</u> fii <strong>a</strong>lqubuur<strong>i</strong>"
-        },
-        {
-            "id": "10",
-            "text": "wa<u>h</u>u<u>shsh</u>ila m<u>aa</u> fii <strong>al</strong><u>shsh</u>uduur<strong>i</strong>"
-        },
-        {
-            "id": "11",
-            "text": "inna rabbahum bihim yawma-i<u>dz</u>in lakhabiir<strong>un</strong>"
-        }
-    ]
+        "wa<strong>a</strong>l'<u>aa</u>diy<u>aa</u>ti <u>dh</u>ab<u>haa</u><strong>n</strong>",
+        "fa<strong>a</strong>lmuuriy<u>aa</u>ti qad<u>haa</u><strong>n</strong>",
+        "fa<strong>a</strong>lmughiir<u>aa</u>ti <u>sh</u>ub<u>haa</u><strong>n</strong>",
+        "fa-atsarna bihi naq'<u>aa</u><strong>n</strong>",
+        "fawasa<u>th</u>na bihi jam'<u>aa</u><strong>n</strong>",
+        "inna <strong>a</strong>l-ins<u>aa</u>na lirabbihi lakanuud<strong>un</strong>",
+        "wa-innahu 'al<u>aa</u> <u>dzaa</u>lika lasyahiid<strong>un</strong>",
+        "wa-innahu li<u>h</u>ubbi <strong>a</strong>lkhayri lasyadiid<strong>un</strong>",
+        "afal<u>aa</u> ya'lamu i<u>dzaa</u> bu'tsira m<u>aa</u> fii <strong>a</strong>lqubuur<strong>i</strong>",
+        "wa<u>h</u>u<u>shsh</u>ila m<u>aa</u> fii <strong>al</strong><u>shsh</u>uduur<strong>i</strong>",
+        "inna rabbahum bihim yawma-i<u>dz</u>in lakhabiir<strong>un</strong>"
+      ]
 }

@@ -1,95 +1,28 @@
 {
-    "id": "58",
+    "id": 58,
     "name": "المجادلة",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "qad sami'a <strong>al</strong>l<u>aa</u>hu qawla <strong>al</strong>latii tuj<u>aa</u>diluka fii zawjih<u>aa</u> watasytakii il<u>aa</u> <strong>al</strong>l<u>aa</u>hi wa<strong>al</strong>l<u>aa</u>hu yasma'u ta<u>haa</u>wurakum<u>aa</u> inna <strong>al</strong>l<u>aa</u>ha samii'un ba<u>sh</u>iir<strong>un</strong>"
-        },
-        {
-            "id": "2",
-            "text": "qad sami'a <strong>al</strong>l<u>aa</u>hu qawla <strong>al</strong>latii tuj<u>aa</u>diluka fii zawjih<u>aa</u> watasytakii il<u>aa</u> <strong>al</strong>l<u>aa</u>hi wa<strong>al</strong>l<u>aa</u>hu yasma'u ta<u>haa</u>wurakum<u>aa</u> inna <strong>al</strong>l<u>aa</u>ha samii'un ba<u>sh</u>iir<strong>un</strong>"
-        },
-        {
-            "id": "3",
-            "text": "wa<strong>a</strong>lla<u>dz</u>iina yu<u>zhaa</u>hiruuna min nis<u>aa</u>-ihim tsumma ya'uuduuna lim<u>aa</u> q<u>aa</u>luu fata<u>h</u>riiru raqabatin min qabli an yatam<u>aa</u>ss<u>aa</u> <u>dzaa</u>likum tuu'a<u>zh</u>uuna bihi wa<strong>al</strong>l<u>aa</u>hu bim<u>aa</u> ta'maluuna khabiir<strong>un</strong>"
-        },
-        {
-            "id": "4",
-            "text": "faman lam yajid fa<u>sh</u>iy<u>aa</u>mu syahrayni mutat<u>aa</u>bi'ayni min qabli an yatam<u>aa</u>ss<u>aa</u> faman lam yasta<u>th</u>i' fa-i<u>th</u>'<u>aa</u>mu sittiina miskiinan <u>dzaa</u>lika litu/minuu bi<strong>al</strong>l<u>aa</u>hi warasuulihi watilka <u>h</u>uduudu <strong>al</strong>l<u>aa</u>hi walilk<u>aa</u>firiina 'a<u>dzaa</u>bun <strong>a</strong>liim<strong>un</strong>"
-        },
-        {
-            "id": "5",
-            "text": "inna <strong>al</strong>la<u>dz</u>iina yu<u>haa</u>dduuna <strong>al</strong>l<u>aa</u>ha warasuulahu kubituu kam<u>aa</u> kubita <strong>al</strong>la<u>dz</u>iina min qablihim waqad anzaln<u>aa</u> <u>aa</u>y<u>aa</u>tin bayyin<u>aa</u>tin walilk<u>aa</u>firiina 'a<u>dzaa</u>bun muhiin<strong>un</strong>"
-        },
-        {
-            "id": "6",
-            "text": "yawma yab'atsuhumu <strong>al</strong>l<u>aa</u>hu jamii'an fayunabbi-uhum bim<u>aa</u> 'amiluu a<u>hsaa</u>hu <strong>al</strong>l<u>aa</u>hu wanasuuhu wa<strong>al</strong>l<u>aa</u>hu 'al<u>aa</u> kulli syay-in syahiid<strong>un</strong>"
-        },
-        {
-            "id": "7",
-            "text": "alam tara anna <strong>al</strong>l<u>aa</u>ha ya'lamu m<u>aa</u> fii <strong>al</strong>ssam<u>aa</u>w<u>aa</u>ti wam<u>aa</u> fii <strong>a</strong>l-ar<u>dh</u>i m<u>aa</u> yakuunu min najw<u>aa</u> tsal<u>aa</u>tsatin ill<u>aa</u> huwa r<u>aa</u>bi'uhum wal<u>aa</u> khamsatin ill<u>aa</u> huwa s<u>aa</u>disuhum wal<u>aa</u> adn<u>aa</u> min <u>dzaa</u>lika wal<u>aa</u> aktsara ill<u>aa</u> huwa ma'ahum ayna m<u>aa</u> k<u>aa</u>nuu tsumma yunabbi-uhum bim<u>aa</u> 'amiluu yawma <strong>a</strong>lqiy<u>aa</u>mati inna <strong>al</strong>l<u>aa</u>ha bikulli syay-in 'aliim<strong>un</strong>"
-        },
-        {
-            "id": "8",
-            "text": "alam tara il<u>aa</u> <strong>al</strong>la<u>dz</u>iina nuhuu 'ani <strong>al</strong>nnajw<u>aa</u> tsumma ya'uuduuna lim<u>aa</u> nuhuu 'anhu wayatan<u>aa</u>jawna bi<strong>a</strong>l-itsmi wa<strong>a</strong>l'udw<u>aa</u>ni wama'<u>sh</u>iyati <strong>al</strong>rrasuuli wa-i<u>dzaa</u> j<u>aa</u>uuka <u>h</u>ayyawka bim<u>aa</u> lam yu<u>h</u>ayyika bihi <strong>al</strong>l<u>aa</u>hu wayaquuluuna fii anfusihim lawl<u>aa</u> yu'a<u>dzdz</u>ibun<u>aa</u> <strong>al</strong>l<u>aa</u>hu bim<u>aa</u> naquulu <u>h</u>asbuhum jahannamu ya<u>sh</u>lawnah<u>aa</u> fabi/sa <strong>a</strong>lma<u>sh</u>iir<strong>u</strong>"
-        },
-        {
-            "id": "9",
-            "text": "y<u>aa</u> ayyuh<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu i<u>dzaa</u> tan<u>aa</u>jaytum fal<u>aa</u> tatan<u>aa</u>jaw bi<strong>a</strong>l-itsmi wa<strong>a</strong>l'udw<u>aa</u>ni wama'<u>sh</u>iyati <strong>al</strong>rrasuuli watan<u>aa</u>jaw bi<strong>a</strong>lbirri wa<strong>al</strong>ttaqw<u>aa</u> wa<strong>i</strong>ttaquu <strong>al</strong>l<u>aa</u>ha <strong>al</strong>la<u>dz</u>ii ilayhi tu<u>h</u>syaruun<strong>a</strong>"
-        },
-        {
-            "id": "10",
-            "text": "innam<u>aa</u> <strong>al</strong>nnajw<u>aa</u> mina <strong>al</strong>sysyay<u>th</u><u>aa</u>ni liya<u>h</u>zuna <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu walaysa bi<u>daa</u>rrihim syay-an ill<u>aa</u> bi-i<u>dz</u>ni <strong>al</strong>l<u>aa</u>hi wa'al<u>aa</u> <strong>al</strong>l<u>aa</u>hi falyatawakkali <strong>a</strong>lmu/minuun<strong>a</strong>"
-        },
-        {
-            "id": "11",
-            "text": "y<u>aa</u> ayyuh<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu i<u>dzaa</u> qiila lakum tafassa<u>h</u>uu fii <strong>a</strong>lmaj<u>aa</u>lisi fa<strong>i</strong>fsa<u>h</u>uu yafsa<u>h</u>i <strong>al</strong>l<u>aa</u>hu lakum wa-i<u>dzaa</u> qiila unsyuzuu fa<strong>u</strong>nsyuzuu yarfa'i <strong>al</strong>l<u>aa</u>hu <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu minkum wa<strong>a</strong>lla<u>dz</u>iina uutuu <strong>a</strong>l'ilma daraj<u>aa</u>tin wa<strong>al</strong>l<u>aa</u>hu bim<u>aa</u> ta'maluuna khabiir<strong>un</strong>"
-        },
-        {
-            "id": "12",
-            "text": "y<u>aa</u> ayyuh<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu i<u>dzaa</u> n<u>aa</u>jaytumu <strong>al</strong>rrasuula faqaddimuu bayna yaday najw<u>aa</u>kum <u>sh</u>adaqatan <u>dzaa</u>lika khayrun lakum wa-a<u>th</u>haru fa-in lam tajiduu fa-inna <strong>al</strong>l<u>aa</u>ha ghafuurun ra<u>h</u>iim<strong>un</strong>"
-        },
-        {
-            "id": "13",
-            "text": "a-asyfaqtum an tuqaddimuu bayna yaday najw<u>aa</u>kum <u>sh</u>adaq<u>aa</u>tin fa-i<u>dz</u> lam taf'aluu wat<u>aa</u>ba <strong>al</strong>l<u>aa</u>hu 'alaykum fa-aqiimuu <strong>al</strong><u>shsh</u>al<u>aa</u>ta wa<u>aa</u>tuu <strong>al</strong>zzak<u>aa</u>ta wa-a<u>th</u>ii'uu <strong>al</strong>l<u>aa</u>ha warasuulahu wa<strong>al</strong>l<u>aa</u>hu khabiirun bim<u>aa</u> ta'maluun<strong>a</strong>"
-        },
-        {
-            "id": "14",
-            "text": "alam tara il<u>aa</u> <strong>al</strong>la<u>dz</u>iina tawallaw qawman gha<u>dh</u>iba <strong>al</strong>l<u>aa</u>hu 'alayhim m<u>aa</u> hum minkum wal<u>aa</u> minhum waya<u>h</u>lifuuna 'al<u>aa</u> <strong>a</strong>lka<u>dz</u>ibi wahum ya'lamuun<strong>a</strong>"
-        },
-        {
-            "id": "15",
-            "text": "a'adda <strong>al</strong>l<u>aa</u>hu lahum 'a<u>dzaa</u>ban syadiidan innahum s<u>aa</u>-a m<u>aa</u> k<u>aa</u>nuu ya'maluun<strong>a</strong>"
-        },
-        {
-            "id": "16",
-            "text": "ittakha<u>dz</u>uu aym<u>aa</u>nahum junnatan fa<u>sh</u>adduu 'an sabiili <strong>al</strong>l<u>aa</u>hi falahum 'a<u>dzaa</u>bun muhiin<strong>un</strong>"
-        },
-        {
-            "id": "17",
-            "text": "lan tughniya 'anhum amw<u>aa</u>luhum wal<u>aa</u> awl<u>aa</u>duhum mina <strong>al</strong>l<u>aa</u>hi syay-an ul<u>aa</u>-ika a<u>sh</u>-<u>haa</u>bu <strong>al</strong>nn<u>aa</u>ri hum fiih<u>aa</u> kh<u>aa</u>liduun<strong>a</strong>"
-        },
-        {
-            "id": "18",
-            "text": "yawma yab'atsuhumu <strong>al</strong>l<u>aa</u>hu jamii'an faya<u>h</u>lifuuna lahu kam<u>aa</u> ya<u>h</u>lifuuna lakum waya<u>h</u>sabuuna annahum 'al<u>aa</u> syay-in <strong>a</strong>l<u>aa</u> innahum humu <strong>a</strong>lk<u>aadz</u>ibuun<strong>a</strong>"
-        },
-        {
-            "id": "19",
-            "text": "ista<u>h</u>wa<u>dz</u>a 'alayhimu <strong>al</strong>sysyay<u>th</u><u>aa</u>nu fa-ans<u>aa</u>hum <u>dz</u>ikra <strong>al</strong>l<u>aa</u>hi ul<u>aa</u>-ika <u>h</u>izbu <strong>al</strong>sysyay<u>th</u><u>aa</u>ni <strong>a</strong>l<u>aa</u> inna <u>h</u>izba <strong>al</strong>sysyay<u>th</u><u>aa</u>ni humu <strong>a</strong>lkh<u>aa</u>siruun<strong>a</strong>"
-        },
-        {
-            "id": "20",
-            "text": "inna <strong>al</strong>la<u>dz</u>iina yu<u>haa</u>dduuna <strong>al</strong>l<u>aa</u>ha warasuulahu ul<u>aa</u>-ika fii <strong>a</strong>l-a<u>dz</u>alliin<strong>a</strong>"
-        },
-        {
-            "id": "21",
-            "text": "kataba <strong>al</strong>l<u>aa</u>hu la-aghlibanna an<u>aa</u> warusulii inna <strong>al</strong>l<u>aa</u>ha qawiyyun 'aziiz<strong>un</strong>"
-        },
-        {
-            "id": "22",
-            "text": "l<u>aa</u> tajidu qawman yu/minuuna bi<strong>al</strong>l<u>aa</u>hi wa<strong>a</strong>lyawmi <strong>a</strong>l-<u>aa</u>khiri yuw<u>aa</u>dduuna man <u>haa</u>dda <strong>al</strong>l<u>aa</u>ha warasuulahu walaw k<u>aa</u>nuu <u>aa</u>b<u>aa</u>-ahum aw abn<u>aa</u>-ahum aw ikhw<u>aa</u>nahum aw 'asyiiratahum ul<u>aa</u>-ika kataba fii quluubihimu <strong>a</strong>l-iim<u>aa</u>na wa-ayyadahum biruu<u>h</u>in minhu wayudkhiluhum jann<u>aa</u>tin tajrii min ta<u>h</u>tih<u>aa</u> <strong>a</strong>l-anh<u>aa</u>ru kh<u>aa</u>lidiina fiih<u>aa</u> ra<u>dh</u>iya <strong>al</strong>l<u>aa</u>hu 'anhum wara<u>dh</u>uu 'anhu ul<u>aa</u>-ika <u>h</u>izbu <strong>al</strong>l<u>aa</u>hi <strong>a</strong>l<u>aa</u> inna <u>h</u>izba <strong>al</strong>l<u>aa</u>hi humu <strong>a</strong>lmufli<u>h</u>uun<strong>a</strong>"
-        }
-    ]
+        "qad sami'a <strong>al</strong>l<u>aa</u>hu qawla <strong>al</strong>latii tuj<u>aa</u>diluka fii zawjih<u>aa</u> watasytakii il<u>aa</u> <strong>al</strong>l<u>aa</u>hi wa<strong>al</strong>l<u>aa</u>hu yasma'u ta<u>haa</u>wurakum<u>aa</u> inna <strong>al</strong>l<u>aa</u>ha samii'un ba<u>sh</u>iir<strong>un</strong>",
+        "qad sami'a <strong>al</strong>l<u>aa</u>hu qawla <strong>al</strong>latii tuj<u>aa</u>diluka fii zawjih<u>aa</u> watasytakii il<u>aa</u> <strong>al</strong>l<u>aa</u>hi wa<strong>al</strong>l<u>aa</u>hu yasma'u ta<u>haa</u>wurakum<u>aa</u> inna <strong>al</strong>l<u>aa</u>ha samii'un ba<u>sh</u>iir<strong>un</strong>",
+        "wa<strong>a</strong>lla<u>dz</u>iina yu<u>zhaa</u>hiruuna min nis<u>aa</u>-ihim tsumma ya'uuduuna lim<u>aa</u> q<u>aa</u>luu fata<u>h</u>riiru raqabatin min qabli an yatam<u>aa</u>ss<u>aa</u> <u>dzaa</u>likum tuu'a<u>zh</u>uuna bihi wa<strong>al</strong>l<u>aa</u>hu bim<u>aa</u> ta'maluuna khabiir<strong>un</strong>",
+        "faman lam yajid fa<u>sh</u>iy<u>aa</u>mu syahrayni mutat<u>aa</u>bi'ayni min qabli an yatam<u>aa</u>ss<u>aa</u> faman lam yasta<u>th</u>i' fa-i<u>th</u>'<u>aa</u>mu sittiina miskiinan <u>dzaa</u>lika litu/minuu bi<strong>al</strong>l<u>aa</u>hi warasuulihi watilka <u>h</u>uduudu <strong>al</strong>l<u>aa</u>hi walilk<u>aa</u>firiina 'a<u>dzaa</u>bun <strong>a</strong>liim<strong>un</strong>",
+        "inna <strong>al</strong>la<u>dz</u>iina yu<u>haa</u>dduuna <strong>al</strong>l<u>aa</u>ha warasuulahu kubituu kam<u>aa</u> kubita <strong>al</strong>la<u>dz</u>iina min qablihim waqad anzaln<u>aa</u> <u>aa</u>y<u>aa</u>tin bayyin<u>aa</u>tin walilk<u>aa</u>firiina 'a<u>dzaa</u>bun muhiin<strong>un</strong>",
+        "yawma yab'atsuhumu <strong>al</strong>l<u>aa</u>hu jamii'an fayunabbi-uhum bim<u>aa</u> 'amiluu a<u>hsaa</u>hu <strong>al</strong>l<u>aa</u>hu wanasuuhu wa<strong>al</strong>l<u>aa</u>hu 'al<u>aa</u> kulli syay-in syahiid<strong>un</strong>",
+        "alam tara anna <strong>al</strong>l<u>aa</u>ha ya'lamu m<u>aa</u> fii <strong>al</strong>ssam<u>aa</u>w<u>aa</u>ti wam<u>aa</u> fii <strong>a</strong>l-ar<u>dh</u>i m<u>aa</u> yakuunu min najw<u>aa</u> tsal<u>aa</u>tsatin ill<u>aa</u> huwa r<u>aa</u>bi'uhum wal<u>aa</u> khamsatin ill<u>aa</u> huwa s<u>aa</u>disuhum wal<u>aa</u> adn<u>aa</u> min <u>dzaa</u>lika wal<u>aa</u> aktsara ill<u>aa</u> huwa ma'ahum ayna m<u>aa</u> k<u>aa</u>nuu tsumma yunabbi-uhum bim<u>aa</u> 'amiluu yawma <strong>a</strong>lqiy<u>aa</u>mati inna <strong>al</strong>l<u>aa</u>ha bikulli syay-in 'aliim<strong>un</strong>",
+        "alam tara il<u>aa</u> <strong>al</strong>la<u>dz</u>iina nuhuu 'ani <strong>al</strong>nnajw<u>aa</u> tsumma ya'uuduuna lim<u>aa</u> nuhuu 'anhu wayatan<u>aa</u>jawna bi<strong>a</strong>l-itsmi wa<strong>a</strong>l'udw<u>aa</u>ni wama'<u>sh</u>iyati <strong>al</strong>rrasuuli wa-i<u>dzaa</u> j<u>aa</u>uuka <u>h</u>ayyawka bim<u>aa</u> lam yu<u>h</u>ayyika bihi <strong>al</strong>l<u>aa</u>hu wayaquuluuna fii anfusihim lawl<u>aa</u> yu'a<u>dzdz</u>ibun<u>aa</u> <strong>al</strong>l<u>aa</u>hu bim<u>aa</u> naquulu <u>h</u>asbuhum jahannamu ya<u>sh</u>lawnah<u>aa</u> fabi/sa <strong>a</strong>lma<u>sh</u>iir<strong>u</strong>",
+        "y<u>aa</u> ayyuh<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu i<u>dzaa</u> tan<u>aa</u>jaytum fal<u>aa</u> tatan<u>aa</u>jaw bi<strong>a</strong>l-itsmi wa<strong>a</strong>l'udw<u>aa</u>ni wama'<u>sh</u>iyati <strong>al</strong>rrasuuli watan<u>aa</u>jaw bi<strong>a</strong>lbirri wa<strong>al</strong>ttaqw<u>aa</u> wa<strong>i</strong>ttaquu <strong>al</strong>l<u>aa</u>ha <strong>al</strong>la<u>dz</u>ii ilayhi tu<u>h</u>syaruun<strong>a</strong>",
+        "innam<u>aa</u> <strong>al</strong>nnajw<u>aa</u> mina <strong>al</strong>sysyay<u>th</u><u>aa</u>ni liya<u>h</u>zuna <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu walaysa bi<u>daa</u>rrihim syay-an ill<u>aa</u> bi-i<u>dz</u>ni <strong>al</strong>l<u>aa</u>hi wa'al<u>aa</u> <strong>al</strong>l<u>aa</u>hi falyatawakkali <strong>a</strong>lmu/minuun<strong>a</strong>",
+        "y<u>aa</u> ayyuh<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu i<u>dzaa</u> qiila lakum tafassa<u>h</u>uu fii <strong>a</strong>lmaj<u>aa</u>lisi fa<strong>i</strong>fsa<u>h</u>uu yafsa<u>h</u>i <strong>al</strong>l<u>aa</u>hu lakum wa-i<u>dzaa</u> qiila unsyuzuu fa<strong>u</strong>nsyuzuu yarfa'i <strong>al</strong>l<u>aa</u>hu <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu minkum wa<strong>a</strong>lla<u>dz</u>iina uutuu <strong>a</strong>l'ilma daraj<u>aa</u>tin wa<strong>al</strong>l<u>aa</u>hu bim<u>aa</u> ta'maluuna khabiir<strong>un</strong>",
+        "y<u>aa</u> ayyuh<u>aa</u> <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu i<u>dzaa</u> n<u>aa</u>jaytumu <strong>al</strong>rrasuula faqaddimuu bayna yaday najw<u>aa</u>kum <u>sh</u>adaqatan <u>dzaa</u>lika khayrun lakum wa-a<u>th</u>haru fa-in lam tajiduu fa-inna <strong>al</strong>l<u>aa</u>ha ghafuurun ra<u>h</u>iim<strong>un</strong>",
+        "a-asyfaqtum an tuqaddimuu bayna yaday najw<u>aa</u>kum <u>sh</u>adaq<u>aa</u>tin fa-i<u>dz</u> lam taf'aluu wat<u>aa</u>ba <strong>al</strong>l<u>aa</u>hu 'alaykum fa-aqiimuu <strong>al</strong><u>shsh</u>al<u>aa</u>ta wa<u>aa</u>tuu <strong>al</strong>zzak<u>aa</u>ta wa-a<u>th</u>ii'uu <strong>al</strong>l<u>aa</u>ha warasuulahu wa<strong>al</strong>l<u>aa</u>hu khabiirun bim<u>aa</u> ta'maluun<strong>a</strong>",
+        "alam tara il<u>aa</u> <strong>al</strong>la<u>dz</u>iina tawallaw qawman gha<u>dh</u>iba <strong>al</strong>l<u>aa</u>hu 'alayhim m<u>aa</u> hum minkum wal<u>aa</u> minhum waya<u>h</u>lifuuna 'al<u>aa</u> <strong>a</strong>lka<u>dz</u>ibi wahum ya'lamuun<strong>a</strong>",
+        "a'adda <strong>al</strong>l<u>aa</u>hu lahum 'a<u>dzaa</u>ban syadiidan innahum s<u>aa</u>-a m<u>aa</u> k<u>aa</u>nuu ya'maluun<strong>a</strong>",
+        "ittakha<u>dz</u>uu aym<u>aa</u>nahum junnatan fa<u>sh</u>adduu 'an sabiili <strong>al</strong>l<u>aa</u>hi falahum 'a<u>dzaa</u>bun muhiin<strong>un</strong>",
+        "lan tughniya 'anhum amw<u>aa</u>luhum wal<u>aa</u> awl<u>aa</u>duhum mina <strong>al</strong>l<u>aa</u>hi syay-an ul<u>aa</u>-ika a<u>sh</u>-<u>haa</u>bu <strong>al</strong>nn<u>aa</u>ri hum fiih<u>aa</u> kh<u>aa</u>liduun<strong>a</strong>",
+        "yawma yab'atsuhumu <strong>al</strong>l<u>aa</u>hu jamii'an faya<u>h</u>lifuuna lahu kam<u>aa</u> ya<u>h</u>lifuuna lakum waya<u>h</u>sabuuna annahum 'al<u>aa</u> syay-in <strong>a</strong>l<u>aa</u> innahum humu <strong>a</strong>lk<u>aadz</u>ibuun<strong>a</strong>",
+        "ista<u>h</u>wa<u>dz</u>a 'alayhimu <strong>al</strong>sysyay<u>th</u><u>aa</u>nu fa-ans<u>aa</u>hum <u>dz</u>ikra <strong>al</strong>l<u>aa</u>hi ul<u>aa</u>-ika <u>h</u>izbu <strong>al</strong>sysyay<u>th</u><u>aa</u>ni <strong>a</strong>l<u>aa</u> inna <u>h</u>izba <strong>al</strong>sysyay<u>th</u><u>aa</u>ni humu <strong>a</strong>lkh<u>aa</u>siruun<strong>a</strong>",
+        "inna <strong>al</strong>la<u>dz</u>iina yu<u>haa</u>dduuna <strong>al</strong>l<u>aa</u>ha warasuulahu ul<u>aa</u>-ika fii <strong>a</strong>l-a<u>dz</u>alliin<strong>a</strong>",
+        "kataba <strong>al</strong>l<u>aa</u>hu la-aghlibanna an<u>aa</u> warusulii inna <strong>al</strong>l<u>aa</u>ha qawiyyun 'aziiz<strong>un</strong>",
+        "l<u>aa</u> tajidu qawman yu/minuuna bi<strong>al</strong>l<u>aa</u>hi wa<strong>a</strong>lyawmi <strong>a</strong>l-<u>aa</u>khiri yuw<u>aa</u>dduuna man <u>haa</u>dda <strong>al</strong>l<u>aa</u>ha warasuulahu walaw k<u>aa</u>nuu <u>aa</u>b<u>aa</u>-ahum aw abn<u>aa</u>-ahum aw ikhw<u>aa</u>nahum aw 'asyiiratahum ul<u>aa</u>-ika kataba fii quluubihimu <strong>a</strong>l-iim<u>aa</u>na wa-ayyadahum biruu<u>h</u>in minhu wayudkhiluhum jann<u>aa</u>tin tajrii min ta<u>h</u>tih<u>aa</u> <strong>a</strong>l-anh<u>aa</u>ru kh<u>aa</u>lidiina fiih<u>aa</u> ra<u>dh</u>iya <strong>al</strong>l<u>aa</u>hu 'anhum wara<u>dh</u>uu 'anhu ul<u>aa</u>-ika <u>h</u>izbu <strong>al</strong>l<u>aa</u>hi <strong>a</strong>l<u>aa</u> inna <u>h</u>izba <strong>al</strong>l<u>aa</u>hi humu <strong>a</strong>lmufli<u>h</u>uun<strong>a</strong>"
+      ]
 }

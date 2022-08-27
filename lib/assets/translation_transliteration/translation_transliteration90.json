@@ -1,87 +1,26 @@
 {
-    "id": "90",
+    "id": 90,
     "name": "البلد",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "l<u>aa</u> uqsimu bih<u>aadzaa</u> <strong>a</strong>lbalad<strong>i</strong>"
-        },
-        {
-            "id": "2",
-            "text": "wa-anta <u>h</u>illun bih<u>aadzaa</u> <strong>a</strong>lbalad<strong>i</strong>"
-        },
-        {
-            "id": "3",
-            "text": "waw<u>aa</u>lidin wam<u>aa</u> walad<strong>a</strong>"
-        },
-        {
-            "id": "4",
-            "text": "laqad khalaqn<u>aa</u> <strong>a</strong>l-ins<u>aa</u>na fii kabad<strong>in</strong>"
-        },
-        {
-            "id": "5",
-            "text": "aya<u>h</u>sabu an lan yaqdira 'alayhi a<u>h</u>ad<strong>un</strong>"
-        },
-        {
-            "id": "6",
-            "text": "yaquulu ahlaktu m<u>aa</u>lan lubad<u>aa</u><strong>n</strong>"
-        },
-        {
-            "id": "7",
-            "text": "aya<u>h</u>sabu an lam yarahu a<u>h</u>ad<strong>un</strong>"
-        },
-        {
-            "id": "8",
-            "text": "alam naj'al lahu 'aynayn<strong>i</strong>"
-        },
-        {
-            "id": "9",
-            "text": "walis<u>aa</u>nan wasyafatayn<strong>i</strong>"
-        },
-        {
-            "id": "10",
-            "text": "wahadayn<u>aa</u>hu <strong>al</strong>nnajdayn<strong>i</strong>"
-        },
-        {
-            "id": "11",
-            "text": "fal<u>aa</u> iqta<u>h</u>ama <strong>a</strong>l'aqaba<strong>ta</strong>"
-        },
-        {
-            "id": "12",
-            "text": "wam<u>aa</u> adr<u>aa</u>ka m<u>aa</u> <strong>a</strong>l'aqaba<strong>tu</strong>"
-        },
-        {
-            "id": "13",
-            "text": "fakku raqaba<strong>tin</strong>"
-        },
-        {
-            "id": "14",
-            "text": "aw i<u>th</u>'<u>aa</u>mun fii yawmin <u>dz</u>ii masghaba<strong>tin</strong>"
-        },
-        {
-            "id": "15",
-            "text": "yatiiman <u>dzaa</u> maqraba<strong>tin</strong>"
-        },
-        {
-            "id": "16",
-            "text": "aw miskiinan <u>dzaa</u> matraba<strong>tin</strong>"
-        },
-        {
-            "id": "17",
-            "text": "tsumma k<u>aa</u>na mina <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wataw<u>aas</u>aw bi<strong>al</strong><u>shsh</u>abri wataw<u>aas</u>aw bi<strong>a</strong>lmar<u>h</u>ama<strong>ti</strong>"
-        },
-        {
-            "id": "18",
-            "text": "ul<u>aa</u>-ika a<u>sh</u>-<u>haa</u>bu <strong>a</strong>lmaymana<strong>ti</strong>"
-        },
-        {
-            "id": "19",
-            "text": "wa<strong>a</strong>lla<u>dz</u>iina kafaruu bi-<u>aa</u>y<u>aa</u>tin<u>aa</u> hum a<u>sh</u>-<u>haa</u>bu <strong>a</strong>lmasy-ama<strong>ti</strong>"
-        },
-        {
-            "id": "20",
-            "text": "'alayhim n<u>aa</u>run mu/<u>sh</u>ada<strong>tun</strong>"
-        }
-    ]
+        "l<u>aa</u> uqsimu bih<u>aadzaa</u> <strong>a</strong>lbalad<strong>i</strong>",
+        "wa-anta <u>h</u>illun bih<u>aadzaa</u> <strong>a</strong>lbalad<strong>i</strong>",
+        "waw<u>aa</u>lidin wam<u>aa</u> walad<strong>a</strong>",
+        "laqad khalaqn<u>aa</u> <strong>a</strong>l-ins<u>aa</u>na fii kabad<strong>in</strong>",
+        "aya<u>h</u>sabu an lan yaqdira 'alayhi a<u>h</u>ad<strong>un</strong>",
+        "yaquulu ahlaktu m<u>aa</u>lan lubad<u>aa</u><strong>n</strong>",
+        "aya<u>h</u>sabu an lam yarahu a<u>h</u>ad<strong>un</strong>",
+        "alam naj'al lahu 'aynayn<strong>i</strong>",
+        "walis<u>aa</u>nan wasyafatayn<strong>i</strong>",
+        "wahadayn<u>aa</u>hu <strong>al</strong>nnajdayn<strong>i</strong>",
+        "fal<u>aa</u> iqta<u>h</u>ama <strong>a</strong>l'aqaba<strong>ta</strong>",
+        "wam<u>aa</u> adr<u>aa</u>ka m<u>aa</u> <strong>a</strong>l'aqaba<strong>tu</strong>",
+        "fakku raqaba<strong>tin</strong>",
+        "aw i<u>th</u>'<u>aa</u>mun fii yawmin <u>dz</u>ii masghaba<strong>tin</strong>",
+        "yatiiman <u>dzaa</u> maqraba<strong>tin</strong>",
+        "aw miskiinan <u>dzaa</u> matraba<strong>tin</strong>",
+        "tsumma k<u>aa</u>na mina <strong>al</strong>la<u>dz</u>iina <u>aa</u>manuu wataw<u>aas</u>aw bi<strong>al</strong><u>shsh</u>abri wataw<u>aas</u>aw bi<strong>a</strong>lmar<u>h</u>ama<strong>ti</strong>",
+        "ul<u>aa</u>-ika a<u>sh</u>-<u>haa</u>bu <strong>a</strong>lmaymana<strong>ti</strong>",
+        "wa<strong>a</strong>lla<u>dz</u>iina kafaruu bi-<u>aa</u>y<u>aa</u>tin<u>aa</u> hum a<u>sh</u>-<u>haa</u>bu <strong>a</strong>lmasy-ama<strong>ti</strong>",
+        "'alayhim n<u>aa</u>run mu/<u>sh</u>ada<strong>tun</strong>"
+      ]
 }
