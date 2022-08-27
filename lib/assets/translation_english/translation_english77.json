@@ -1,207 +1,56 @@
 {
-    "id": "77",
+    "id": 77,
     "name": "المرسلات",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "By the Mursalat `Urfa."
-        },
-        {
-            "id": "2",
-            "text": "The `Asifat `Asfa."
-        },
-        {
-            "id": "3",
-            "text": "And the Nashirat Nashra."
-        },
-        {
-            "id": "4",
-            "text": "The Fariqat that separate."
-        },
-        {
-            "id": "5",
-            "text": "The Mulqiyat that remind,"
-        },
-        {
-            "id": "6",
-            "text": "Excusing or warning."
-        },
-        {
-            "id": "7",
-            "text": "Surely, what you are promised will occur."
-        },
-        {
-            "id": "8",
-            "text": "Then when the stars lose their lights."
-        },
-        {
-            "id": "9",
-            "text": "And when Furijat the heaven."
-        },
-        {
-            "id": "10",
-            "text": "And when the mountains are blown away."
-        },
-        {
-            "id": "11",
-            "text": "And when the Messengers are Uqqitat."
-        },
-        {
-            "id": "12",
-            "text": "For what Day are these signs postponed"
-        },
-        {
-            "id": "13",
-            "text": "For the Day of Sorting Out (the men of Paradise from the men destined for Hell)."
-        },
-        {
-            "id": "14",
-            "text": "And what will explain to you what is the Day of Sorting Out"
-        },
-        {
-            "id": "15",
-            "text": "Woe that Day to the deniers (of the Day of Resurrection)!"
-        },
-        {
-            "id": "16",
-            "text": "Did We not destroy the ancients"
-        },
-        {
-            "id": "17",
-            "text": "So shall We make later generations to follow them."
-        },
-        {
-            "id": "18",
-            "text": "Thus do We deal with the criminals."
-        },
-        {
-            "id": "19",
-            "text": "Woe that Day to the deniers!"
-        },
-        {
-            "id": "20",
-            "text": "Did We not create you from a despised water"
-        },
-        {
-            "id": "21",
-            "text": "Then We placed it in a place of safety,"
-        },
-        {
-            "id": "22",
-            "text": "For a known period"
-        },
-        {
-            "id": "23",
-            "text": "So We did measure; and We are the best to measure."
-        },
-        {
-            "id": "24",
-            "text": "Woe that Day to the deniers!"
-        },
-        {
-            "id": "25",
-            "text": "Have We not made the earth Kifat (a receptacle)"
-        },
-        {
-            "id": "26",
-            "text": "For the living and the dead"
-        },
-        {
-            "id": "27",
-            "text": "And have placed therein fixed towers, and have given you Furat water"
-        },
-        {
-            "id": "28",
-            "text": "Woe that Day to the deniers!"
-        },
-        {
-            "id": "29",
-            "text": "(It will be said to the disbelievers): \"Depart you to that which you used to deny!\""
-        },
-        {
-            "id": "30",
-            "text": "\"Depart you to a shadow in three columns,\""
-        },
-        {
-            "id": "31",
-            "text": "\"Neither shady nor of any use against the fierce flame of the Fire.\""
-        },
-        {
-            "id": "32",
-            "text": "Verily, it (Hell) throws sparks (huge) as Al-Qasr,"
-        },
-        {
-            "id": "33",
-            "text": "As if they were Sufr camels."
-        },
-        {
-            "id": "34",
-            "text": "Woe that Day to the deniers (of the Day of Resurrection)!"
-        },
-        {
-            "id": "35",
-            "text": "That will be a Day when they shall not speak (during some part of it),"
-        },
-        {
-            "id": "36",
-            "text": "And they will not be permitted to put forth any excuse."
-        },
-        {
-            "id": "37",
-            "text": "Woe that Day to the deniers (of the Day of Resurrection)!"
-        },
-        {
-            "id": "38",
-            "text": "That will be a Day of Decision! We have brought you and the men of old together!"
-        },
-        {
-            "id": "39",
-            "text": "So, if you have a plot, use it against Me (Allah)!"
-        },
-        {
-            "id": "40",
-            "text": "Woe that Day to the deniers (of the Day of Resurrection)!"
-        },
-        {
-            "id": "41",
-            "text": "Verily, those who had Taqwa, shall be amidst shades and springs."
-        },
-        {
-            "id": "42",
-            "text": "And fruits, such as they desire."
-        },
-        {
-            "id": "43",
-            "text": "\"Eat and drink comfortably for that which you used to do.\""
-        },
-        {
-            "id": "44",
-            "text": "Verily, thus We reward the Muhsinin."
-        },
-        {
-            "id": "45",
-            "text": "Woe that Day to the deniers!"
-        },
-        {
-            "id": "46",
-            "text": "Eat and enjoy yourselves for a little while. Verily, you are criminals."
-        },
-        {
-            "id": "47",
-            "text": "Woe that Day to the deniers!"
-        },
-        {
-            "id": "48",
-            "text": "And when it is said to them: \"Bow down yourself!\" They bow not down."
-        },
-        {
-            "id": "49",
-            "text": "Woe that Day to the deniers!"
-        },
-        {
-            "id": "50",
-            "text": "Then in what statement after this will they believe"
-        }
-    ]
+        "By the Mursalat `Urfa.",
+        "The `Asifat `Asfa.",
+        "And the Nashirat Nashra.",
+        "The Fariqat that separate.",
+        "The Mulqiyat that remind,",
+        "Excusing or warning.",
+        "Surely, what you are promised will occur.",
+        "Then when the stars lose their lights.",
+        "And when Furijat the heaven.",
+        "And when the mountains are blown away.",
+        "And when the Messengers are Uqqitat.",
+        "For what Day are these signs postponed",
+        "For the Day of Sorting Out (the men of Paradise from the men destined for Hell).",
+        "And what will explain to you what is the Day of Sorting Out",
+        "Woe that Day to the deniers (of the Day of Resurrection)!",
+        "Did We not destroy the ancients",
+        "So shall We make later generations to follow them.",
+        "Thus do We deal with the criminals.",
+        "Woe that Day to the deniers!",
+        "Did We not create you from a despised water",
+        "Then We placed it in a place of safety,",
+        "For a known period",
+        "So We did measure; and We are the best to measure.",
+        "Woe that Day to the deniers!",
+        "Have We not made the earth Kifat (a receptacle)",
+        "For the living and the dead",
+        "And have placed therein fixed towers, and have given you Furat water",
+        "Woe that Day to the deniers!",
+        "(It will be said to the disbelievers): \"Depart you to that which you used to deny!\"",
+        "\"Depart you to a shadow in three columns,\"",
+        "\"Neither shady nor of any use against the fierce flame of the Fire.\"",
+        "Verily, it (Hell) throws sparks (huge) as Al-Qasr,",
+        "As if they were Sufr camels.",
+        "Woe that Day to the deniers (of the Day of Resurrection)!",
+        "That will be a Day when they shall not speak (during some part of it),",
+        "And they will not be permitted to put forth any excuse.",
+        "Woe that Day to the deniers (of the Day of Resurrection)!",
+        "That will be a Day of Decision! We have brought you and the men of old together!",
+        "So, if you have a plot, use it against Me (Allah)!",
+        "Woe that Day to the deniers (of the Day of Resurrection)!",
+        "Verily, those who had Taqwa, shall be amidst shades and springs.",
+        "And fruits, such as they desire.",
+        "\"Eat and drink comfortably for that which you used to do.\"",
+        "Verily, thus We reward the Muhsinin.",
+        "Woe that Day to the deniers!",
+        "Eat and enjoy yourselves for a little while. Verily, you are criminals.",
+        "Woe that Day to the deniers!",
+        "And when it is said to them: \"Bow down yourself!\" They bow not down.",
+        "Woe that Day to the deniers!",
+        "Then in what statement after this will they believe"
+      ]
 }

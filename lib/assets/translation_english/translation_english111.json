@@ -1,27 +1,11 @@
 {
-    "id": "111",
+    "id": 111,
     "name": "المسد",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Perish the two hands of Abu Lahab and perish he!"
-        },
-        {
-            "id": "2",
-            "text": "His wealth and his children will not benefit him!"
-        },
-        {
-            "id": "3",
-            "text": "He will enter a Fire full of flames!"
-        },
-        {
-            "id": "4",
-            "text": "And his wife too, who carries wood."
-        },
-        {
-            "id": "5",
-            "text": "In her neck is a twisted rope of Masad."
-        }
-    ]
+        "Perish the two hands of Abu Lahab and perish he!",
+        "His wealth and his children will not benefit him!",
+        "He will enter a Fire full of flames!",
+        "And his wife too, who carries wood.",
+        "In her neck is a twisted rope of Masad."
+      ]
 }

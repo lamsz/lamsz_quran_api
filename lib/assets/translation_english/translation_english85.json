@@ -1,95 +1,28 @@
 {
-    "id": "85",
+    "id": 85,
     "name": "البروج",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "By the heaven holding the Buruj."
-        },
-        {
-            "id": "2",
-            "text": "And by by the Promised Day."
-        },
-        {
-            "id": "3",
-            "text": "And by the Witness and by the Witnessed."
-        },
-        {
-            "id": "4",
-            "text": "Cursed were the People of the Ditch."
-        },
-        {
-            "id": "5",
-            "text": "Of fire fed with fuel."
-        },
-        {
-            "id": "6",
-            "text": "When they sat by it."
-        },
-        {
-            "id": "7",
-            "text": "And they witnessed what they were doing against the believers."
-        },
-        {
-            "id": "8",
-            "text": "And they had no fault except that they believed in Allah, the Almighty, Worthy of all praise!"
-        },
-        {
-            "id": "9",
-            "text": "To Whom belongs the dominion of the heavens and the earth! And Allah is Witness over everything."
-        },
-        {
-            "id": "10",
-            "text": "Verily, those who put into trial the believing men and believing women, and then do not turn in repentance, then they will have the torment of Hell, and they will have the punishment of the burning Fire."
-        },
-        {
-            "id": "11",
-            "text": "Verily, those who believe and do righteous good deeds, for them will be Gardens under which rivers flow. That is the supreme success."
-        },
-        {
-            "id": "12",
-            "text": "Verily, the punishment of your Lord is severe and painful."
-        },
-        {
-            "id": "13",
-            "text": "Verily, He it is Who begins and repeats."
-        },
-        {
-            "id": "14",
-            "text": "And He is Oft-Forgiving, Al-Wadud."
-        },
-        {
-            "id": "15",
-            "text": "Owner of the Throne, Al-Majid (the Glorious)."
-        },
-        {
-            "id": "16",
-            "text": "Doer of what He intends."
-        },
-        {
-            "id": "17",
-            "text": "Has the story reached you of the hosts."
-        },
-        {
-            "id": "18",
-            "text": "Of Fir`awn and Thamud"
-        },
-        {
-            "id": "19",
-            "text": "Nay! The disbelievers (persisted) in denying."
-        },
-        {
-            "id": "20",
-            "text": "And Allah encompasses them from behind!"
-        },
-        {
-            "id": "21",
-            "text": "Nay! This is a Glorious Qur'an,"
-        },
-        {
-            "id": "22",
-            "text": "In Al-Lawh Al-Mahfuz!"
-        }
-    ]
+        "By the heaven holding the Buruj.",
+        "And by by the Promised Day.",
+        "And by the Witness and by the Witnessed.",
+        "Cursed were the People of the Ditch.",
+        "Of fire fed with fuel.",
+        "When they sat by it.",
+        "And they witnessed what they were doing against the believers.",
+        "And they had no fault except that they believed in Allah, the Almighty, Worthy of all praise!",
+        "To Whom belongs the dominion of the heavens and the earth! And Allah is Witness over everything.",
+        "Verily, those who put into trial the believing men and believing women, and then do not turn in repentance, then they will have the torment of Hell, and they will have the punishment of the burning Fire.",
+        "Verily, those who believe and do righteous good deeds, for them will be Gardens under which rivers flow. That is the supreme success.",
+        "Verily, the punishment of your Lord is severe and painful.",
+        "Verily, He it is Who begins and repeats.",
+        "And He is Oft-Forgiving, Al-Wadud.",
+        "Owner of the Throne, Al-Majid (the Glorious).",
+        "Doer of what He intends.",
+        "Has the story reached you of the hosts.",
+        "Of Fir`awn and Thamud",
+        "Nay! The disbelievers (persisted) in denying.",
+        "And Allah encompasses them from behind!",
+        "Nay! This is a Glorious Qur'an,",
+        "In Al-Lawh Al-Mahfuz!"
+      ]
 }

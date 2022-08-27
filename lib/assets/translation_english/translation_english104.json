@@ -1,43 +1,15 @@
 {
-    "id": "104",
+    "id": 104,
     "name": "الهمزة",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Woe to every Humazah Lumazah."
-        },
-        {
-            "id": "2",
-            "text": "Who has gathered wealth and counted it."
-        },
-        {
-            "id": "3",
-            "text": "He thinks that his wealth will make him last forever!"
-        },
-        {
-            "id": "4",
-            "text": "But no! Verily, he will be thrown into Al-Hutamah."
-        },
-        {
-            "id": "5",
-            "text": "And what will make you know what Al-Hutamah is"
-        },
-        {
-            "id": "6",
-            "text": "The fire of Allah, Al-Muqadah,"
-        },
-        {
-            "id": "7",
-            "text": "Which leaps up over the hearts."
-        },
-        {
-            "id": "8",
-            "text": "Verily, it shall Mu'sadah upon them,"
-        },
-        {
-            "id": "9",
-            "text": "In pillars stretched forth."
-        }
-    ]
+        "Woe to every Humazah Lumazah.",
+        "Who has gathered wealth and counted it.",
+        "He thinks that his wealth will make him last forever!",
+        "But no! Verily, he will be thrown into Al-Hutamah.",
+        "And what will make you know what Al-Hutamah is",
+        "The fire of Allah, Al-Muqadah,",
+        "Which leaps up over the hearts.",
+        "Verily, it shall Mu'sadah upon them,",
+        "In pillars stretched forth."
+      ]
 }

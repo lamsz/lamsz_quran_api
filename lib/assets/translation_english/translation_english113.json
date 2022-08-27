@@ -1,27 +1,11 @@
 {
-    "id": "113",
+    "id": 113,
     "name": "الفلق",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Say: \"I seek refuge with the Lord of Al-Falaq,\""
-        },
-        {
-            "id": "2",
-            "text": "\"From the evil of what He has created,\""
-        },
-        {
-            "id": "3",
-            "text": "\"And from the evil of the Ghasiq when Waqab,\""
-        },
-        {
-            "id": "4",
-            "text": "\"And from the evil of the blowers in knots,\""
-        },
-        {
-            "id": "5",
-            "text": "\"And from the evil of the envier when he envies.\""
-        }
-    ]
+        "Say: \"I seek refuge with the Lord of Al-Falaq,\"",
+        "\"From the evil of what He has created,\"",
+        "\"And from the evil of the Ghasiq when Waqab,\"",
+        "\"And from the evil of the blowers in knots,\"",
+        "\"And from the evil of the envier when he envies.\""
+      ]
 }

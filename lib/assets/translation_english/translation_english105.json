@@ -1,27 +1,11 @@
 {
-    "id": "105",
+    "id": 105,
     "name": "الفيل",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Have you not seen how your Lord dealt with the Owners of the Elephant"
-        },
-        {
-            "id": "2",
-            "text": "Did He not make their plot go astray"
-        },
-        {
-            "id": "3",
-            "text": "And He sent against them birds, in flocks (Ababil)."
-        },
-        {
-            "id": "4",
-            "text": "Striking them with stones of Sijjil."
-        },
-        {
-            "id": "5",
-            "text": "And He made them like `Asf, Ma'kul."
-        }
-    ]
+        "Have you not seen how your Lord dealt with the Owners of the Elephant",
+        "Did He not make their plot go astray",
+        "And He sent against them birds, in flocks (Ababil).",
+        "Striking them with stones of Sijjil.",
+        "And He made them like `Asf, Ma'kul."
+      ]
 }

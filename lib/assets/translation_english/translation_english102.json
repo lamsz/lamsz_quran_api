@@ -1,39 +1,14 @@
 {
-    "id": "102",
+    "id": 102,
     "name": "التكاثر",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "The mutual increase diverts you,"
-        },
-        {
-            "id": "2",
-            "text": "Until you visit the graves."
-        },
-        {
-            "id": "3",
-            "text": "Nay! You shall come to know!"
-        },
-        {
-            "id": "4",
-            "text": "Again nay! You shall come to know!"
-        },
-        {
-            "id": "5",
-            "text": "Nay! If you knew with a sure knowledge."
-        },
-        {
-            "id": "6",
-            "text": "Verily, you shall see the blazing Fire!"
-        },
-        {
-            "id": "7",
-            "text": "And again, you shall see it with certainty of sight!"
-        },
-        {
-            "id": "8",
-            "text": "Then on that Day you shall be asked about the delights!"
-        }
-    ]
+        "The mutual increase diverts you,",
+        "Until you visit the graves.",
+        "Nay! You shall come to know!",
+        "Again nay! You shall come to know!",
+        "Nay! If you knew with a sure knowledge.",
+        "Verily, you shall see the blazing Fire!",
+        "And again, you shall see it with certainty of sight!",
+        "Then on that Day you shall be asked about the delights!"
+      ]
 }

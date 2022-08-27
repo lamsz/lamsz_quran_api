@@ -1,111 +1,32 @@
 {
-    "id": "88",
+    "id": 88,
     "name": "الغاشية",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Has there come to you the narration of Al-Ghashiyah (the overwhelming)"
-        },
-        {
-            "id": "2",
-            "text": "Some faces that Day will be Khashi`ah."
-        },
-        {
-            "id": "3",
-            "text": "Laboring, weary."
-        },
-        {
-            "id": "4",
-            "text": "They will enter into Fire, Hamiyah."
-        },
-        {
-            "id": "5",
-            "text": "They will be given to drink from a boiling (Aniyah) spring,"
-        },
-        {
-            "id": "6",
-            "text": "No food will there be for them but from Dari`,"
-        },
-        {
-            "id": "7",
-            "text": "Which will neither nourish nor avail against hunger."
-        },
-        {
-            "id": "8",
-            "text": "Faces that Day will be joyful,"
-        },
-        {
-            "id": "9",
-            "text": "Glad with their endeavor."
-        },
-        {
-            "id": "10",
-            "text": "In a lofty Paradise."
-        },
-        {
-            "id": "11",
-            "text": "Where they shall neither hear harmful speech nor falsehood."
-        },
-        {
-            "id": "12",
-            "text": "Therein will be a running spring."
-        },
-        {
-            "id": "13",
-            "text": "Therein will be thrones raised high."
-        },
-        {
-            "id": "14",
-            "text": "And cups set at hand."
-        },
-        {
-            "id": "15",
-            "text": "And Namariq, set in rows."
-        },
-        {
-            "id": "16",
-            "text": "And Zarabi, spread out (Mabthuthah)."
-        },
-        {
-            "id": "17",
-            "text": "Do they not look at the camels, how they are created"
-        },
-        {
-            "id": "18",
-            "text": "And at the heaven, how it is raised"
-        },
-        {
-            "id": "19",
-            "text": "And at the mountains, how they are rooted"
-        },
-        {
-            "id": "20",
-            "text": "And at the earth, how it is outspread"
-        },
-        {
-            "id": "21",
-            "text": "So remind them -- you are only one who reminds."
-        },
-        {
-            "id": "22",
-            "text": "You are not a Musaytir over them."
-        },
-        {
-            "id": "23",
-            "text": "Save the one who turns away and disbelieves."
-        },
-        {
-            "id": "24",
-            "text": "Then Allah will punish him with the greatest punishment."
-        },
-        {
-            "id": "25",
-            "text": "Verily, to Us will be their return;"
-        },
-        {
-            "id": "26",
-            "text": "Then verily, for Us will be their reckoning."
-        }
-    ]
+        "Has there come to you the narration of Al-Ghashiyah (the overwhelming)",
+        "Some faces that Day will be Khashi`ah.",
+        "Laboring, weary.",
+        "They will enter into Fire, Hamiyah.",
+        "They will be given to drink from a boiling (Aniyah) spring,",
+        "No food will there be for them but from Dari`,",
+        "Which will neither nourish nor avail against hunger.",
+        "Faces that Day will be joyful,",
+        "Glad with their endeavor.",
+        "In a lofty Paradise.",
+        "Where they shall neither hear harmful speech nor falsehood.",
+        "Therein will be a running spring.",
+        "Therein will be thrones raised high.",
+        "And cups set at hand.",
+        "And Namariq, set in rows.",
+        "And Zarabi, spread out (Mabthuthah).",
+        "Do they not look at the camels, how they are created",
+        "And at the heaven, how it is raised",
+        "And at the mountains, how they are rooted",
+        "And at the earth, how it is outspread",
+        "So remind them -- you are only one who reminds.",
+        "You are not a Musaytir over them.",
+        "Save the one who turns away and disbelieves.",
+        "Then Allah will punish him with the greatest punishment.",
+        "Verily, to Us will be their return;",
+        "Then verily, for Us will be their reckoning."
+      ]
 }

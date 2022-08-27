@@ -1,51 +1,17 @@
 {
-    "id": "93",
+    "id": 93,
     "name": "الضحى",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "By the forenoon."
-        },
-        {
-            "id": "2",
-            "text": "By the night when it darkens."
-        },
-        {
-            "id": "3",
-            "text": "Your Lord has neither forsaken you nor hates you."
-        },
-        {
-            "id": "4",
-            "text": "And indeed the Hereafter is better for you than the present."
-        },
-        {
-            "id": "5",
-            "text": "And verily, your Lord will give you so that you shall be well-pleased."
-        },
-        {
-            "id": "6",
-            "text": "Did He not find you an orphan and gave you a refuge"
-        },
-        {
-            "id": "7",
-            "text": "And He found you unaware and guided you"
-        },
-        {
-            "id": "8",
-            "text": "And He found you poor and made you rich"
-        },
-        {
-            "id": "9",
-            "text": "Therefore, treat not the orphan with oppression."
-        },
-        {
-            "id": "10",
-            "text": "And repulse not the one who asks."
-        },
-        {
-            "id": "11",
-            "text": "And proclaim the grace of your Lord."
-        }
-    ]
+        "By the forenoon.",
+        "By the night when it darkens.",
+        "Your Lord has neither forsaken you nor hates you.",
+        "And indeed the Hereafter is better for you than the present.",
+        "And verily, your Lord will give you so that you shall be well-pleased.",
+        "Did He not find you an orphan and gave you a refuge",
+        "And He found you unaware and guided you",
+        "And He found you poor and made you rich",
+        "Therefore, treat not the orphan with oppression.",
+        "And repulse not the one who asks.",
+        "And proclaim the grace of your Lord."
+      ]
 }

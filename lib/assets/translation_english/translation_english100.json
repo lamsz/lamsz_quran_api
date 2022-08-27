@@ -1,51 +1,17 @@
 {
-    "id": "100",
+    "id": 100,
     "name": "العاديات",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "By the `Adiyat (steeds), snorting."
-        },
-        {
-            "id": "2",
-            "text": "Striking sparks of fire."
-        },
-        {
-            "id": "3",
-            "text": "And scouring to the raid at dawn."
-        },
-        {
-            "id": "4",
-            "text": "And raise the dust in clouds the while."
-        },
-        {
-            "id": "5",
-            "text": "And penetrating forthwith as one into the midst."
-        },
-        {
-            "id": "6",
-            "text": "Verily, man is ungrateful to his Lord."
-        },
-        {
-            "id": "7",
-            "text": "And to that He bears witness."
-        },
-        {
-            "id": "8",
-            "text": "And verily, he is violent in the love of wealth."
-        },
-        {
-            "id": "9",
-            "text": "Knows he not that when the contents of the graves are poured forth"
-        },
-        {
-            "id": "10",
-            "text": "And that which is in the breasts shall be made known"
-        },
-        {
-            "id": "11",
-            "text": "Verily, that Day their Lord will be Well-Acquainted with them."
-        }
-    ]
+        "By the `Adiyat (steeds), snorting.",
+        "Striking sparks of fire.",
+        "And scouring to the raid at dawn.",
+        "And raise the dust in clouds the while.",
+        "And penetrating forthwith as one into the midst.",
+        "Verily, man is ungrateful to his Lord.",
+        "And to that He bears witness.",
+        "And verily, he is violent in the love of wealth.",
+        "Knows he not that when the contents of the graves are poured forth",
+        "And that which is in the breasts shall be made known",
+        "Verily, that Day their Lord will be Well-Acquainted with them."
+      ]
 }

@@ -1,123 +1,35 @@
 {
-    "id": "81",
+    "id": 81,
     "name": "التكوير",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "When the sun is Kuwwirat."
-        },
-        {
-            "id": "2",
-            "text": "And when the stars Inkadarat."
-        },
-        {
-            "id": "3",
-            "text": "And when the mountains are made to pass away;"
-        },
-        {
-            "id": "4",
-            "text": "And when the pregnant she-camels are neglected;"
-        },
-        {
-            "id": "5",
-            "text": "And when the wild beasts are gathered together."
-        },
-        {
-            "id": "6",
-            "text": "And when the seas become as blazing fire."
-        },
-        {
-            "id": "7",
-            "text": "And when the souls are joined with their mates."
-        },
-        {
-            "id": "8",
-            "text": "And when the female infant (Al-Maw'udah) buried alive is questioned (Su'ilat):"
-        },
-        {
-            "id": "9",
-            "text": "For what sin was she killed"
-        },
-        {
-            "id": "10",
-            "text": "And when the pages are laid open."
-        },
-        {
-            "id": "11",
-            "text": "And when the heaven is Kushitat;"
-        },
-        {
-            "id": "12",
-            "text": "And when Hell is Su`irat."
-        },
-        {
-            "id": "13",
-            "text": "And when Paradise is brought near."
-        },
-        {
-            "id": "14",
-            "text": "Every person will know what he has brought."
-        },
-        {
-            "id": "15",
-            "text": "But nay! I swear by Al-Khunnas."
-        },
-        {
-            "id": "16",
-            "text": "Al-Jawar Al-Kunnas."
-        },
-        {
-            "id": "17",
-            "text": "And by the night when it `As`as."
-        },
-        {
-            "id": "18",
-            "text": "And by the day when it Tanaffas."
-        },
-        {
-            "id": "19",
-            "text": "Verily, this is the Word a most honorable messenger."
-        },
-        {
-            "id": "20",
-            "text": "Dhi Quwwah, with the Lord of the Throne -- Makin,"
-        },
-        {
-            "id": "21",
-            "text": "Obeyed there, trustworthy."
-        },
-        {
-            "id": "22",
-            "text": "And your companion is not a madman."
-        },
-        {
-            "id": "23",
-            "text": "And indeed he saw him in the clear horizon."
-        },
-        {
-            "id": "24",
-            "text": "And he withholds not a knowledge of the Unseen."
-        },
-        {
-            "id": "25",
-            "text": "And it is not the word of the outcast Shaytan."
-        },
-        {
-            "id": "26",
-            "text": "Then where are you going"
-        },
-        {
-            "id": "27",
-            "text": "Verily, this is no less than a Reminder for the creatures."
-        },
-        {
-            "id": "28",
-            "text": "To whomsoever among you who wills to walk straight."
-        },
-        {
-            "id": "29",
-            "text": "And you cannot will unless that Allah wills -- the Lord of all that exists."
-        }
-    ]
+        "When the sun is Kuwwirat.",
+        "And when the stars Inkadarat.",
+        "And when the mountains are made to pass away;",
+        "And when the pregnant she-camels are neglected;",
+        "And when the wild beasts are gathered together.",
+        "And when the seas become as blazing fire.",
+        "And when the souls are joined with their mates.",
+        "And when the female infant (Al-Maw'udah) buried alive is questioned (Su'ilat):",
+        "For what sin was she killed",
+        "And when the pages are laid open.",
+        "And when the heaven is Kushitat;",
+        "And when Hell is Su`irat.",
+        "And when Paradise is brought near.",
+        "Every person will know what he has brought.",
+        "But nay! I swear by Al-Khunnas.",
+        "Al-Jawar Al-Kunnas.",
+        "And by the night when it `As`as.",
+        "And by the day when it Tanaffas.",
+        "Verily, this is the Word a most honorable messenger.",
+        "Dhi Quwwah, with the Lord of the Throne -- Makin,",
+        "Obeyed there, trustworthy.",
+        "And your companion is not a madman.",
+        "And indeed he saw him in the clear horizon.",
+        "And he withholds not a knowledge of the Unseen.",
+        "And it is not the word of the outcast Shaytan.",
+        "Then where are you going",
+        "Verily, this is no less than a Reminder for the creatures.",
+        "To whomsoever among you who wills to walk straight.",
+        "And you cannot will unless that Allah wills -- the Lord of all that exists."
+      ]
 }

@@ -1,247 +1,66 @@
 {
-    "id": "51",
+    "id": 51,
     "name": "الذاريات",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "By the scattering Dhariyat;"
-        },
-        {
-            "id": "2",
-            "text": "And the laden Hamilat;"
-        },
-        {
-            "id": "3",
-            "text": "And the steady Jariyat;"
-        },
-        {
-            "id": "4",
-            "text": "And the distributors of command,"
-        },
-        {
-            "id": "5",
-            "text": "Verily, that which you are promised is surely true."
-        },
-        {
-            "id": "6",
-            "text": "And verily, Ad-Din is sure to occur."
-        },
-        {
-            "id": "7",
-            "text": "By the heaven full of Hubuk,"
-        },
-        {
-            "id": "8",
-            "text": "Certainly, you have different ideas."
-        },
-        {
-            "id": "9",
-            "text": "Turned aside therefrom is he who is turned aside."
-        },
-        {
-            "id": "10",
-            "text": "Cursed be Al-Kharrasun"
-        },
-        {
-            "id": "11",
-            "text": "Who are under a cover of Sahun,"
-        },
-        {
-            "id": "12",
-            "text": "They ask: \"When will be the Day of Ad-Din\""
-        },
-        {
-            "id": "13",
-            "text": "(It will be) a Day when they will be Yuftanun in the Fire!"
-        },
-        {
-            "id": "14",
-            "text": "\"Taste you your trial! This is what you used to ask to be hastened!\""
-        },
-        {
-            "id": "15",
-            "text": "Verily, those who have Taqwa will be in the midst of Gardens and Springs,"
-        },
-        {
-            "id": "16",
-            "text": "Taking joy in the things which their Lord has given them. Verily, they were before this doers of good."
-        },
-        {
-            "id": "17",
-            "text": "They used to sleep but little by night."
-        },
-        {
-            "id": "18",
-            "text": "And in the hours before dawn, they were asking for forgiveness."
-        },
-        {
-            "id": "19",
-            "text": "And in their wealth there was the right of the Sa'il and the Mahrum."
-        },
-        {
-            "id": "20",
-            "text": "And on the earth are signs for those who have faith with certainty."
-        },
-        {
-            "id": "21",
-            "text": "And also in yourselves. Will you not then see"
-        },
-        {
-            "id": "22",
-            "text": "And in the heaven is your provision, and that which you are promised."
-        },
-        {
-            "id": "23",
-            "text": "Then by the Lord of the heaven and the earth, it is the truth, just as you can speak."
-        },
-        {
-            "id": "24",
-            "text": "Has the story reached you, of the honored guests of Ibrahim"
-        },
-        {
-            "id": "25",
-            "text": "When they came in to him and said: \"Salaman!\" He answered: \"Salamun\" and said: \"You are a people unknown to me.\""
-        },
-        {
-            "id": "26",
-            "text": "Then he turned to his household, and brought out a roasted calf."
-        },
-        {
-            "id": "27",
-            "text": "And placed it before them (saying): \"Will you not eat\""
-        },
-        {
-            "id": "28",
-            "text": "Then he conceived fear of them (when they ate not). They said: \"Fear not.\" And they gave him glad tidings of a son having knowledge."
-        },
-        {
-            "id": "29",
-            "text": "Then his wife came forward with a loud voice; she smote her face, and said: \"A barren old woman!\""
-        },
-        {
-            "id": "30",
-            "text": "They said: \"Even so says your Lord. Verily, He is the All-Wise, the All-Knower.\""
-        },
-        {
-            "id": "31",
-            "text": "(Ibrahim) said: \"Then for what purpose you have come, O messengers\""
-        },
-        {
-            "id": "32",
-            "text": "They said: \"We have been sent to a people who are criminals.\""
-        },
-        {
-            "id": "33",
-            "text": "\"To send down upon them stones of clay.\""
-        },
-        {
-            "id": "34",
-            "text": "\"Marked by your Lord for transgressors.\""
-        },
-        {
-            "id": "35",
-            "text": "So We brought out from therein the believers."
-        },
-        {
-            "id": "36",
-            "text": "But We found not there any household of the Muslims except one."
-        },
-        {
-            "id": "37",
-            "text": "And We have left there a sign for those who fear the painful torment."
-        },
-        {
-            "id": "38",
-            "text": "And in Musa, when We sent him to Fir`awn with a manifest authority."
-        },
-        {
-            "id": "39",
-            "text": "But (he) turned away along with his hosts, and said: \"A sorcerer or a madman.\""
-        },
-        {
-            "id": "40",
-            "text": "So We took him and his armies, and dumped them into the sea (Yamm), for he was blameworthy."
-        },
-        {
-            "id": "41",
-            "text": "And in `Ad when We sent against them the barren wind;"
-        },
-        {
-            "id": "42",
-            "text": "It spared nothing that it reached, but blew it into broken spreads of rotten ruins."
-        },
-        {
-            "id": "43",
-            "text": "And in Thamud, when they were told: \"Enjoy yourselves for a while!\""
-        },
-        {
-            "id": "44",
-            "text": "But they insolently defied the command of their Lord, so the Sa`iqah overtook them while they were looking."
-        },
-        {
-            "id": "45",
-            "text": "Then they were unable to rise up, nor could they help themselves."
-        },
-        {
-            "id": "46",
-            "text": "(So were) the people of Nuh before them. Verily, they were a people who were rebellious."
-        },
-        {
-            "id": "47",
-            "text": "With Hands We constructed the heaven. Verily, We are able to expand the vastness of space thereof."
-        },
-        {
-            "id": "48",
-            "text": "And We have made the earth a Firash; how excellent spreader (thereof) are We!"
-        },
-        {
-            "id": "49",
-            "text": "And of everything We have created pairs, that you may remember."
-        },
-        {
-            "id": "50",
-            "text": "So, flee to Allah. Verily, I am a plain warner to you from Him."
-        },
-        {
-            "id": "51",
-            "text": "And set not up any other god along with Allah. Verily, I am a plain warner to you from Him."
-        },
-        {
-            "id": "52",
-            "text": "Likewise, no Messenger came to those before them but they said: \"A sorcerer or a madman!\""
-        },
-        {
-            "id": "53",
-            "text": "Have they transmitted this saying to these Nay, they are themselves a people transgressing beyond bounds!"
-        },
-        {
-            "id": "54",
-            "text": "So turn away from them, you are not blameworthy."
-        },
-        {
-            "id": "55",
-            "text": "And remind, for verily, the reminding profits the believers."
-        },
-        {
-            "id": "56",
-            "text": "And I created not the Jinn and mankind except that they should worship Me."
-        },
-        {
-            "id": "57",
-            "text": "I seek not any provision from them nor do I ask that they should feed Me."
-        },
-        {
-            "id": "58",
-            "text": "Verily, Allah is the All-Provider, Owner of power, the Most Strong."
-        },
-        {
-            "id": "59",
-            "text": "And verily, for those who do wrong, there is a portion of torment like to the evil portion of torment (which came for) their likes (of old); so let them not ask Me to hasten on!"
-        },
-        {
-            "id": "60",
-            "text": "Then woe to those who disbelieve from their Day which they have been promised."
-        }
-    ]
+        "By the scattering Dhariyat;",
+        "And the laden Hamilat;",
+        "And the steady Jariyat;",
+        "And the distributors of command,",
+        "Verily, that which you are promised is surely true.",
+        "And verily, Ad-Din is sure to occur.",
+        "By the heaven full of Hubuk,",
+        "Certainly, you have different ideas.",
+        "Turned aside therefrom is he who is turned aside.",
+        "Cursed be Al-Kharrasun",
+        "Who are under a cover of Sahun,",
+        "They ask: \"When will be the Day of Ad-Din\"",
+        "(It will be) a Day when they will be Yuftanun in the Fire!",
+        "\"Taste you your trial! This is what you used to ask to be hastened!\"",
+        "Verily, those who have Taqwa will be in the midst of Gardens and Springs,",
+        "Taking joy in the things which their Lord has given them. Verily, they were before this doers of good.",
+        "They used to sleep but little by night.",
+        "And in the hours before dawn, they were asking for forgiveness.",
+        "And in their wealth there was the right of the Sa'il and the Mahrum.",
+        "And on the earth are signs for those who have faith with certainty.",
+        "And also in yourselves. Will you not then see",
+        "And in the heaven is your provision, and that which you are promised.",
+        "Then by the Lord of the heaven and the earth, it is the truth, just as you can speak.",
+        "Has the story reached you, of the honored guests of Ibrahim",
+        "When they came in to him and said: \"Salaman!\" He answered: \"Salamun\" and said: \"You are a people unknown to me.\"",
+        "Then he turned to his household, and brought out a roasted calf.",
+        "And placed it before them (saying): \"Will you not eat\"",
+        "Then he conceived fear of them (when they ate not). They said: \"Fear not.\" And they gave him glad tidings of a son having knowledge.",
+        "Then his wife came forward with a loud voice; she smote her face, and said: \"A barren old woman!\"",
+        "They said: \"Even so says your Lord. Verily, He is the All-Wise, the All-Knower.\"",
+        "(Ibrahim) said: \"Then for what purpose you have come, O messengers\"",
+        "They said: \"We have been sent to a people who are criminals.\"",
+        "\"To send down upon them stones of clay.\"",
+        "\"Marked by your Lord for transgressors.\"",
+        "So We brought out from therein the believers.",
+        "But We found not there any household of the Muslims except one.",
+        "And We have left there a sign for those who fear the painful torment.",
+        "And in Musa, when We sent him to Fir`awn with a manifest authority.",
+        "But (he) turned away along with his hosts, and said: \"A sorcerer or a madman.\"",
+        "So We took him and his armies, and dumped them into the sea (Yamm), for he was blameworthy.",
+        "And in `Ad when We sent against them the barren wind;",
+        "It spared nothing that it reached, but blew it into broken spreads of rotten ruins.",
+        "And in Thamud, when they were told: \"Enjoy yourselves for a while!\"",
+        "But they insolently defied the command of their Lord, so the Sa`iqah overtook them while they were looking.",
+        "Then they were unable to rise up, nor could they help themselves.",
+        "(So were) the people of Nuh before them. Verily, they were a people who were rebellious.",
+        "With Hands We constructed the heaven. Verily, We are able to expand the vastness of space thereof.",
+        "And We have made the earth a Firash; how excellent spreader (thereof) are We!",
+        "And of everything We have created pairs, that you may remember.",
+        "So, flee to Allah. Verily, I am a plain warner to you from Him.",
+        "And set not up any other god along with Allah. Verily, I am a plain warner to you from Him.",
+        "Likewise, no Messenger came to those before them but they said: \"A sorcerer or a madman!\"",
+        "Have they transmitted this saying to these Nay, they are themselves a people transgressing beyond bounds!",
+        "So turn away from them, you are not blameworthy.",
+        "And remind, for verily, the reminding profits the believers.",
+        "And I created not the Jinn and mankind except that they should worship Me.",
+        "I seek not any provision from them nor do I ask that they should feed Me.",
+        "Verily, Allah is the All-Provider, Owner of power, the Most Strong.",
+        "And verily, for those who do wrong, there is a portion of torment like to the evil portion of torment (which came for) their likes (of old); so let them not ask Me to hasten on!",
+        "Then woe to those who disbelieve from their Day which they have been promised."
+      ]
 }

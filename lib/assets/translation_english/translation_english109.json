@@ -1,31 +1,12 @@
 {
-    "id": "109",
+    "id": 109,
     "name": "الكافرون",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Say: \"O disbelievers!\""
-        },
-        {
-            "id": "2",
-            "text": "\"I worship not that which you worship.\""
-        },
-        {
-            "id": "3",
-            "text": "\"Nor will you worship whom I worship.\""
-        },
-        {
-            "id": "4",
-            "text": "\"And I shall not worship that which you are worshipping.\""
-        },
-        {
-            "id": "5",
-            "text": "\"Nor will you worship that which I worship.\""
-        },
-        {
-            "id": "6",
-            "text": "\"To you be your religion, and to me my religion.\""
-        }
-    ]
+        "Say: \"O disbelievers!\"",
+        "\"I worship not that which you worship.\"",
+        "\"Nor will you worship whom I worship.\"",
+        "\"And I shall not worship that which you are worshipping.\"",
+        "\"Nor will you worship that which I worship.\"",
+        "\"To you be your religion, and to me my religion.\""
+      ]
 }

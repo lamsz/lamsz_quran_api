@@ -1,119 +1,34 @@
 {
-    "id": "72",
+    "id": 72,
     "name": "الجن",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "Say: \"It has been revealed to me that a group of Jinn listened. They said: `Verily, we have heard a wonderful Recitation!'"
-        },
-        {
-            "id": "2",
-            "text": "`It guides to the right path, and we have believed therein, and we shall never join anything with our Lord.'"
-        },
-        {
-            "id": "3",
-            "text": "`And He, exalted be the Jadd of our Lord, has taken neither a wife nor a son.'"
-        },
-        {
-            "id": "4",
-            "text": "`And that the foolish among us used to utter against Allah that which was an enormity in falsehood.'"
-        },
-        {
-            "id": "5",
-            "text": "`And verily, we thought that men and Jinn would not utter a lie against Allah.'"
-        },
-        {
-            "id": "6",
-            "text": "`And verily, there were men among mankind who took shelter with the males among the Jinn, but they increased them in Rahaq.'"
-        },
-        {
-            "id": "7",
-            "text": "`And they thought as you thought, that Allah will not send any Messenger.'"
-        },
-        {
-            "id": "8",
-            "text": "`And we have sought to reach the heaven; but we found it filled with stern guards and flaming fires.'"
-        },
-        {
-            "id": "9",
-            "text": "`And verily, we used to sit there in stations, to (steal) a hearing, but any who listens now will find a flaming fire watching him in ambush.'"
-        },
-        {
-            "id": "10",
-            "text": "`And we know not whether evil is intended for those on the earth, or whether their Lord intends for them guidance.'"
-        },
-        {
-            "id": "11",
-            "text": "`There are among us some that are righteous, and some the contrary; we are groups having different ways.'"
-        },
-        {
-            "id": "12",
-            "text": "`And we think that we cannot escape Allah in the earth, nor can we escape Him by flight.'"
-        },
-        {
-            "id": "13",
-            "text": "`And indeed when we heard the Guidance, we believed therein, and whosoever believes in his Lord shall have no fear, either of a decrease in the reward of his good deeds or an increase in the punishment for his sins.'"
-        },
-        {
-            "id": "14",
-            "text": "`And of us some are Muslims, and of us some are Al-Qasitun. And whosoever has embraced Islam, then such have sought the right path.' \""
-        },
-        {
-            "id": "15",
-            "text": "And as for the Qasitun, they shall be firewood for Hell."
-        },
-        {
-            "id": "16",
-            "text": "If they had believed in Allah, and went on the way, We would surely have bestowed on them water in abundance."
-        },
-        {
-            "id": "17",
-            "text": "That We might try them thereby. And whosoever turns away from the Reminder of his Lord, He will cause him to enter in a Sa`ad torment."
-        },
-        {
-            "id": "18",
-            "text": "And the Masjids are for Allah, so invoke not anyone along with Allah."
-        },
-        {
-            "id": "19",
-            "text": "And when the servant of Allah stood up invoking Him in prayer they just made round him a dense crowd as if sticking one over the other."
-        },
-        {
-            "id": "20",
-            "text": "Say: \"I invoke only my Lord, and I associate none as partners along with Him.\""
-        },
-        {
-            "id": "21",
-            "text": "Say: \"It is not in my power to cause you harm, or to bring you to the right path.\""
-        },
-        {
-            "id": "22",
-            "text": "Say: \"None can protect me from Allah's punishment, nor can I find refuge except in Him.\""
-        },
-        {
-            "id": "23",
-            "text": "\"(Mine is) but conveyance from Allah and His Messages, and whosoever disobeys Allah and His Messenger, then verily, for him is the fire of Hell, he shall dwell therein forever.\""
-        },
-        {
-            "id": "24",
-            "text": "Till, when they see that which they are promised, then they will know who it is that is weaker concerning helpers and less important concerning numbers."
-        },
-        {
-            "id": "25",
-            "text": "Say: \"I know not whether that which you are promised is near or whether my Lord will appoint for it a distant term.\""
-        },
-        {
-            "id": "26",
-            "text": "\"The All-Knower of the Unseen, and He reveals to none His Unseen.\""
-        },
-        {
-            "id": "27",
-            "text": "Except to a Messenger whom He has chosen, and then He makes a band of watching guards to march before him and behind him."
-        },
-        {
-            "id": "28",
-            "text": "Till he knows that they have conveyed the Messages of their Lord. And He surrounds all that which is with them, and He keeps count of all things."
-        }
-    ]
+        "Say: \"It has been revealed to me that a group of Jinn listened. They said: `Verily, we have heard a wonderful Recitation!'",
+        "`It guides to the right path, and we have believed therein, and we shall never join anything with our Lord.'",
+        "`And He, exalted be the Jadd of our Lord, has taken neither a wife nor a son.'",
+        "`And that the foolish among us used to utter against Allah that which was an enormity in falsehood.'",
+        "`And verily, we thought that men and Jinn would not utter a lie against Allah.'",
+        "`And verily, there were men among mankind who took shelter with the males among the Jinn, but they increased them in Rahaq.'",
+        "`And they thought as you thought, that Allah will not send any Messenger.'",
+        "`And we have sought to reach the heaven; but we found it filled with stern guards and flaming fires.'",
+        "`And verily, we used to sit there in stations, to (steal) a hearing, but any who listens now will find a flaming fire watching him in ambush.'",
+        "`And we know not whether evil is intended for those on the earth, or whether their Lord intends for them guidance.'",
+        "`There are among us some that are righteous, and some the contrary; we are groups having different ways.'",
+        "`And we think that we cannot escape Allah in the earth, nor can we escape Him by flight.'",
+        "`And indeed when we heard the Guidance, we believed therein, and whosoever believes in his Lord shall have no fear, either of a decrease in the reward of his good deeds or an increase in the punishment for his sins.'",
+        "`And of us some are Muslims, and of us some are Al-Qasitun. And whosoever has embraced Islam, then such have sought the right path.' \"",
+        "And as for the Qasitun, they shall be firewood for Hell.",
+        "If they had believed in Allah, and went on the way, We would surely have bestowed on them water in abundance.",
+        "That We might try them thereby. And whosoever turns away from the Reminder of his Lord, He will cause him to enter in a Sa`ad torment.",
+        "And the Masjids are for Allah, so invoke not anyone along with Allah.",
+        "And when the servant of Allah stood up invoking Him in prayer they just made round him a dense crowd as if sticking one over the other.",
+        "Say: \"I invoke only my Lord, and I associate none as partners along with Him.\"",
+        "Say: \"It is not in my power to cause you harm, or to bring you to the right path.\"",
+        "Say: \"None can protect me from Allah's punishment, nor can I find refuge except in Him.\"",
+        "\"(Mine is) but conveyance from Allah and His Messages, and whosoever disobeys Allah and His Messenger, then verily, for him is the fire of Hell, he shall dwell therein forever.\"",
+        "Till, when they see that which they are promised, then they will know who it is that is weaker concerning helpers and less important concerning numbers.",
+        "Say: \"I know not whether that which you are promised is near or whether my Lord will appoint for it a distant term.\"",
+        "\"The All-Knower of the Unseen, and He reveals to none His Unseen.\"",
+        "Except to a Messenger whom He has chosen, and then He makes a band of watching guards to march before him and behind him.",
+        "Till he knows that they have conveyed the Messages of their Lord. And He surrounds all that which is with them, and He keeps count of all things."
+      ]
 }

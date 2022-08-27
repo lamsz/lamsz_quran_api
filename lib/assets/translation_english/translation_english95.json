@@ -1,39 +1,14 @@
 {
-    "id": "95",
+    "id": 95,
     "name": "التين",
-    "remark": "",
     "ayaTranslation": [
-        {
-            "id": "1",
-            "text": "By At-Tin and Az-Zaytun."
-        },
-        {
-            "id": "2",
-            "text": "By Tur Sinin."
-        },
-        {
-            "id": "3",
-            "text": "By this city of security."
-        },
-        {
-            "id": "4",
-            "text": "Verily, We created man in the best form."
-        },
-        {
-            "id": "5",
-            "text": "Then We reduced him to the lowest of the low."
-        },
-        {
-            "id": "6",
-            "text": "Save those who believe and do righteous deeds. Then they shall have a reward without end."
-        },
-        {
-            "id": "7",
-            "text": "Then what causes you to deny after this the Recompense"
-        },
-        {
-            "id": "8",
-            "text": "Is not Allah the best of judges"
-        }
-    ]
+        "By At-Tin and Az-Zaytun.",
+        "By Tur Sinin.",
+        "By this city of security.",
+        "Verily, We created man in the best form.",
+        "Then We reduced him to the lowest of the low.",
+        "Save those who believe and do righteous deeds. Then they shall have a reward without end.",
+        "Then what causes you to deny after this the Recompense",
+        "Is not Allah the best of judges"
+      ]
 }
