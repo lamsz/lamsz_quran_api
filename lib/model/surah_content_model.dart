@@ -1,42 +1,35 @@
+import '../util/util.dart';
+
 class SurahContentModel {
-  String? id;
+  int? id;
   String? name;
   String? remark;
   List<Aya>? aya;
-  List<AyaTranslation>? ayaTranslation;
-  List<AyaTranslation>? ayaTransliteration;
+  List<String>? _ayaList;
+  String? translationLang;
 
-  SurahContentModel(
-      {this.id,
-      this.name,
-      this.remark,
-      this.aya,
-      this.ayaTranslation,
-      this.ayaTransliteration});
+  SurahContentModel({
+    this.id,
+    this.name,
+    this.remark,
+    this.aya,
+  });
 
   SurahContentModel.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
+    id = int.parse(json['id'].toString());
     name = json['name'];
     remark = json['remark'];
     if (json['aya'] != null) {
+      _ayaList = json['aya'].cast<String>();
+    }
+    if (_ayaList != null) {
       aya = <Aya>[];
-      json['aya'].forEach((v) {
-        aya!.add(Aya.fromJson(v));
-      });
-    }
-
-    if (json['ayaTranslation'] != null) {
-      ayaTranslation = <AyaTranslation>[];
-      json['ayaTranslation'].forEach((v) {
-        ayaTranslation!.add(AyaTranslation.fromJson(v));
-      });
-    }
-
-    if (json['ayaTranslation'] != null) {
-      ayaTransliteration = <AyaTranslation>[];
-      json['ayaTranslation'].forEach((v) {
-        ayaTransliteration!.add(AyaTranslation.fromJson(v));
-      });
+      int number = 1;
+      for (var element in _ayaList ?? []) {
+        var ayaData = Aya(id: number, arabic: element);
+        aya?.add(ayaData); // aya![number - 1] = ayaData;
+        number++;
+      }
     }
   }
 
@@ -45,66 +38,57 @@ class SurahContentModel {
     data['id'] = id;
     data['name'] = name;
     data['remark'] = remark;
-    if (aya != null) {
-      data['aya'] = aya!.map((v) => v.toJson()).toList();
-    }
-    if (ayaTranslation != null) {
-      data['ayaTranslation'] = ayaTranslation!.map((v) => v.toJson()).toList();
-    }
-    if (ayaTransliteration != null) {
-      data['ayaTranslation'] =
-          ayaTransliteration!.map((v) => v.toJson()).toList();
+    if (_ayaList != null) {
+      data['aya'] = _ayaList;
     }
     return data;
   }
 
-  void setAyaTranslation(List<AyaTranslation> ayaTranslation) {
+  void setAyaTranslation(List<String> ayaTranslation) {
+    int number = 1;
     for (var element in ayaTranslation) {
-      var ayaTemp = aya![int.parse(element.id!) - 1];
-      ayaTemp.translation = element.text;
-      aya![int.parse(element.id!) - 1] = ayaTemp;
+      var ayaTemp = aya![number - 1];
+      ayaTemp.translation = element;
+      aya![number - 1] = ayaTemp;
+      number++;
     }
-    this.ayaTranslation = ayaTranslation;
   }
 
-  void setAyaTransliteration(List<AyaTranslation> ayaTransliteration) {
+  void setAyaTransliteration(List<String> ayaTransliteration) {
+    int number = 1;
     for (var element in ayaTransliteration) {
-      var ayaTemp = aya![int.parse(element.id!) - 1];
-      ayaTemp.transliteration = element.text;
-      aya![int.parse(element.id!) - 1] = ayaTemp;
+      var ayaTemp = aya![number - 1];
+      ayaTemp.transliteration = element;
+      // aya![number - 1] = ayaTemp;
+      number++;
     }
-    this.ayaTransliteration = ayaTransliteration;
   }
+
+  String get arabicIndex => convertNumberToArabic(id.toString());
 }
 
 class Aya {
-  String? id;
-  String? text;
-  String? remark;
+  int? id;
+  String? arabic;
   String? translation;
-  String? remarkTranslation;
   String? transliteration;
   String? audioURL;
 
-  Aya({this.id, this.text});
+  Aya({this.id, this.arabic});
 
   Aya.fromJson(Map<String, dynamic> json) {
     id = json['id'];
-    text = json['text'];
+    arabic = json['arabic'];
     translation = json['translation'];
     transliteration = json['transliteration'];
     audioURL = json['audioURL'];
-    remark = json['remark'];
-    remarkTranslation = json['remark_translation'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['id'] = id;
-    data['text'] = text;
-    data['remark'] = remark;
+    data['arabic'] = arabic;
     data['translation'] = translation;
-    data['remark_translation'] = remarkTranslation;
     data['transliteration'] = transliteration;
     data['audioURL'] = audioURL;
     return data;
@@ -112,29 +96,14 @@ class Aya {
 
   @override
   String toString() {
-    return """id: $id, arabicText: $text,
-     remark: ${remark ?? ''}, translation: ${translation ?? ''}, 
-     remark_translation: ${remarkTranslation ?? ''}, 
+    return """
+     id: $id, 
+     arabicIndex: $arabicIndex,
+     arabicText: $arabic,
+     translation: ${translation ?? ''}, 
      translliteration: ${transliteration ?? ''},
      audioURL : ${audioURL ?? ''}""";
   }
-}
 
-class AyaTranslation {
-  String? id;
-  String? text;
-
-  AyaTranslation({this.id, this.text});
-
-  AyaTranslation.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
-    text = json['text'];
-  }
-
-  Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = <String, dynamic>{};
-    data['id'] = id;
-    data['text'] = text;
-    return data;
-  }
+  String get arabicIndex => convertNumberToArabic(id.toString());
 }

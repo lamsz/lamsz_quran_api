@@ -2,23 +2,6 @@ import '../datasource/quran_datasource.dart';
 import '../model/surah_content_model.dart';
 import '../model/surah_header_model.dart';
 
-const Map<String, String> arabicDigits = <String, String>{
-  '0': '\u0660',
-  '1': '\u0661',
-  '2': '\u0662',
-  '3': '\u0663',
-  '4': '\u0664',
-  '5': '\u0665',
-  '6': '\u0666',
-  '7': '\u0667',
-  '8': '\u0668',
-  '9': '\u0669',
-};
-
-QuranDatasource getDataSource() {
-  return QuranDatasource();
-}
-
 ///Returns Al Quran data containing list of surah and its detail
 ///
 ///Example:
@@ -47,7 +30,7 @@ QuranDatasource getDataSource() {
 ///
 ///Length of the list is the total number of surah in Al Quran.
 Future<List<SurahHeaderModel>> getSurahList() {
-  return getDataSource().getSurahList();
+  return QuranDatasource.instance.getSurahList();
 }
 
 ///Returns Al Quran data containing list of surah and its detail
@@ -77,7 +60,7 @@ Future<List<SurahHeaderModel>> getSurahList() {
 ///
 ///Length of the list is the total number of surah in Al Quran.
 Future<List<SurahHeaderModel>> searchSurah(String text) async {
-  var surahList = await getDataSource().getSurahList();
+  var surahList = await QuranDatasource.instance.getSurahList();
   var searchList = surahList
       .where((element) =>
           filterText(element.nameLatin!).contains(filterText(text)))
@@ -118,7 +101,7 @@ filterText(String text) {
 ///Example:
 ///
 ///```dart
-///getSurahData(surahNumber: '1', translationLang: 'english');
+///getSurahData(surahNumber: 1, translationLang: 'english');
 ///```
 ///
 /// Returns name, aya list, aya translation list and transliteration (latin):
@@ -143,8 +126,8 @@ filterText(String text) {
 ///
 ///Length of the list is the total number of surah in Al Quran.
 Future<SurahContentModel> getSurahData(
-    {required String surahNumber, required String translationLang}) async {
-  return await getDataSource().getSurahContent(
+    {required int surahNumber, required String translationLang}) async {
+  return await QuranDatasource.instance.getSurahContent(
       surahNumber: surahNumber, translationLang: translationLang);
 }
 
@@ -153,7 +136,7 @@ Future<SurahContentModel> getSurahData(
 ///Example:
 ///
 ///```dart
-///getAya(surahNumber: '1', aya: '1', translationLang: 'english');
+///getAya(surahNumber: 1, aya: 1, translationLang: 'english');
 ///```
 ///
 /// Returns number, arabic text, translation, transliteration:
@@ -174,18 +157,7 @@ Future<Aya> getAyaData(
     {required int surahNumber,
     required int ayaNumber,
     required String translationLang}) async {
-  var surah = await getDataSource().getSurahContent(
-      surahNumber: surahNumber.toString(), translationLang: translationLang);
-  var aya = surah.aya![ayaNumber];
-  aya.translation = surah.ayaTranslation?[ayaNumber].text ?? '';
-  aya.transliteration = surah.ayaTransliteration?[ayaNumber].text ?? '';
-  return aya;
-}
-
-String convertNumberToArabic(String input) {
-  StringBuffer sb = StringBuffer();
-  for (int i = 0; i < input.length; i++) {
-    sb.write(arabicDigits[input[i]] ?? input[i]);
-  }
-  return sb.toString();
+  var surah = await QuranDatasource.instance.getSurahContent(
+      surahNumber: surahNumber, translationLang: translationLang);
+  return surah.aya![ayaNumber];
 }
