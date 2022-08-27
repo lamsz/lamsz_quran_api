@@ -1,175 +1,48 @@
 ﻿{
-  "id": "80",
+  "id": 80,
   "name": "عبس",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Dia (Muhammad) bermuka masam dan berpaling,"
-    },
-    {
-      "id": "2",
-      "text": "karena telah datang seorang buta kepadanya."
-    },
-    {
-      "id": "3",
-      "text": "Tahukah kamu barangkali ia ingin membersihkan dirinya (dari dosa),"
-    },
-    {
-      "id": "4",
-      "text": "atau dia (ingin) mendapatkan pengajaran, lalu pengajaran itu memberi manfaat kepadanya?"
-    },
-    {
-      "id": "5",
-      "text": "Adapun orang yang merasa dirinya serba cukup,"
-    },
-    {
-      "id": "6",
-      "text": "maka kamu melayaninya."
-    },
-    {
-      "id": "7",
-      "text": "Padahal tidak ada (celaan) atasmu kalau dia tidak membersihkan diri (beriman)."
-    },
-    {
-      "id": "8",
-      "text": "Dan adapun orang yang datang kepadamu dengan bersegera (untuk mendapatkan pengajaran),"
-    },
-    {
-      "id": "9",
-      "text": "sedang ia takut kepada (Allah),"
-    },
-    {
-      "id": "10",
-      "text": "maka kamu mengabaikannya."
-    },
-    {
-      "id": "11",
-      "text": "Sekali-kali jangan (demikian)! Sesungguhnya ajaran-ajaran Tuhan itu adalah suatu peringatan,"
-    },
-    {
-      "id": "12",
-      "text": "maka barangsiapa yang menghendaki, tentulah ia memperhatikannya,"
-    },
-    {
-      "id": "13",
-      "text": "di dalam kitab-kitab yang dimuliakan,"
-    },
-    {
-      "id": "14",
-      "text": "yang ditinggikan lagi disucikan,"
-    },
-    {
-      "id": "15",
-      "text": "di tangan para penulis (malaikat),"
-    },
-    {
-      "id": "16",
-      "text": "yang mulia lagi berbakti."
-    },
-    {
-      "id": "17",
-      "text": "Binasalah manusia; alangkah amat sangat kekafirannya?"
-    },
-    {
-      "id": "18",
-      "text": "Dari apakah Allah menciptakannya?"
-    },
-    {
-      "id": "19",
-      "text": "Dari setetes mani, Allah menciptakannya lalu menentukannya."
-    },
-    {
-      "id": "20",
-      "text": "Kemudian Dia memudahkan jalannya."
-    },
-    {
-      "id": "21",
-      "text": "kemudian Dia mematikannya dan memasukkannya ke dalam kubur,"
-    },
-    {
-      "id": "22",
-      "text": "kemudian bila Dia menghendaki, Dia membangkitkannya kembali."
-    },
-    {
-      "id": "23",
-      "text": "Sekali-kali jangan; manusia itu belum melaksanakan apa yang diperintahkan Allah kepadanya,"
-    },
-    {
-      "id": "24",
-      "text": "maka hendaklah manusia itu memperhatikan makanannya."
-    },
-    {
-      "id": "25",
-      "text": "Sesungguhnya Kami benar-benar telah mencurahkan air (dari langit),"
-    },
-    {
-      "id": "26",
-      "text": "kemudian Kami belah bumi dengan sebaik-baiknya,"
-    },
-    {
-      "id": "27",
-      "text": "lalu Kami tumbuhkan biji-bijian di bumi itu,"
-    },
-    {
-      "id": "28",
-      "text": "anggur dan sayur-sayuran,"
-    },
-    {
-      "id": "29",
-      "text": "zaitun dan kurma,"
-    },
-    {
-      "id": "30",
-      "text": "kebun-kebun (yang) lebat,"
-    },
-    {
-      "id": "31",
-      "text": "dan buah-buahan serta rumput-rumputan,"
-    },
-    {
-      "id": "32",
-      "text": "untuk kesenanganmu dan untuk binatang-binatang ternakmu."
-    },
-    {
-      "id": "33",
-      "text": "Dan apabila datang suara yang memekakkan (tiupan sangkakala yang kedua),"
-    },
-    {
-      "id": "34",
-      "text": "pada hari ketika manusia lari dari saudaranya,"
-    },
-    {
-      "id": "35",
-      "text": "dari ibu dan bapaknya,"
-    },
-    {
-      "id": "36",
-      "text": "dari istri dan anak-anaknya."
-    },
-    {
-      "id": "37",
-      "text": "Setiap orang dari mereka pada hari itu mempunyai urusan yang cukup menyibukkannya."
-    },
-    {
-      "id": "38",
-      "text": "Banyak muka pada hari itu berseri-seri,"
-    },
-    {
-      "id": "39",
-      "text": "tertawa dan bergembira ria,"
-    },
-    {
-      "id": "40",
-      "text": "dan banyak (pula) muka pada hari itu tertutup debu,"
-    },
-    {
-      "id": "41",
-      "text": "dan ditutup lagi oleh kegelapan."
-    },
-    {
-      "id": "42",
-      "text": "Mereka itulah orang-orang kafir lagi durhaka."
-    }
+    "Dia (Muhammad) bermuka masam dan berpaling,",
+    "karena telah datang seorang buta kepadanya.",
+    "Tahukah kamu barangkali ia ingin membersihkan dirinya (dari dosa),",
+    "atau dia (ingin) mendapatkan pengajaran, lalu pengajaran itu memberi manfaat kepadanya?",
+    "Adapun orang yang merasa dirinya serba cukup,",
+    "maka kamu melayaninya.",
+    "Padahal tidak ada (celaan) atasmu kalau dia tidak membersihkan diri (beriman).",
+    "Dan adapun orang yang datang kepadamu dengan bersegera (untuk mendapatkan pengajaran),",
+    "sedang ia takut kepada (Allah),",
+    "maka kamu mengabaikannya.",
+    "Sekali-kali jangan (demikian)! Sesungguhnya ajaran-ajaran Tuhan itu adalah suatu peringatan,",
+    "maka barangsiapa yang menghendaki, tentulah ia memperhatikannya,",
+    "di dalam kitab-kitab yang dimuliakan,",
+    "yang ditinggikan lagi disucikan,",
+    "di tangan para penulis (malaikat),",
+    "yang mulia lagi berbakti.",
+    "Binasalah manusia; alangkah amat sangat kekafirannya?",
+    "Dari apakah Allah menciptakannya?",
+    "Dari setetes mani, Allah menciptakannya lalu menentukannya.",
+    "Kemudian Dia memudahkan jalannya.",
+    "kemudian Dia mematikannya dan memasukkannya ke dalam kubur,",
+    "kemudian bila Dia menghendaki, Dia membangkitkannya kembali.",
+    "Sekali-kali jangan; manusia itu belum melaksanakan apa yang diperintahkan Allah kepadanya,",
+    "maka hendaklah manusia itu memperhatikan makanannya.",
+    "Sesungguhnya Kami benar-benar telah mencurahkan air (dari langit),",
+    "kemudian Kami belah bumi dengan sebaik-baiknya,",
+    "lalu Kami tumbuhkan biji-bijian di bumi itu,",
+    "anggur dan sayur-sayuran,",
+    "zaitun dan kurma,",
+    "kebun-kebun (yang) lebat,",
+    "dan buah-buahan serta rumput-rumputan,",
+    "untuk kesenanganmu dan untuk binatang-binatang ternakmu.",
+    "Dan apabila datang suara yang memekakkan (tiupan sangkakala yang kedua),",
+    "pada hari ketika manusia lari dari saudaranya,",
+    "dari ibu dan bapaknya,",
+    "dari istri dan anak-anaknya.",
+    "Setiap orang dari mereka pada hari itu mempunyai urusan yang cukup menyibukkannya.",
+    "Banyak muka pada hari itu berseri-seri,",
+    "tertawa dan bergembira ria,",
+    "dan banyak (pula) muka pada hari itu tertutup debu,",
+    "dan ditutup lagi oleh kegelapan.",
+    "Mereka itulah orang-orang kafir lagi durhaka."
   ]
 }

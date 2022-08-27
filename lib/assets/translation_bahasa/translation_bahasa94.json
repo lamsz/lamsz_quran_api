@@ -1,39 +1,14 @@
 ﻿{
-  "id": "94",
+  "id": 94,
   "name": "الشرح",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Bukankah Kami telah melapangkan untukmu dadamu?,"
-    },
-    {
-      "id": "2",
-      "text": "dan Kami telah menghilangkan daripadamu bebanmu,"
-    },
-    {
-      "id": "3",
-      "text": "yang memberatkan punggungmu?"
-    },
-    {
-      "id": "4",
-      "text": "Dan Kami tinggikan bagimu sebutan (nama)mu,"
-    },
-    {
-      "id": "5",
-      "text": "Karena sesungguhnya sesudah kesulitan itu ada kemudahan,"
-    },
-    {
-      "id": "6",
-      "text": "sesungguhnya sesudah kesulitan itu ada kemudahan."
-    },
-    {
-      "id": "7",
-      "text": "Maka apabila kamu telah selesai (dari sesuatu urusan), kerjakanlah dengan sungguh-sungguh (urusan) yang lain,"
-    },
-    {
-      "id": "8",
-      "text": "dan hanya kepada Tuhanmulah hendaknya kamu berharap."
-    }
+    "Bukankah Kami telah melapangkan untukmu dadamu?,",
+    "dan Kami telah menghilangkan daripadamu bebanmu,",
+    "yang memberatkan punggungmu?",
+    "Dan Kami tinggikan bagimu sebutan (nama)mu,",
+    "Karena sesungguhnya sesudah kesulitan itu ada kemudahan,",
+    "sesungguhnya sesudah kesulitan itu ada kemudahan.",
+    "Maka apabila kamu telah selesai (dari sesuatu urusan), kerjakanlah dengan sungguh-sungguh (urusan) yang lain,",
+    "dan hanya kepada Tuhanmulah hendaknya kamu berharap."
   ]
 }

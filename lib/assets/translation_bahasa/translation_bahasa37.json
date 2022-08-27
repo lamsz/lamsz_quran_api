@@ -1,735 +1,188 @@
 ﻿{
-  "id": "37",
+  "id": 37,
   "name": "الصافات",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Demi (rombongan) yang ber shaf-shaf dengan sebenar-benarnya],"
-    },
-    {
-      "id": "2",
-      "text": "dan demi (rombongan) yang melarang dengan sebenar-benarnya (dari perbuatan-perbuatan maksiat),"
-    },
-    {
-      "id": "3",
-      "text": "dan demi (rombongan) yang membacakan pelajaran,"
-    },
-    {
-      "id": "4",
-      "text": "Sesungguhnya Tuhanmu benar-benar Esa."
-    },
-    {
-      "id": "5",
-      "text": "Tuhan langit dan bumi dan apa yang berada di antara keduanya dan Tuhan tempat-tempat terbit matahari."
-    },
-    {
-      "id": "6",
-      "text": "Sesungguhnya Kami telah menghias langit yang terdekat dengan hiasan, yaitu bintang-bintang,"
-    },
-    {
-      "id": "7",
-      "text": "dan telah memeliharanya (sebenar-benarnya) dari setiap syaitan yang sangat durhaka,"
-    },
-    {
-      "id": "8",
-      "text": "syaitan syaitan itu tidak dapat mendengar-dengarkan (pembicaraan) para malaikat dan mereka dilempari dari segala penjuru."
-    },
-    {
-      "id": "9",
-      "text": "Untuk mengusir mereka dan bagi mereka siksaan yang kekal,"
-    },
-    {
-      "id": "10",
-      "text": "akan tetapi barangsiapa (di antara mereka) yang mencuri-curi (pembicaraan); maka ia dikejar oleh suluh api yang cemerlang."
-    },
-    {
-      "id": "11",
-      "text": "Maka tanyakanlah kepada mereka (musyrik Mekah): \"Apakah mereka yang lebih kukuh kejadiannya ataukah apa yang telah Kami ciptakan itu?\" Sesungguhnya Kami telah menciptakan mereka dari tanah liat."
-    },
-    {
-      "id": "12",
-      "text": "Bahkan kamu menjadi heran (terhadap keingkaran mereka) dan mereka menghinakan kamu."
-    },
-    {
-      "id": "13",
-      "text": "Dan apabila mereka diberi pelajaran mereka tiada mengingatnya."
-    },
-    {
-      "id": "14",
-      "text": "Dan apabila mereka melihat sesuatu tanda kebesaran Allah, mereka sangat menghinakan."
-    },
-    {
-      "id": "15",
-      "text": "Dan mereka berkata \"Ini tiada lain hanyalah sihir yang nyata."
-    },
-    {
-      "id": "16",
-      "text": "Apakah apabila kami telah mati dan telah menjadi tanah serta menjadi tulang belulang, apakah benar-benar kami akan dibangkitkan (kembali)?"
-    },
-    {
-      "id": "17",
-      "text": "Dan apakah bapak-bapak kami yang telah terdahulu (akan dibangkitkan pula)\"?"
-    },
-    {
-      "id": "18",
-      "text": "Katakanlah: \"Ya, dan kamu akan terhina\""
-    },
-    {
-      "id": "19",
-      "text": "Maka sesungguhnya kebangkitan itu hanya dengan satu teriakan saja; maka tiba-tiba mereka meIihatnya."
-    },
-    {
-      "id": "20",
-      "text": "Dan mereka berkata: \"Aduhai celakalah kita!\" Inilah hari pembalasan."
-    },
-    {
-      "id": "21",
-      "text": "Inilah hari keputusan yang kamu selalu mendustakannya."
-    },
-    {
-      "id": "22",
-      "text": "(kepada malaikat diperintahkan): \"Kumpulkanlah orang-orang yang zalim beserta teman sejawat mereka dan sembahan-sembahan yang selalu mereka sembah,"
-    },
-    {
-      "id": "23",
-      "text": "selain Allah; maka tunjukkanlah kepada mereka jalan ke neraka."
-    },
-    {
-      "id": "24",
-      "text": "Dan tahanlah mereka (di tempat perhentian) karena sesungguhnya mereka akan ditanya:"
-    },
-    {
-      "id": "25",
-      "text": "\"Kenapa kamu tidak tolong menolong?\""
-    },
-    {
-      "id": "26",
-      "text": "Bahkan mereka pada hari itu menyerah diri."
-    },
-    {
-      "id": "27",
-      "text": "Sebahagian dan mereka menghadap kepada sebahagian yang lain berbantah-bantahan."
-    },
-    {
-      "id": "28",
-      "text": "Pengikut-pengikut mereka berkata (kepada pemimpin-pemimpin mereka): \"Sesungguhnya kamulah yang datang kepada kami dan kanan."
-    },
-    {
-      "id": "29",
-      "text": "Pemimpin-pemimpin mereka menjawab: \"Sebenarnya kamulah yang tidak beriman\"."
-    },
-    {
-      "id": "30",
-      "text": "Dan sekali-kali kami tidak berkuasa terhadapmu, bahkan kamulah kaum yang melampaui batas."
-    },
-    {
-      "id": "31",
-      "text": "Maka pastilah putusan (azab) Tuhan kita menimpa atas kita; sesungguhnya kita akan merasakan (azab itu)."
-    },
-    {
-      "id": "32",
-      "text": "Maka kami telah menyesatkan kamu, sesungguhnya kami adalah orang-orang yang sesat."
-    },
-    {
-      "id": "33",
-      "text": "Maka sesungguhnya mereka pada hari itu bersama-sama dalam azab."
-    },
-    {
-      "id": "34",
-      "text": "Sesungguhnya demikianlah Kami berbuat terhadap orang-orang yang berbuat jahat."
-    },
-    {
-      "id": "35",
-      "text": "Sesungguhnya mereka dahulu apabila dikatakan kepada mereka: \"Laa ilaaha illallah\" (Tiada Tuhan yang berhak disembah melainkan Allah) mereka menyombongkan diri,"
-    },
-    {
-      "id": "36",
-      "text": "dan mereka berkata: \"Apakah sesungguhnya kami harus meninggalkan sembahan-sembahan kami karena seorang penyair gila?\""
-    },
-    {
-      "id": "37",
-      "text": "Sebenarnya dia (Muhammad) telah datang membawa kebenaran dan membenarkan rasul-rasul (sebelumnya)."
-    },
-    {
-      "id": "38",
-      "text": "Sesungguhnya kamu pasti akan merasakan azab yang pedih."
-    },
-    {
-      "id": "39",
-      "text": "Dan kamu tidak diberi pembalasan melainkan terhadap kejahatan yang telah kamu kerjakan,"
-    },
-    {
-      "id": "40",
-      "text": "tetapi hamba-hamba Allah yang dibersihkan (dari dosa)."
-    },
-    {
-      "id": "41",
-      "text": "Mereka itu memperoleh rezeki yang tertentu,"
-    },
-    {
-      "id": "42",
-      "text": "yaitu buah-buahan. Dan mereka adalah orang-orang yang dimuliakan,"
-    },
-    {
-      "id": "43",
-      "text": "di dalam surga-surga yang penuh nikmat."
-    },
-    {
-      "id": "44",
-      "text": "di atas takhta-takhta kebesaran berhadap-hadapan."
-    },
-    {
-      "id": "45",
-      "text": "Diedarkan kepada mereka gelas yang berisi khamar dari sungai yang mengalir."
-    },
-    {
-      "id": "46",
-      "text": "(Warnanya) putih bersih, sedap rasanya bagi orang-orang yang minum."
-    },
-    {
-      "id": "47",
-      "text": "Tidak ada dalam khamar itu alkohol dan mereka tiada mabuk karenanya."
-    },
-    {
-      "id": "48",
-      "text": "Di sisi mereka ada bidadari-bidadari yang tidak liar pandangannya dan jelita matanya,"
-    },
-    {
-      "id": "49",
-      "text": "seakan-akan mereka adalah telur (burung unta) yang tersimpan dengan baik."
-    },
-    {
-      "id": "50",
-      "text": "Lalu sebahagian mereka menghadap kepada sebahagian yang lain sambil bercakap-cakap."
-    },
-    {
-      "id": "51",
-      "text": "Berkatalah salah seorang di antara mereka: \"Sesungguhnya aku dahulu (di dunia) mempunyai seorang teman,"
-    },
-    {
-      "id": "52",
-      "text": "yang berkata: \"Apakah kamu sungguh-sungguh termasuk orang-orang yang membenarkan (hari berbangkit)?"
-    },
-    {
-      "id": "53",
-      "text": "Apakah bila kita telah mati dan kita telah menjadi tanah dan tulang belulang, apakah sesungguhnya kita benar-benar (akan dibangkitkan) untuk diberi pembalasan?\""
-    },
-    {
-      "id": "54",
-      "text": "Berkata pulalah ia: \"Maukah kamu meninjau (temanku itu)?\""
-    },
-    {
-      "id": "55",
-      "text": "Maka ia meninjaunya, lalu dia melihat temannya itu di tengah-tengah neraka menyala-nyala."
-    },
-    {
-      "id": "56",
-      "text": "Ia berkata (pula): \"Demi Allah, sesungguhnya kamu benar-benar hampir mencelakakanku,"
-    },
-    {
-      "id": "57",
-      "text": "jikalau tidaklah karena nikmat Tuhanku pastilah aku termasuk orang-orang yang diseret (ke neraka)."
-    },
-    {
-      "id": "58",
-      "text": "Maka apakah kita tidak akan mati?,"
-    },
-    {
-      "id": "59",
-      "text": "melainkan hanya kematian kita yang pertama saja (di dunia), dan kita tidak akan disiksa (di akhirat ini)?"
-    },
-    {
-      "id": "60",
-      "text": "Sesungguhnya ini benar-benar kemenangan yang besar."
-    },
-    {
-      "id": "61",
-      "text": "Untuk kemenangan serupa ini hendaklah berusaha orang-orang yang bekerja\""
-    },
-    {
-      "id": "62",
-      "text": "(Makanan surga) itukah hidangan yang lebih baik ataukah pohon zaqqum."
-    },
-    {
-      "id": "63",
-      "text": "Sesungguhnya Kami menjadikan pohon zaqqum itu sebagai siksaan bagi orang-orang yang zalim."
-    },
-    {
-      "id": "64",
-      "text": "Sesungguhnya dia adalah sebatang pohon yang ke luar dan dasar neraka yang menyala."
-    },
-    {
-      "id": "65",
-      "text": "mayangnya seperti kepala syaitan-syaitan."
-    },
-    {
-      "id": "66",
-      "text": "Maka sesungguhnya mereka benar-benar memakan sebagian dari buah pohon itu, maka mereka memenuhi perutnya dengan buah zaqqum itu."
-    },
-    {
-      "id": "67",
-      "text": "Kemudian sesudah makan buah pohon zaqqum itu pasti mereka mendapat minuman yang bercampur dengan air yang sangat panas."
-    },
-    {
-      "id": "68",
-      "text": "Kemudian sesungguhnya tempat kembali mereka benar-benar ke neraka Jahim."
-    },
-    {
-      "id": "69",
-      "text": "Karena sesungguhnya mereka mendapati bapak-bapak mereka dalam Keadaaan sesat."
-    },
-    {
-      "id": "70",
-      "text": "Lalu mereka sangat tergesa-gesa mengikuti jejak orang-orang tua mereka itu."
-    },
-    {
-      "id": "71",
-      "text": "Dan sesungguhnya telah sesat sebelum mereka (Quraisy) sebagian besar dari orang-orang yang dahulu,"
-    },
-    {
-      "id": "72",
-      "text": "dan sesungguhnya telah Kami utus pemberi-pemberi peringatan (rasul-rasul) di kalangan mereka."
-    },
-    {
-      "id": "73",
-      "text": "Maka perhatikanlah bagaimana kesudahan orang-orang yang diberi peringatan itu."
-    },
-    {
-      "id": "74",
-      "text": "Tetapi hamba-hamba Allah yang bersihkan (dari dosa tidak akan diazab)."
-    },
-    {
-      "id": "75",
-      "text": "Sesungguhnya Nuh telah menyeru Kami: maka sesungguhnya sebaik-baik yang memperkenankan (adalah Kami)."
-    },
-    {
-      "id": "76",
-      "text": "Dan Kami telah menyelamatkannya dan pengikutnya dari bencana yang besar."
-    },
-    {
-      "id": "77",
-      "text": "Dan Kami jadikan anak cucunya orang-orang yang melanjutkan keturunan."
-    },
-    {
-      "id": "78",
-      "text": "Dan Kami abadikan untuk Nuh itu (pujian yang baik) di kalangan orang-orang yang datang kemudian;"
-    },
-    {
-      "id": "79",
-      "text": "\"Kesejahteraan dilimpahkan atas Nuh di seluruh alam\"."
-    },
-    {
-      "id": "80",
-      "text": "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik."
-    },
-    {
-      "id": "81",
-      "text": "Sesungguhnya dia termasuk di antara hamba-hamba Kami yang beriman."
-    },
-    {
-      "id": "82",
-      "text": "Kemudian Kami tenggelamkan orang-orang yang lain."
-    },
-    {
-      "id": "83",
-      "text": "Dan sesungguhnya Ibrahim benar-benar termasuk golongannya (Nuh)."
-    },
-    {
-      "id": "84",
-      "text": "(lngatlah) ketika ia datang kepada Tuhannya dengan hati yang suci:"
-    },
-    {
-      "id": "85",
-      "text": "(Ingatlah) ketika ia berkata kepada bapaknya dan kaumnya: \"Apakah yang kamu sembah itu?"
-    },
-    {
-      "id": "86",
-      "text": "Apakah kamu menghendaki sembahan-sembahan selain Allah dengan jalan berbohong?"
-    },
-    {
-      "id": "87",
-      "text": "Maka apakah anggapanmu terhadap Tuhan semesta alam?\""
-    },
-    {
-      "id": "88",
-      "text": "Lalu ia memandang sekali pandang ke bintang-bintang."
-    },
-    {
-      "id": "89",
-      "text": "Kemudian ia berkata: \"Sesungguhnya aku sakit\"."
-    },
-    {
-      "id": "90",
-      "text": "Lalu mereka berpaling daripadanya dengan membelakang."
-    },
-    {
-      "id": "91",
-      "text": "Kemudian ia pergi dengan diam-diam kepada berhala-berhala mereka; lalu ia berkata: \"Apakah kamu tidak makan?"
-    },
-    {
-      "id": "92",
-      "text": "Kenapa kamu tidak menjawab?\""
-    },
-    {
-      "id": "93",
-      "text": "Lalu dihadapinya berhala-berhala itu sambil memukulnya dengan tangan kanannya (dengan kuat)."
-    },
-    {
-      "id": "94",
-      "text": "Kemudian kaumnya datang kepadanya dengan bergegas."
-    },
-    {
-      "id": "95",
-      "text": "Ibrahim berkata: \"Apakah kamu menyembah patung-patung yang kamu pahat itu?"
-    },
-    {
-      "id": "96",
-      "text": "Padahal Allah-lah yang menciptakan kamu dan apa yang kamu perbuat itu\"."
-    },
-    {
-      "id": "97",
-      "text": "Mereka berkata: \"Dirikanlah suatu bangunan untuk (membakar) Ibrahim; lalu lemparkanlah dia ke dalam api yang menyala-nyala itu\"."
-    },
-    {
-      "id": "98",
-      "text": "Mereka hendak melakukan tipu muslihat kepadanya, maka Kami jadikan mereka orang-orang yang hina."
-    },
-    {
-      "id": "99",
-      "text": "Dan Ibrahim berkata: \"Sesungguhnya aku pergi menghadap kepada Tuhanku, dan Dia akan memberi petunjuk kepadaku."
-    },
-    {
-      "id": "100",
-      "text": "Ya Tuhanku, anugrahkanlah kepadaku (seorang anak) yang termasuk orang-orang yang saleh."
-    },
-    {
-      "id": "101",
-      "text": "Maka Kami beri dia khabar gembira dengan seorang anak yang amat sabar."
-    },
-    {
-      "id": "102",
-      "text": "Maka tatkala anak itu sampai (pada umur sanggup) berusaha bersama-sama Ibrahim, Ibrahim berkata: \"Hai anakku sesungguhnya aku melihat dalam mimpi bahwa aku menyembelihmu. Maka fikirkanlah apa pendapatmu!\" Ia menjawab: \"Hai bapakku, kerjakanlah apa yang diperintahkan kepadamu; insya Allah kamu akan mendapatiku termasuk orang-orang yang sabar\"."
-    },
-    {
-      "id": "103",
-      "text": "Tatkala keduanya telah berserah diri dan Ibrahim membaringkan anaknya atas pelipis(nya), (nyatalah kesabaran keduanya)."
-    },
-    {
-      "id": "104",
-      "text": "Dan Kami panggillah dia: \"Hai Ibrahim,"
-    },
-    {
-      "id": "105",
-      "text": "sesungguhnya kamu telah membenarkan mimpi itu sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik."
-    },
-    {
-      "id": "106",
-      "text": "Sesungguhnya ini benar-benar suatu ujian yang nyata."
-    },
-    {
-      "id": "107",
-      "text": "Dan Kami tebus anak itu dengan seekor sembelihan yang besar."
-    },
-    {
-      "id": "108",
-      "text": "Kami abadikan untuk Ibrahim itu (pujian yang baik) di kalangan orang-orang yang datang kemudian,"
-    },
-    {
-      "id": "109",
-      "text": "(yaitu)\"Kesejahteraan dilimpahkan atas Ibrahim\"."
-    },
-    {
-      "id": "110",
-      "text": "Demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik."
-    },
-    {
-      "id": "111",
-      "text": "Sesungguhnya ia termasuk hamba-hamba Kami yang beriman."
-    },
-    {
-      "id": "112",
-      "text": "Dan Kami beri dia kabar gembira dengan (kelahiran) Ishaq seorang nabi yang termasuk orang-orang yang saleh."
-    },
-    {
-      "id": "113",
-      "text": "Kami limpahkan keberkatan atasnya dan atas Ishaq. Dan diantara anak cucunya ada yang berbuat baik dan ada (pula) yang Zalim terhadap dirinya sendiri dengan nyata."
-    },
-    {
-      "id": "114",
-      "text": "Dan sesungguhnya Kami telah melimpahkan nikmat atas Musa dan Harun."
-    },
-    {
-      "id": "115",
-      "text": "Dan Kami selamatkan keduanya dan kaumnya dari bencana yang besar."
-    },
-    {
-      "id": "116",
-      "text": "Dan Kami tolong mereka, maka jadilah mereka orang-orang yang menang."
-    },
-    {
-      "id": "117",
-      "text": "Dan Kami berikan kepada keduanya kitab yang sangat jelas."
-    },
-    {
-      "id": "118",
-      "text": "Dan Kami tunjuki keduanya ke jalan yang lurus."
-    },
-    {
-      "id": "119",
-      "text": "Dan Kami abadikan untuk keduanya (pujian yang baik) dikalangan orang-orang yang datang kemudian;"
-    },
-    {
-      "id": "120",
-      "text": "(yaitu): \"Kesejahteraan dilimpahkan atas Musa dan Harun\"."
-    },
-    {
-      "id": "121",
-      "text": "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik."
-    },
-    {
-      "id": "122",
-      "text": "Sesungguhnya keduanya termasuk hamba-hamba Kami yang beriman."
-    },
-    {
-      "id": "123",
-      "text": "Dan sesungguhnya Ilyas benar-benar termasuk salah seorang rasul-rasul."
-    },
-    {
-      "id": "124",
-      "text": "(ingatlah) ketika ia berkata kepada kaumnya: \"Mengapa kamu tidak bertakwa?"
-    },
-    {
-      "id": "125",
-      "text": "Patutkah kamu menyembah Ba'l dan kamu tinggalkan sebaik-baik Pencipta,"
-    },
-    {
-      "id": "126",
-      "text": "(yaitu) Allah Tuhanmu dan Tuhan bapak-bapakmu yang terdahulu?\""
-    },
-    {
-      "id": "127",
-      "text": "Maka mereka mendustakannya, karena itu mereka akan diseret (ke neraka),"
-    },
-    {
-      "id": "128",
-      "text": "kecuali hamba-hamba Allah yang dibersihkan (dari dosa)."
-    },
-    {
-      "id": "129",
-      "text": "Dan Kami abadikan untuk Ilyas (pujian yang baik) di kalangan orang-orang yang datang kemudian."
-    },
-    {
-      "id": "130",
-      "text": "(yaitu): \"Kesejahteraan dilimpahkan atas Ilyas?\""
-    },
-    {
-      "id": "131",
-      "text": "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik."
-    },
-    {
-      "id": "132",
-      "text": "Sesungguhnya dia termasuk hamba-hamba Kami yang beriman."
-    },
-    {
-      "id": "133",
-      "text": "Sesungguhnya Luth benar-benar salah seorang rasul."
-    },
-    {
-      "id": "134",
-      "text": "(Ingatlah) ketika Kami selamatkan dia dan keluarganya (pengikut-pengikutnya) semua,"
-    },
-    {
-      "id": "135",
-      "text": "kecuali seorang perempuan tua (isterinya yang berada) bersama-sama orang yang tinggal."
-    },
-    {
-      "id": "136",
-      "text": "Kemudian Kami binasakan orang-orang yang lain."
-    },
-    {
-      "id": "137",
-      "text": "Dan sesungguhnya kamu (hai penduduk Mekah) benar-benar akan melalui (bekas-bekas) mereka di waktu pagi,"
-    },
-    {
-      "id": "138",
-      "text": "dan di waktu malam. Maka apakah kamu tidak memikirkan?"
-    },
-    {
-      "id": "139",
-      "text": "Sesungguhnya Yunus benar-benar salah seorang rasul,"
-    },
-    {
-      "id": "140",
-      "text": "(ingatlah) ketika ia lari, ke kapal yang penuh muatan,"
-    },
-    {
-      "id": "141",
-      "text": "kemudian ia ikut berundi lalu dia termasuk orang-orang yang kalah dalam undian."
-    },
-    {
-      "id": "142",
-      "text": "Maka ia ditelan oleh ikan besar dalam keadaan tercela."
-    },
-    {
-      "id": "143",
-      "text": "Maka kalau sekiranya dia tidak termasuk orang-orang yang banyak mengingat Allah,"
-    },
-    {
-      "id": "144",
-      "text": "niscaya ia akan tetap tinggal di perut ikan itu sampai hari berbangkit."
-    },
-    {
-      "id": "145",
-      "text": "Kemudian Kami lemparkan dia ke daerah yang tandus, sedang ia dalam keadaan sakit."
-    },
-    {
-      "id": "146",
-      "text": "Dan Kami tumbuhkan untuk dia sebatang pohon dari jenis labu."
-    },
-    {
-      "id": "147",
-      "text": "Dan Kami utus dia kepada seratus ribu orang atau lebih."
-    },
-    {
-      "id": "148",
-      "text": "Lalu mereka beriman, karena itu Kami anugerahkan kenikmatan hidup kepada mereka hingga waktu yang tertentu."
-    },
-    {
-      "id": "149",
-      "text": "Tanyakanlah (ya Muhammad) kepada mereka (orang-orang kafir Mekah): \"Apakah untuk Tuhanmu anak-anak perempuan dan untuk mereka anak laki-laki,"
-    },
-    {
-      "id": "150",
-      "text": "atau apakah Kami menciptakan malaikat-malaikat berupa perempuan dan mereka menyaksikan(nya)?"
-    },
-    {
-      "id": "151",
-      "text": "Ketahuilah bahwa sesungguhnya mereka dengan kebohongannya benar-benar mengatakan:"
-    },
-    {
-      "id": "152",
-      "text": "\"Allah beranak\". Dan sesungguhnya mereka benar-benar orang yang berdusta."
-    },
-    {
-      "id": "153",
-      "text": "Apakah Tuhan memilih (mengutamakan) anak-anak perempuan daripada anak laki-laki?"
-    },
-    {
-      "id": "154",
-      "text": "Apakah yang terjadi padamu? Bagaimana (caranya) kamu menetapkan?"
-    },
-    {
-      "id": "155",
-      "text": "Maka apakah kamu tidak memikirkan?"
-    },
-    {
-      "id": "156",
-      "text": "Atau apakah kamu mempunyai bukti yang nyata?"
-    },
-    {
-      "id": "157",
-      "text": "Maka bawalah kitabmu jika kamu memang orang-orang yang benar."
-    },
-    {
-      "id": "158",
-      "text": "Dan mereka adakan (hubungan) nasab antara Allah dan antara jin. Dan sesungguhnya jin mengetahui bahwa mereka benar-benar akan diseret (ke neraka),"
-    },
-    {
-      "id": "159",
-      "text": "Maha Suci Allah dari apa yang mereka sifatkan,"
-    },
-    {
-      "id": "160",
-      "text": "Kecuali hamba-hamba Allah yang dibersihkan dari (dosa)."
-    },
-    {
-      "id": "161",
-      "text": "Maka sesungguhnya kamu dan apa-apa yang kamu sembah itu,"
-    },
-    {
-      "id": "162",
-      "text": "Sekali-kali tidak dapat menyesatkan (seseorang) terhadap Allah,"
-    },
-    {
-      "id": "163",
-      "text": "kecuali orang-orang yang akan masuk neraka yang menyala."
-    },
-    {
-      "id": "164",
-      "text": "Tiada seorangpun di antara kami (malaikat) melainkan mempunyai kedudukan yang tertentu,"
-    },
-    {
-      "id": "165",
-      "text": "dan sesungguhnya kami benar-benar bershaf-shaf (dalam menunaikan perintah Allah)."
-    },
-    {
-      "id": "166",
-      "text": "Dan sesungguhnya kami benar-benar bertasbih (kepada Allah)."
-    },
-    {
-      "id": "167",
-      "text": "Sesungguhnya mereka benar-benar akan berkata:"
-    },
-    {
-      "id": "168",
-      "text": "\"Kalau sekiranya di sksi kami ada sebuah kitab dari (kitab-kitab yang diturunkan) kepada orang-orang dahulu,"
-    },
-    {
-      "id": "169",
-      "text": "benar-benar kami akan jadi hamba Allah yang dibersihkan (dari dosa)\"."
-    },
-    {
-      "id": "170",
-      "text": "Tetapi mereka mengingkarinya (Al Quran); maka kelak mereka akan mengetahui (akibat keingkarannya itu)."
-    },
-    {
-      "id": "171",
-      "text": "Dan sesungguhnya telah tetap janji Kami kepada hamba-hamba Kami yang menjadi rasul,"
-    },
-    {
-      "id": "172",
-      "text": "(yaitu) sesungguhnya mereka itulah yang pasti mendapat pertolongan."
-    },
-    {
-      "id": "173",
-      "text": "Dan sesungguhnya tentara Kami itulah yang pasti menang,"
-    },
-    {
-      "id": "174",
-      "text": "Maka berpalinglah kamu (Muhammad) dari mereka sampai suatu ketika."
-    },
-    {
-      "id": "175",
-      "text": "Dan lihatlah mereka, maka kelak mereka akan melihat (azab itu)."
-    },
-    {
-      "id": "176",
-      "text": "Maka apakah mereka meminta supaya siksa Kami disegerakan?"
-    },
-    {
-      "id": "177",
-      "text": "Maka apabila siksaan itu turun dihalaman mereka, maka amat buruklah pagi hari yang dialami oleh orang-orang yang diperingatkan itu."
-    },
-    {
-      "id": "178",
-      "text": "Dan berpalinglah kamu dari mereka hingga suatu ketika."
-    },
-    {
-      "id": "179",
-      "text": "Dan lihatlah, maka kelak mereka juga akan melihat."
-    },
-    {
-      "id": "180",
-      "text": "Maha Suci Tuhanmu Yang mempunyai keperkasaan dari apa yang mereka katakan."
-    },
-    {
-      "id": "181",
-      "text": "Dan kesejahteraan dilimpahkan atas para rasul."
-    },
-    {
-      "id": "182",
-      "text": "Dan segala puji bagi Allah Tuhan seru sekalian alam."
-    }
+    "Demi (rombongan) yang ber shaf-shaf dengan sebenar-benarnya],",
+    "dan demi (rombongan) yang melarang dengan sebenar-benarnya (dari perbuatan-perbuatan maksiat),",
+    "dan demi (rombongan) yang membacakan pelajaran,",
+    "Sesungguhnya Tuhanmu benar-benar Esa.",
+    "Tuhan langit dan bumi dan apa yang berada di antara keduanya dan Tuhan tempat-tempat terbit matahari.",
+    "Sesungguhnya Kami telah menghias langit yang terdekat dengan hiasan, yaitu bintang-bintang,",
+    "dan telah memeliharanya (sebenar-benarnya) dari setiap syaitan yang sangat durhaka,",
+    "syaitan syaitan itu tidak dapat mendengar-dengarkan (pembicaraan) para malaikat dan mereka dilempari dari segala penjuru.",
+    "Untuk mengusir mereka dan bagi mereka siksaan yang kekal,",
+    "akan tetapi barangsiapa (di antara mereka) yang mencuri-curi (pembicaraan); maka ia dikejar oleh suluh api yang cemerlang.",
+    "Maka tanyakanlah kepada mereka (musyrik Mekah): \"Apakah mereka yang lebih kukuh kejadiannya ataukah apa yang telah Kami ciptakan itu?\" Sesungguhnya Kami telah menciptakan mereka dari tanah liat.",
+    "Bahkan kamu menjadi heran (terhadap keingkaran mereka) dan mereka menghinakan kamu.",
+    "Dan apabila mereka diberi pelajaran mereka tiada mengingatnya.",
+    "Dan apabila mereka melihat sesuatu tanda kebesaran Allah, mereka sangat menghinakan.",
+    "Dan mereka berkata \"Ini tiada lain hanyalah sihir yang nyata.",
+    "Apakah apabila kami telah mati dan telah menjadi tanah serta menjadi tulang belulang, apakah benar-benar kami akan dibangkitkan (kembali)?",
+    "Dan apakah bapak-bapak kami yang telah terdahulu (akan dibangkitkan pula)\"?",
+    "Katakanlah: \"Ya, dan kamu akan terhina\"",
+    "Maka sesungguhnya kebangkitan itu hanya dengan satu teriakan saja; maka tiba-tiba mereka meIihatnya.",
+    "Dan mereka berkata: \"Aduhai celakalah kita!\" Inilah hari pembalasan.",
+    "Inilah hari keputusan yang kamu selalu mendustakannya.",
+    "(kepada malaikat diperintahkan): \"Kumpulkanlah orang-orang yang zalim beserta teman sejawat mereka dan sembahan-sembahan yang selalu mereka sembah,",
+    "selain Allah; maka tunjukkanlah kepada mereka jalan ke neraka.",
+    "Dan tahanlah mereka (di tempat perhentian) karena sesungguhnya mereka akan ditanya:",
+    "\"Kenapa kamu tidak tolong menolong?\"",
+    "Bahkan mereka pada hari itu menyerah diri.",
+    "Sebahagian dan mereka menghadap kepada sebahagian yang lain berbantah-bantahan.",
+    "Pengikut-pengikut mereka berkata (kepada pemimpin-pemimpin mereka): \"Sesungguhnya kamulah yang datang kepada kami dan kanan.",
+    "Pemimpin-pemimpin mereka menjawab: \"Sebenarnya kamulah yang tidak beriman\".",
+    "Dan sekali-kali kami tidak berkuasa terhadapmu, bahkan kamulah kaum yang melampaui batas.",
+    "Maka pastilah putusan (azab) Tuhan kita menimpa atas kita; sesungguhnya kita akan merasakan (azab itu).",
+    "Maka kami telah menyesatkan kamu, sesungguhnya kami adalah orang-orang yang sesat.",
+    "Maka sesungguhnya mereka pada hari itu bersama-sama dalam azab.",
+    "Sesungguhnya demikianlah Kami berbuat terhadap orang-orang yang berbuat jahat.",
+    "Sesungguhnya mereka dahulu apabila dikatakan kepada mereka: \"Laa ilaaha illallah\" (Tiada Tuhan yang berhak disembah melainkan Allah) mereka menyombongkan diri,",
+    "dan mereka berkata: \"Apakah sesungguhnya kami harus meninggalkan sembahan-sembahan kami karena seorang penyair gila?\"",
+    "Sebenarnya dia (Muhammad) telah datang membawa kebenaran dan membenarkan rasul-rasul (sebelumnya).",
+    "Sesungguhnya kamu pasti akan merasakan azab yang pedih.",
+    "Dan kamu tidak diberi pembalasan melainkan terhadap kejahatan yang telah kamu kerjakan,",
+    "tetapi hamba-hamba Allah yang dibersihkan (dari dosa).",
+    "Mereka itu memperoleh rezeki yang tertentu,",
+    "yaitu buah-buahan. Dan mereka adalah orang-orang yang dimuliakan,",
+    "di dalam surga-surga yang penuh nikmat.",
+    "di atas takhta-takhta kebesaran berhadap-hadapan.",
+    "Diedarkan kepada mereka gelas yang berisi khamar dari sungai yang mengalir.",
+    "(Warnanya) putih bersih, sedap rasanya bagi orang-orang yang minum.",
+    "Tidak ada dalam khamar itu alkohol dan mereka tiada mabuk karenanya.",
+    "Di sisi mereka ada bidadari-bidadari yang tidak liar pandangannya dan jelita matanya,",
+    "seakan-akan mereka adalah telur (burung unta) yang tersimpan dengan baik.",
+    "Lalu sebahagian mereka menghadap kepada sebahagian yang lain sambil bercakap-cakap.",
+    "Berkatalah salah seorang di antara mereka: \"Sesungguhnya aku dahulu (di dunia) mempunyai seorang teman,",
+    "yang berkata: \"Apakah kamu sungguh-sungguh termasuk orang-orang yang membenarkan (hari berbangkit)?",
+    "Apakah bila kita telah mati dan kita telah menjadi tanah dan tulang belulang, apakah sesungguhnya kita benar-benar (akan dibangkitkan) untuk diberi pembalasan?\"",
+    "Berkata pulalah ia: \"Maukah kamu meninjau (temanku itu)?\"",
+    "Maka ia meninjaunya, lalu dia melihat temannya itu di tengah-tengah neraka menyala-nyala.",
+    "Ia berkata (pula): \"Demi Allah, sesungguhnya kamu benar-benar hampir mencelakakanku,",
+    "jikalau tidaklah karena nikmat Tuhanku pastilah aku termasuk orang-orang yang diseret (ke neraka).",
+    "Maka apakah kita tidak akan mati?,",
+    "melainkan hanya kematian kita yang pertama saja (di dunia), dan kita tidak akan disiksa (di akhirat ini)?",
+    "Sesungguhnya ini benar-benar kemenangan yang besar.",
+    "Untuk kemenangan serupa ini hendaklah berusaha orang-orang yang bekerja\"",
+    "(Makanan surga) itukah hidangan yang lebih baik ataukah pohon zaqqum.",
+    "Sesungguhnya Kami menjadikan pohon zaqqum itu sebagai siksaan bagi orang-orang yang zalim.",
+    "Sesungguhnya dia adalah sebatang pohon yang ke luar dan dasar neraka yang menyala.",
+    "mayangnya seperti kepala syaitan-syaitan.",
+    "Maka sesungguhnya mereka benar-benar memakan sebagian dari buah pohon itu, maka mereka memenuhi perutnya dengan buah zaqqum itu.",
+    "Kemudian sesudah makan buah pohon zaqqum itu pasti mereka mendapat minuman yang bercampur dengan air yang sangat panas.",
+    "Kemudian sesungguhnya tempat kembali mereka benar-benar ke neraka Jahim.",
+    "Karena sesungguhnya mereka mendapati bapak-bapak mereka dalam Keadaaan sesat.",
+    "Lalu mereka sangat tergesa-gesa mengikuti jejak orang-orang tua mereka itu.",
+    "Dan sesungguhnya telah sesat sebelum mereka (Quraisy) sebagian besar dari orang-orang yang dahulu,",
+    "dan sesungguhnya telah Kami utus pemberi-pemberi peringatan (rasul-rasul) di kalangan mereka.",
+    "Maka perhatikanlah bagaimana kesudahan orang-orang yang diberi peringatan itu.",
+    "Tetapi hamba-hamba Allah yang bersihkan (dari dosa tidak akan diazab).",
+    "Sesungguhnya Nuh telah menyeru Kami: maka sesungguhnya sebaik-baik yang memperkenankan (adalah Kami).",
+    "Dan Kami telah menyelamatkannya dan pengikutnya dari bencana yang besar.",
+    "Dan Kami jadikan anak cucunya orang-orang yang melanjutkan keturunan.",
+    "Dan Kami abadikan untuk Nuh itu (pujian yang baik) di kalangan orang-orang yang datang kemudian;",
+    "\"Kesejahteraan dilimpahkan atas Nuh di seluruh alam\".",
+    "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik.",
+    "Sesungguhnya dia termasuk di antara hamba-hamba Kami yang beriman.",
+    "Kemudian Kami tenggelamkan orang-orang yang lain.",
+    "Dan sesungguhnya Ibrahim benar-benar termasuk golongannya (Nuh).",
+    "(lngatlah) ketika ia datang kepada Tuhannya dengan hati yang suci:",
+    "(Ingatlah) ketika ia berkata kepada bapaknya dan kaumnya: \"Apakah yang kamu sembah itu?",
+    "Apakah kamu menghendaki sembahan-sembahan selain Allah dengan jalan berbohong?",
+    "Maka apakah anggapanmu terhadap Tuhan semesta alam?\"",
+    "Lalu ia memandang sekali pandang ke bintang-bintang.",
+    "Kemudian ia berkata: \"Sesungguhnya aku sakit\".",
+    "Lalu mereka berpaling daripadanya dengan membelakang.",
+    "Kemudian ia pergi dengan diam-diam kepada berhala-berhala mereka; lalu ia berkata: \"Apakah kamu tidak makan?",
+    "Kenapa kamu tidak menjawab?\"",
+    "Lalu dihadapinya berhala-berhala itu sambil memukulnya dengan tangan kanannya (dengan kuat).",
+    "Kemudian kaumnya datang kepadanya dengan bergegas.",
+    "Ibrahim berkata: \"Apakah kamu menyembah patung-patung yang kamu pahat itu?",
+    "Padahal Allah-lah yang menciptakan kamu dan apa yang kamu perbuat itu\".",
+    "Mereka berkata: \"Dirikanlah suatu bangunan untuk (membakar) Ibrahim; lalu lemparkanlah dia ke dalam api yang menyala-nyala itu\".",
+    "Mereka hendak melakukan tipu muslihat kepadanya, maka Kami jadikan mereka orang-orang yang hina.",
+    "Dan Ibrahim berkata: \"Sesungguhnya aku pergi menghadap kepada Tuhanku, dan Dia akan memberi petunjuk kepadaku.",
+    "Ya Tuhanku, anugrahkanlah kepadaku (seorang anak) yang termasuk orang-orang yang saleh.",
+    "Maka Kami beri dia khabar gembira dengan seorang anak yang amat sabar.",
+    "Maka tatkala anak itu sampai (pada umur sanggup) berusaha bersama-sama Ibrahim, Ibrahim berkata: \"Hai anakku sesungguhnya aku melihat dalam mimpi bahwa aku menyembelihmu. Maka fikirkanlah apa pendapatmu!\" Ia menjawab: \"Hai bapakku, kerjakanlah apa yang diperintahkan kepadamu; insya Allah kamu akan mendapatiku termasuk orang-orang yang sabar\".",
+    "Tatkala keduanya telah berserah diri dan Ibrahim membaringkan anaknya atas pelipis(nya), (nyatalah kesabaran keduanya).",
+    "Dan Kami panggillah dia: \"Hai Ibrahim,",
+    "sesungguhnya kamu telah membenarkan mimpi itu sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik.",
+    "Sesungguhnya ini benar-benar suatu ujian yang nyata.",
+    "Dan Kami tebus anak itu dengan seekor sembelihan yang besar.",
+    "Kami abadikan untuk Ibrahim itu (pujian yang baik) di kalangan orang-orang yang datang kemudian,",
+    "(yaitu)\"Kesejahteraan dilimpahkan atas Ibrahim\".",
+    "Demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik.",
+    "Sesungguhnya ia termasuk hamba-hamba Kami yang beriman.",
+    "Dan Kami beri dia kabar gembira dengan (kelahiran) Ishaq seorang nabi yang termasuk orang-orang yang saleh.",
+    "Kami limpahkan keberkatan atasnya dan atas Ishaq. Dan diantara anak cucunya ada yang berbuat baik dan ada (pula) yang Zalim terhadap dirinya sendiri dengan nyata.",
+    "Dan sesungguhnya Kami telah melimpahkan nikmat atas Musa dan Harun.",
+    "Dan Kami selamatkan keduanya dan kaumnya dari bencana yang besar.",
+    "Dan Kami tolong mereka, maka jadilah mereka orang-orang yang menang.",
+    "Dan Kami berikan kepada keduanya kitab yang sangat jelas.",
+    "Dan Kami tunjuki keduanya ke jalan yang lurus.",
+    "Dan Kami abadikan untuk keduanya (pujian yang baik) dikalangan orang-orang yang datang kemudian;",
+    "(yaitu): \"Kesejahteraan dilimpahkan atas Musa dan Harun\".",
+    "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik.",
+    "Sesungguhnya keduanya termasuk hamba-hamba Kami yang beriman.",
+    "Dan sesungguhnya Ilyas benar-benar termasuk salah seorang rasul-rasul.",
+    "(ingatlah) ketika ia berkata kepada kaumnya: \"Mengapa kamu tidak bertakwa?",
+    "Patutkah kamu menyembah Ba'l dan kamu tinggalkan sebaik-baik Pencipta,",
+    "(yaitu) Allah Tuhanmu dan Tuhan bapak-bapakmu yang terdahulu?\"",
+    "Maka mereka mendustakannya, karena itu mereka akan diseret (ke neraka),",
+    "kecuali hamba-hamba Allah yang dibersihkan (dari dosa).",
+    "Dan Kami abadikan untuk Ilyas (pujian yang baik) di kalangan orang-orang yang datang kemudian.",
+    "(yaitu): \"Kesejahteraan dilimpahkan atas Ilyas?\"",
+    "Sesungguhnya demikianlah Kami memberi balasan kepada orang-orang yang berbuat baik.",
+    "Sesungguhnya dia termasuk hamba-hamba Kami yang beriman.",
+    "Sesungguhnya Luth benar-benar salah seorang rasul.",
+    "(Ingatlah) ketika Kami selamatkan dia dan keluarganya (pengikut-pengikutnya) semua,",
+    "kecuali seorang perempuan tua (isterinya yang berada) bersama-sama orang yang tinggal.",
+    "Kemudian Kami binasakan orang-orang yang lain.",
+    "Dan sesungguhnya kamu (hai penduduk Mekah) benar-benar akan melalui (bekas-bekas) mereka di waktu pagi,",
+    "dan di waktu malam. Maka apakah kamu tidak memikirkan?",
+    "Sesungguhnya Yunus benar-benar salah seorang rasul,",
+    "(ingatlah) ketika ia lari, ke kapal yang penuh muatan,",
+    "kemudian ia ikut berundi lalu dia termasuk orang-orang yang kalah dalam undian.",
+    "Maka ia ditelan oleh ikan besar dalam keadaan tercela.",
+    "Maka kalau sekiranya dia tidak termasuk orang-orang yang banyak mengingat Allah,",
+    "niscaya ia akan tetap tinggal di perut ikan itu sampai hari berbangkit.",
+    "Kemudian Kami lemparkan dia ke daerah yang tandus, sedang ia dalam keadaan sakit.",
+    "Dan Kami tumbuhkan untuk dia sebatang pohon dari jenis labu.",
+    "Dan Kami utus dia kepada seratus ribu orang atau lebih.",
+    "Lalu mereka beriman, karena itu Kami anugerahkan kenikmatan hidup kepada mereka hingga waktu yang tertentu.",
+    "Tanyakanlah (ya Muhammad) kepada mereka (orang-orang kafir Mekah): \"Apakah untuk Tuhanmu anak-anak perempuan dan untuk mereka anak laki-laki,",
+    "atau apakah Kami menciptakan malaikat-malaikat berupa perempuan dan mereka menyaksikan(nya)?",
+    "Ketahuilah bahwa sesungguhnya mereka dengan kebohongannya benar-benar mengatakan:",
+    "\"Allah beranak\". Dan sesungguhnya mereka benar-benar orang yang berdusta.",
+    "Apakah Tuhan memilih (mengutamakan) anak-anak perempuan daripada anak laki-laki?",
+    "Apakah yang terjadi padamu? Bagaimana (caranya) kamu menetapkan?",
+    "Maka apakah kamu tidak memikirkan?",
+    "Atau apakah kamu mempunyai bukti yang nyata?",
+    "Maka bawalah kitabmu jika kamu memang orang-orang yang benar.",
+    "Dan mereka adakan (hubungan) nasab antara Allah dan antara jin. Dan sesungguhnya jin mengetahui bahwa mereka benar-benar akan diseret (ke neraka),",
+    "Maha Suci Allah dari apa yang mereka sifatkan,",
+    "Kecuali hamba-hamba Allah yang dibersihkan dari (dosa).",
+    "Maka sesungguhnya kamu dan apa-apa yang kamu sembah itu,",
+    "Sekali-kali tidak dapat menyesatkan (seseorang) terhadap Allah,",
+    "kecuali orang-orang yang akan masuk neraka yang menyala.",
+    "Tiada seorangpun di antara kami (malaikat) melainkan mempunyai kedudukan yang tertentu,",
+    "dan sesungguhnya kami benar-benar bershaf-shaf (dalam menunaikan perintah Allah).",
+    "Dan sesungguhnya kami benar-benar bertasbih (kepada Allah).",
+    "Sesungguhnya mereka benar-benar akan berkata:",
+    "\"Kalau sekiranya di sksi kami ada sebuah kitab dari (kitab-kitab yang diturunkan) kepada orang-orang dahulu,",
+    "benar-benar kami akan jadi hamba Allah yang dibersihkan (dari dosa)\".",
+    "Tetapi mereka mengingkarinya (Al Quran); maka kelak mereka akan mengetahui (akibat keingkarannya itu).",
+    "Dan sesungguhnya telah tetap janji Kami kepada hamba-hamba Kami yang menjadi rasul,",
+    "(yaitu) sesungguhnya mereka itulah yang pasti mendapat pertolongan.",
+    "Dan sesungguhnya tentara Kami itulah yang pasti menang,",
+    "Maka berpalinglah kamu (Muhammad) dari mereka sampai suatu ketika.",
+    "Dan lihatlah mereka, maka kelak mereka akan melihat (azab itu).",
+    "Maka apakah mereka meminta supaya siksa Kami disegerakan?",
+    "Maka apabila siksaan itu turun dihalaman mereka, maka amat buruklah pagi hari yang dialami oleh orang-orang yang diperingatkan itu.",
+    "Dan berpalinglah kamu dari mereka hingga suatu ketika.",
+    "Dan lihatlah, maka kelak mereka juga akan melihat.",
+    "Maha Suci Tuhanmu Yang mempunyai keperkasaan dari apa yang mereka katakan.",
+    "Dan kesejahteraan dilimpahkan atas para rasul.",
+    "Dan segala puji bagi Allah Tuhan seru sekalian alam."
   ]
 }

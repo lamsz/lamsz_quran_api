@@ -1,19 +1,9 @@
 ﻿{
-  "id": "surat108",
+  "id": 108,
   "name": "الكوثر",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak."
-    },
-    {
-      "id": "2",
-      "text": "Maka dirikanlah shalat karena Tuhanmu; dan berkorbanlah."
-    },
-    {
-      "id": "3",
-      "text": "Sesungguhnya orang-orang yang membenci kamu dialah yang terputus."
-    }
+    "Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak.",
+    "Maka dirikanlah shalat karena Tuhanmu; dan berkorbanlah.",
+    "Sesungguhnya orang-orang yang membenci kamu dialah yang terputus."
   ]
 }

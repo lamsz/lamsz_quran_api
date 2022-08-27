@@ -1,31 +1,12 @@
 ﻿{
-  "id": "surat109",
+  "id": 109,
   "name": "الكافرون",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Katakanlah: \"Hai orang-orang kafir,"
-    },
-    {
-      "id": "2",
-      "text": "Aku tidak akan menyembah apa yang kamu sembah."
-    },
-    {
-      "id": "3",
-      "text": "Dan kamu bukan penyembah Tuhan yang aku sembah."
-    },
-    {
-      "id": "4",
-      "text": "Dan aku tidak pernah menjadi penyembah apa yang kamu sembah,"
-    },
-    {
-      "id": "5",
-      "text": "dan kamu tidak pernah (pula) menjadi penyembah Tuhan yang aku sembah."
-    },
-    {
-      "id": "6",
-      "text": "Untukmu agamamu, dan untukkulah, agamaku\"."
-    }
+    "Katakanlah: \"Hai orang-orang kafir,",
+    "Aku tidak akan menyembah apa yang kamu sembah.",
+    "Dan kamu bukan penyembah Tuhan yang aku sembah.",
+    "Dan aku tidak pernah menjadi penyembah apa yang kamu sembah,",
+    "dan kamu tidak pernah (pula) menjadi penyembah Tuhan yang aku sembah.",
+    "Untukmu agamamu, dan untukkulah, agamaku\"."
   ]
 }

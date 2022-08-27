@@ -1,27 +1,11 @@
 ﻿{
-  "id": "surat111",
+  "id": 111,
   "name": "المسد",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Binasalah kedua tangan Abu Lahab dan sesungguhnya dia akan binasa."
-    },
-    {
-      "id": "2",
-      "text": "Tidaklah berfaedah kepadanya harta bendanya dan apa yang ia usahakan."
-    },
-    {
-      "id": "3",
-      "text": "Kelak dia akan masuk ke dalam api yang bergejolak."
-    },
-    {
-      "id": "4",
-      "text": "Dan (begitu pula) istrinya, pembawa kayu bakar."
-    },
-    {
-      "id": "5",
-      "text": "Yang di lehernya ada tali dari sabut."
-    }
+    "Binasalah kedua tangan Abu Lahab dan sesungguhnya dia akan binasa.",
+    "Tidaklah berfaedah kepadanya harta bendanya dan apa yang ia usahakan.",
+    "Kelak dia akan masuk ke dalam api yang bergejolak.",
+    "Dan (begitu pula) istrinya, pembawa kayu bakar.",
+    "Yang di lehernya ada tali dari sabut."
   ]
 }

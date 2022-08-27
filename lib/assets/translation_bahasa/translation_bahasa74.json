@@ -1,231 +1,62 @@
 ﻿{
-  "id": "74",
+  "id": 74,
   "name": "المدثر",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Hai orang yang berkemul (berselimut),"
-    },
-    {
-      "id": "2",
-      "text": "bangunlah, lalu berilah peringatan!"
-    },
-    {
-      "id": "3",
-      "text": "dan Tuhanmu agungkanlah!"
-    },
-    {
-      "id": "4",
-      "text": "dan pakaianmu bersihkanlah,"
-    },
-    {
-      "id": "5",
-      "text": "dan perbuatan dosa tinggalkanlah,"
-    },
-    {
-      "id": "6",
-      "text": "dan janganlah kamu memberi (dengan maksud) memperoleh (balasan) yang lebih banyak."
-    },
-    {
-      "id": "7",
-      "text": "Dan untuk (memenuhi perintah) Tuhanmu, bersabarlah."
-    },
-    {
-      "id": "8",
-      "text": "Apabila ditiup sangkakala,"
-    },
-    {
-      "id": "9",
-      "text": "maka waktu itu adalah waktu (datangnya) hari yang sulit,"
-    },
-    {
-      "id": "10",
-      "text": "bagi orang-orang kafir lagi tidak mudah."
-    },
-    {
-      "id": "11",
-      "text": "Biarkanlah Aku bertindak terhadap orang yang Aku telah menciptakannya sendirian."
-    },
-    {
-      "id": "12",
-      "text": "Dan Aku jadikan baginya harta benda yang banyak,"
-    },
-    {
-      "id": "13",
-      "text": "dan anak-anak yang selalu bersama dia,"
-    },
-    {
-      "id": "14",
-      "text": "dan Ku-lapangkan baginya (rezeki dan kekuasaan) dengan selapang-lapangnya,"
-    },
-    {
-      "id": "15",
-      "text": "kemudian dia ingin sekali supaya Aku menambahnya."
-    },
-    {
-      "id": "16",
-      "text": "Sekali-kali tidak (akan Aku tambah), karena sesungguhnya dia menentang ayat-ayat Kami (Al Quran)."
-    },
-    {
-      "id": "17",
-      "text": "Aku akan membebaninya mendaki pendakian yang memayahkan."
-    },
-    {
-      "id": "18",
-      "text": "Sesungguhnya dia telah memikirkan dan menetapkan (apa yang ditetapkannya),"
-    },
-    {
-      "id": "19",
-      "text": "maka celakalah dia! Bagaimana dia menetapkan?,"
-    },
-    {
-      "id": "20",
-      "text": "kemudian celakalah dia! Bagaimanakah dia menetapkan?,"
-    },
-    {
-      "id": "21",
-      "text": "kemudian dia memikirkan,"
-    },
-    {
-      "id": "22",
-      "text": "sesudah itu dia bermasam muka dan merengut,"
-    },
-    {
-      "id": "23",
-      "text": "kemudian dia berpaling (dari kebenaran) dan menyombongkan diri,"
-    },
-    {
-      "id": "24",
-      "text": "lalu dia berkata: \"(Al Quran) ini tidak lain hanyalah sihir yang dipelajari (dari orang-orang dahulu),"
-    },
-    {
-      "id": "25",
-      "text": "ini tidak lain hanyalah perkataan manusia\"."
-    },
-    {
-      "id": "26",
-      "text": "Aku akan memasukkannya ke dalam (neraka) Saqar."
-    },
-    {
-      "id": "27",
-      "text": "Tahukah kamu apakah (neraka) Saqar itu?"
-    },
-    {
-      "id": "28",
-      "text": "Saqar itu tidak meninggalkan dan tidak membiarkan."
-    },
-    {
-      "id": "29",
-      "text": "(Neraka Saqar) adalah pembakar kulit manusia."
-    },
-    {
-      "id": "30",
-      "text": "Dan di atasnya ada sembilan belas (malaikat penjaga)."
-    },
-    {
-      "id": "31",
-      "text": "Dan tiada Kami jadikan penjaga neraka itu melainkan dari malaikat: dan tidaklah Kami menjadikan bilangan mereka itu melainkan untuk jadi cobaan bagi orang-orang kafir, supaya orang-orang yang diberi Al-Kitab menjadi yakin dan supaya orang yang beriman bertambah imannya dan supaya orang-orang yang diberi Al Kitab dan orng-orang mukmin itu tidak ragu-ragu dan supaya orang-orang yang di dalam hatinya ada penyakit dan orang-orang kafir (mengatakan): \"Apakah yang dikehendaki Allah dengan bilangan ini sebagai suatu perumpamaan?\" Demikianlah Allah membiarkan sesat orang-orang yang dikehendaki-Nya dan memberi petunjuk kepada siapa yang dikehendaki-Nya. Dan tidak ada yang mengetahui tentara Tuhanmu melainkan Dia sendiri. Dan Saqar itu tiada lain hanyalah peringatan bagi manusia."
-    },
-    {
-      "id": "32",
-      "text": "Sekali-kali tidak, demi bulan,"
-    },
-    {
-      "id": "33",
-      "text": "dan malam ketika telah berlalu,"
-    },
-    {
-      "id": "34",
-      "text": "dan subuh apabila mulai terang."
-    },
-    {
-      "id": "35",
-      "text": "Sesungguhnya Saqar itu adalah salah satu bencana yang amat besar,"
-    },
-    {
-      "id": "36",
-      "text": "sebagai ancaman bagi manusia."
-    },
-    {
-      "id": "37",
-      "text": "(Yaitu) bagi siapa di antaramu yang berkehendak akan maju atau mundur."
-    },
-    {
-      "id": "38",
-      "text": "Tiap-tiap diri bertanggung jawab atas apa yang telah diperbuatnya,"
-    },
-    {
-      "id": "39",
-      "text": "kecuali golongan kanan,"
-    },
-    {
-      "id": "40",
-      "text": "berada di dalam surga, mereka tanya menanya,"
-    },
-    {
-      "id": "41",
-      "text": "tentang (keadaan) orang-orang yang berdosa,"
-    },
-    {
-      "id": "42",
-      "text": "\"Apakah yang memasukkan kamu ke dalam Saqar (neraka)?\""
-    },
-    {
-      "id": "43",
-      "text": "Mereka menjawab: \"Kami dahulu tidak termasuk orang-orang yang mengerjakan shalat,"
-    },
-    {
-      "id": "44",
-      "text": "dan kami tidak (pula) memberi makan orang miskin,"
-    },
-    {
-      "id": "45",
-      "text": "dan adalah kami membicarakan yang bathil, bersama dengan orang-orang yang membicarakannya,"
-    },
-    {
-      "id": "46",
-      "text": "dan adalah kami mendustakan hari pembalasan,"
-    },
-    {
-      "id": "47",
-      "text": "hingga datang kepada kami kematian\"."
-    },
-    {
-      "id": "48",
-      "text": "Maka tidak berguna lagi bagi mereka syafa'at dari orang-orang yang memberikan syafa'at."
-    },
-    {
-      "id": "49",
-      "text": "Maka mengapa mereka (orang-orang kafir) berpaling dari peringatan (Allah)?,"
-    },
-    {
-      "id": "50",
-      "text": "seakan-akan mereka itu keledai liar yang lari terkejut,"
-    },
-    {
-      "id": "51",
-      "text": "lari daripada singa."
-    },
-    {
-      "id": "52",
-      "text": "Bahkan tiap-tiap orang dari mereka berkehendak supaya diberikan kepadanya lembaran-lembaran yang terbuka."
-    },
-    {
-      "id": "53",
-      "text": "Sekali-kali tidak. Sebenarnya mereka tidak takut kepada negeri akhirat."
-    },
-    {
-      "id": "54",
-      "text": "Sekali-kali tidak demikian halnya. Sesungguhnya Al Quran itu adalah peringatan."
-    },
-    {
-      "id": "55",
-      "text": "Maka barangsiapa menghendaki, niscaya dia mengambil pelajaran daripadanya (Al Quran)."
-    },
-    {
-      "id": "56",
-      "text": "Dan mereka tidak akan mengambil pelajaran daripadanya kecuali (jika) Allah menghendakinya. Dia (Allah) adalah Tuhan Yang patut (kita) bertakwa kepada-Nya dan berhak memberi ampun."
-    }
+    "Hai orang yang berkemul (berselimut),",
+    "bangunlah, lalu berilah peringatan!",
+    "dan Tuhanmu agungkanlah!",
+    "dan pakaianmu bersihkanlah,",
+    "dan perbuatan dosa tinggalkanlah,",
+    "dan janganlah kamu memberi (dengan maksud) memperoleh (balasan) yang lebih banyak.",
+    "Dan untuk (memenuhi perintah) Tuhanmu, bersabarlah.",
+    "Apabila ditiup sangkakala,",
+    "maka waktu itu adalah waktu (datangnya) hari yang sulit,",
+    "bagi orang-orang kafir lagi tidak mudah.",
+    "Biarkanlah Aku bertindak terhadap orang yang Aku telah menciptakannya sendirian.",
+    "Dan Aku jadikan baginya harta benda yang banyak,",
+    "dan anak-anak yang selalu bersama dia,",
+    "dan Ku-lapangkan baginya (rezeki dan kekuasaan) dengan selapang-lapangnya,",
+    "kemudian dia ingin sekali supaya Aku menambahnya.",
+    "Sekali-kali tidak (akan Aku tambah), karena sesungguhnya dia menentang ayat-ayat Kami (Al Quran).",
+    "Aku akan membebaninya mendaki pendakian yang memayahkan.",
+    "Sesungguhnya dia telah memikirkan dan menetapkan (apa yang ditetapkannya),",
+    "maka celakalah dia! Bagaimana dia menetapkan?,",
+    "kemudian celakalah dia! Bagaimanakah dia menetapkan?,",
+    "kemudian dia memikirkan,",
+    "sesudah itu dia bermasam muka dan merengut,",
+    "kemudian dia berpaling (dari kebenaran) dan menyombongkan diri,",
+    "lalu dia berkata: \"(Al Quran) ini tidak lain hanyalah sihir yang dipelajari (dari orang-orang dahulu),",
+    "ini tidak lain hanyalah perkataan manusia\".",
+    "Aku akan memasukkannya ke dalam (neraka) Saqar.",
+    "Tahukah kamu apakah (neraka) Saqar itu?",
+    "Saqar itu tidak meninggalkan dan tidak membiarkan.",
+    "(Neraka Saqar) adalah pembakar kulit manusia.",
+    "Dan di atasnya ada sembilan belas (malaikat penjaga).",
+    "Dan tiada Kami jadikan penjaga neraka itu melainkan dari malaikat: dan tidaklah Kami menjadikan bilangan mereka itu melainkan untuk jadi cobaan bagi orang-orang kafir, supaya orang-orang yang diberi Al-Kitab menjadi yakin dan supaya orang yang beriman bertambah imannya dan supaya orang-orang yang diberi Al Kitab dan orng-orang mukmin itu tidak ragu-ragu dan supaya orang-orang yang di dalam hatinya ada penyakit dan orang-orang kafir (mengatakan): \"Apakah yang dikehendaki Allah dengan bilangan ini sebagai suatu perumpamaan?\" Demikianlah Allah membiarkan sesat orang-orang yang dikehendaki-Nya dan memberi petunjuk kepada siapa yang dikehendaki-Nya. Dan tidak ada yang mengetahui tentara Tuhanmu melainkan Dia sendiri. Dan Saqar itu tiada lain hanyalah peringatan bagi manusia.",
+    "Sekali-kali tidak, demi bulan,",
+    "dan malam ketika telah berlalu,",
+    "dan subuh apabila mulai terang.",
+    "Sesungguhnya Saqar itu adalah salah satu bencana yang amat besar,",
+    "sebagai ancaman bagi manusia.",
+    "(Yaitu) bagi siapa di antaramu yang berkehendak akan maju atau mundur.",
+    "Tiap-tiap diri bertanggung jawab atas apa yang telah diperbuatnya,",
+    "kecuali golongan kanan,",
+    "berada di dalam surga, mereka tanya menanya,",
+    "tentang (keadaan) orang-orang yang berdosa,",
+    "\"Apakah yang memasukkan kamu ke dalam Saqar (neraka)?\"",
+    "Mereka menjawab: \"Kami dahulu tidak termasuk orang-orang yang mengerjakan shalat,",
+    "dan kami tidak (pula) memberi makan orang miskin,",
+    "dan adalah kami membicarakan yang bathil, bersama dengan orang-orang yang membicarakannya,",
+    "dan adalah kami mendustakan hari pembalasan,",
+    "hingga datang kepada kami kematian\".",
+    "Maka tidak berguna lagi bagi mereka syafa'at dari orang-orang yang memberikan syafa'at.",
+    "Maka mengapa mereka (orang-orang kafir) berpaling dari peringatan (Allah)?,",
+    "seakan-akan mereka itu keledai liar yang lari terkejut,",
+    "lari daripada singa.",
+    "Bahkan tiap-tiap orang dari mereka berkehendak supaya diberikan kepadanya lembaran-lembaran yang terbuka.",
+    "Sekali-kali tidak. Sebenarnya mereka tidak takut kepada negeri akhirat.",
+    "Sekali-kali tidak demikian halnya. Sesungguhnya Al Quran itu adalah peringatan.",
+    "Maka barangsiapa menghendaki, niscaya dia mengambil pelajaran daripadanya (Al Quran).",
+    "Dan mereka tidak akan mengambil pelajaran daripadanya kecuali (jika) Allah menghendakinya. Dia (Allah) adalah Tuhan Yang patut (kita) bertakwa kepada-Nya dan berhak memberi ampun."
   ]
 }

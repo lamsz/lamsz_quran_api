@@ -1,27 +1,11 @@
 ﻿{
-  "id": "surat113",
+  "id": 113,
   "name": "الفلق",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Katakanlah: \"Aku berlindung kepada Tuhan Yang Menguasai subuh,"
-    },
-    {
-      "id": "2",
-      "text": "dari kejahatan makhluk-Nya,"
-    },
-    {
-      "id": "3",
-      "text": "dan dari kejahatan malam apabila telah gelap gulita,"
-    },
-    {
-      "id": "4",
-      "text": "dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul,"
-    },
-    {
-      "id": "5",
-      "text": "dan dari kejahatan pendengki bila ia dengki\"."
-    }
+    "Katakanlah: \"Aku berlindung kepada Tuhan Yang Menguasai subuh,",
+    "dari kejahatan makhluk-Nya,",
+    "dan dari kejahatan malam apabila telah gelap gulita,",
+    "dan dari kejahatan wanita-wanita tukang sihir yang menghembus pada buhul-buhul,",
+    "dan dari kejahatan pendengki bila ia dengki\"."
   ]
 }

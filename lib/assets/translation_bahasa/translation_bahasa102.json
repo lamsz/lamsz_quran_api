@@ -1,39 +1,14 @@
 ﻿{
-  "id": "surat102",
+  "id": 102,
   "name": "التكاثر",
-  "remark": "",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Bermegah-megahan telah melalaikan kamu,"
-    },
-    {
-      "id": "2",
-      "text": "sampai kamu masuk ke dalam kubur."
-    },
-    {
-      "id": "3",
-      "text": "Janganlah begitu, kelak kamu akan mengetahui (akibat perbuatanmu itu),"
-    },
-    {
-      "id": "4",
-      "text": "dan janganlah begitu, kelak kamu akan mengetahui."
-    },
-    {
-      "id": "5",
-      "text": "Janganlah begitu, jika kamu mengetahui dengan pengetahuan yang yakin,"
-    },
-    {
-      "id": "6",
-      "text": "niscaya kamu benar-benar akan melihat neraka Jahiim,"
-    },
-    {
-      "id": "7",
-      "text": "dan sesungguhnya kamu benar-benar akan melihatnya dengan 'ainul yaqin."
-    },
-    {
-      "id": "8",
-      "text": "kemudian kamu pasti akan ditanyai pada hari itu tentang kenikmatan (yang kamu megah-megahkan di dunia itu)."
-    }
+    "Bermegah-megahan telah melalaikan kamu,",
+    "sampai kamu masuk ke dalam kubur.",
+    "Janganlah begitu, kelak kamu akan mengetahui (akibat perbuatanmu itu),",
+    "dan janganlah begitu, kelak kamu akan mengetahui.",
+    "Janganlah begitu, jika kamu mengetahui dengan pengetahuan yang yakin,",
+    "niscaya kamu benar-benar akan melihat neraka Jahiim,",
+    "dan sesungguhnya kamu benar-benar akan melihatnya dengan 'ainul yaqin.",
+    "kemudian kamu pasti akan ditanyai pada hari itu tentang kenikmatan (yang kamu megah-megahkan di dunia itu)."
   ]
 }

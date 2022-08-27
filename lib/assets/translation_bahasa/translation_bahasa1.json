@@ -1,35 +1,13 @@
 ﻿{
-  "id": "1",
+  "id": 1,
   "name": "الفاتحة",
-  "remark": "Surat <i>Al Faatihah</i> (Pembukaan) yang diturunkan di Mekah dan terdiri dari 7 ayat adalah surat yang pertama-tama diturunkan dengan lengkap  diantara surat-surat yang ada dalam Al Quran dan termasuk golongan surat Makkiyyah. Surat ini disebut <i>Al Faatihah</i> (Pembukaan), karena dengan surat inilah dibuka dan dimulainya Al Quran. Dinamakan <i>Ummul Quran</i> (induk Al Quran) atau <i>Ummul Kitaab</i> (induk Al Kitaab) karena dia merupakan induk dari semua isi Al Quran, dan karena itu diwajibkan membacanya pada tiap-tiap sembahyang.<br> Dinamakan pula <i>As Sab'ul matsaany</i> (tujuh yang berulang-ulang) karena ayatnya tujuh dan dibaca berulang-ulang dalam sholat.",
   "ayaTranslation": [
-    {
-      "id": "1",
-      "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang."
-    },
-    {
-      "id": "2",
-      "text": "Segala puji bagi Allah, Tuhan semesta alam."
-    },
-    {
-      "id": "3",
-      "text": "Maha Pemurah lagi Maha Penyayang."
-    },
-    {
-      "id": "4",
-      "text": "Yang menguasai di Hari Pembalasan."
-    },
-    {
-      "id": "5",
-      "text": "Hanya Engkaulah yang kami sembah, dan hanya kepada Engkaulah kami meminta pertolongan."
-    },
-    {
-      "id": "6",
-      "text": "Tunjukilah kami jalan yang lurus,"
-    },
-    {
-      "id": "7",
-      "text": "(yaitu) Jalan orang-orang yang telah Engkau beri nikmat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat."
-    }
+    "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.",
+    "Segala puji bagi Allah, Tuhan semesta alam.",
+    "Maha Pemurah lagi Maha Penyayang.",
+    "Yang menguasai di Hari Pembalasan.",
+    "Hanya Engkaulah yang kami sembah, dan hanya kepada Engkaulah kami meminta pertolongan.",
+    "Tunjukilah kami jalan yang lurus,",
+    "(yaitu) Jalan orang-orang yang telah Engkau beri nikmat kepada mereka; bukan (jalan) mereka yang dimurkai dan bukan (pula jalan) mereka yang sesat."
   ]
 }
