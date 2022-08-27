@@ -1,0 +1,35 @@
+{
+    "id": "1",
+    "name": "الفاتحة",
+    "remark": "",
+    "ayaTranslation": [
+        {
+            "id": "1",
+            "text": "bismi <strong>al</strong>l<u>aa</u>hi <strong>al</strong>rra<u>h</u>m<u>aa</u>ni <strong>al</strong>rra<u>h</u>iim<strong>i</strong>"
+        },
+        {
+            "id": "2",
+            "text": "al<u>h</u>amdu lill<u>aa</u>hi rabbi <strong>a</strong>l'<u>aa</u>lamiin<strong>a</strong>"
+        },
+        {
+            "id": "3",
+            "text": "a<strong>l</strong>rra<u>h</u>m<u>aa</u>ni <strong>al</strong>rra<u>h</u>iim<strong>i</strong>"
+        },
+        {
+            "id": "4",
+            "text": "m<u>aa</u>liki yawmi <strong>al</strong>ddiin<strong>i</strong>"
+        },
+        {
+            "id": "5",
+            "text": "iyy<u>aa</u>ka na'budu wa-iyy<u>aa</u>ka nasta'iin<strong>u</strong>"
+        },
+        {
+            "id": "6",
+            "text": "ihdin<u>aa</u> <strong>al</strong><u>shsh</u>ir<u>aath</u>a <strong>a</strong>lmustaqiim<strong>a</strong>"
+        },
+        {
+            "id": "7",
+            "text": "<u>sh</u>ir<u>aath</u>a <strong>al</strong>la<u>dz</u>iina an'amta 'alayhim ghayri <strong>a</strong>lmagh<u>dh</u>uubi 'alayhim wal<u>aa</u> <strong>al</strong><u>dhdhaa</u>lliin<strong>a</strong>"
+        }
+    ]
+}

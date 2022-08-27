@@ -1,0 +1,34 @@
+name: lamsz_quran_api
+description: A dart api for 
+version: 0.0.1
+homepage:
+publish_to: http://localhost:9099
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # To add assets to your package, add an assets section, like this:
+  assets:
+    - lib/assets/surah/
+    - lib/assets/quran_surah.json
+    - lib/assets/translation_bahasa/
+    - lib/assets/translation_english/
+    - lib/assets/translation_transliteration/
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
