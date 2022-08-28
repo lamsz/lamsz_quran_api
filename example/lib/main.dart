@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
     var surahList = await getSurahList();
     var aya = await getAyaData(
         surahNumber: defaultSurah,
-        ayaNumber: defaultAyah - 1,
+        ayaNumber: defaultAyah,
         translationLang: translationLang);
     setState(() {
       surahData = surah;
@@ -119,16 +119,26 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Column(
         children: [
-          Row(
-            children: [
-              TextButton(
-                  onPressed: changeLang, child: const Text('change language')),
-              TextButton(
-                  onPressed: changeSurah, child: const Text('change Surah')),
-              TextButton(onPressed: changeAya, child: const Text('change Aya')),
-            ],
+          Expanded(
+            flex: 1,
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  TextButton(
+                      onPressed: changeLang,
+                      child: const Text('change language')),
+                  TextButton(
+                      onPressed: changeSurah,
+                      child: const Text('change Surah')),
+                  TextButton(
+                      onPressed: changeAya, child: const Text('change Aya')),
+                ],
+              ),
+            ),
           ),
           Expanded(
+            flex: 3,
             child: Column(
               children: [
                 const Text('getSurahList()'),
@@ -139,7 +149,6 @@ class _MyHomePageState extends State<MyHomePage> {
                         controller: ScrollController(),
                         itemCount: surahListData.length,
                         itemBuilder: (context, i) {
-                          // return Text('test${surah.id.toString()}');
                           return Padding(
                             padding: const EdgeInsets.only(
                                 top: 8.0, bottom: 8.0, left: 3.0, right: 3.0),
@@ -158,6 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Expanded(
+            flex: 3,
             child: Column(
               children: [
                 Text(
@@ -188,16 +198,14 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
             ),
           ),
-          SingleChildScrollView(
-            child: Padding(
-              padding: const EdgeInsets.all(8.0),
+          Expanded(
+            flex: 2,
+            child: SingleChildScrollView(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
                       """getAyaData(surahNumber: $defaultSurah, ayaNumber: $defaultAyah,
-                        translationLang: $defaultLang );"""),
+                          translationLang: $defaultLang );"""),
                   Text(aya11.toString()),
                 ],
               ),
