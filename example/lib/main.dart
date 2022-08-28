@@ -54,13 +54,18 @@ class _MyHomePageState extends State<MyHomePage> {
   var surahData = SurahContentModel();
   var surahListData = <SurahHeaderModel>[];
   var aya11 = Aya();
+  var defaultLang = 'bahasa';
+  var defaultSurah = 1;
+  var defaultAyah = 1;
 
-  loadSurah() async {
-    var surah =
-        await getSurahData(surahNumber: '1', translationLang: 'english');
+  loadSurah(String translationLang) async {
+    var surah = await getSurahData(
+        surahNumber: defaultSurah, translationLang: translationLang);
     var surahList = await getSurahList();
     var aya = await getAyaData(
-        surahNumber: 1, ayaNumber: 1, translationLang: 'bahasa');
+        surahNumber: defaultSurah,
+        ayaNumber: defaultAyah,
+        translationLang: translationLang);
     setState(() {
       surahData = surah;
       surahListData = surahList;
@@ -70,8 +75,32 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    loadSurah();
+    loadSurah(defaultLang);
     super.initState();
+  }
+
+  changeLang() {
+    defaultLang = defaultLang == 'bahasa' ? 'english' : 'bahasa';
+    loadSurah(defaultLang);
+  }
+
+  changeSurah() {
+    if (defaultSurah < 114) {
+      defaultSurah++;
+    } else {
+      defaultSurah = 1;
+    }
+    defaultAyah = 1;
+    loadSurah(defaultLang);
+  }
+
+  changeAya() {
+    if (defaultAyah < surahListData[defaultSurah - 1].ayah!) {
+      defaultAyah++;
+    } else {
+      defaultAyah = 1;
+    }
+    loadSurah(defaultLang);
   }
 
   @override
@@ -88,9 +117,28 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: Row(
+      body: Column(
         children: [
           Expanded(
+            flex: 1,
+            child: SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: [
+                  TextButton(
+                      onPressed: changeLang,
+                      child: const Text('change language')),
+                  TextButton(
+                      onPressed: changeSurah,
+                      child: const Text('change Surah')),
+                  TextButton(
+                      onPressed: changeAya, child: const Text('change Aya')),
+                ],
+              ),
+            ),
+          ),
+          Expanded(
+            flex: 3,
             child: Column(
               children: [
                 const Text('getSurahList()'),
@@ -101,13 +149,11 @@ class _MyHomePageState extends State<MyHomePage> {
                         controller: ScrollController(),
                         itemCount: surahListData.length,
                         itemBuilder: (context, i) {
-                          // return Text('test${surah.id.toString()}');
                           return Padding(
                             padding: const EdgeInsets.only(
                                 top: 8.0, bottom: 8.0, left: 3.0, right: 3.0),
                             child: ListTile(
-                              leading: Text(
-                                  convertNumberToArabic(surahListData[i].id!)),
+                              leading: Text(surahListData[i].arabicIndex),
                               title: Text(
                                 surahListData[i].toString(),
                                 textAlign: TextAlign.start,
@@ -121,10 +167,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Expanded(
+            flex: 3,
             child: Column(
               children: [
-                const Text(
-                    "getSurahData(surahNumber: '1', translationLang: 'english')"),
+                Text(
+                    "getSurahData(surahNumber: $defaultSurah, translationLang: $defaultLang)"),
                 Text('Surah : ${surahData.name ?? ''}'),
                 Expanded(
                   child: SizedBox(
@@ -138,8 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             padding: const EdgeInsets.only(
                                 top: 8.0, bottom: 8.0, left: 3.0, right: 3.0),
                             child: ListTile(
-                              leading: Text(
-                                  convertNumberToArabic(surahData.aya![i].id!)),
+                              leading: Text(surahData.aya![i].arabicIndex),
                               title: Text(
                                 surahData.aya![i].toString(),
                                 textAlign: TextAlign.start,
@@ -153,12 +199,16 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Expanded(
-            child: Column(
-              children: [
-                const Text("""getAyaData(surahNumber: 1, ayaNumber: 1, 
-                    translationLang: 'bahasa');"""),
-                Text(aya11.toString()),
-              ],
+            flex: 2,
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  Text(
+                      """getAyaData(surahNumber: $defaultSurah, ayaNumber: $defaultAyah,
+                          translationLang: $defaultLang );"""),
+                  Text(aya11.toString()),
+                ],
+              ),
             ),
           ),
         ],

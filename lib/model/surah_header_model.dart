@@ -1,5 +1,7 @@
+import '../util/util.dart';
+
 class SurahHeaderModel {
-  String? id;
+  int? id;
   String? nameArabic;
   String? nameLatin;
   String? asma;
@@ -44,6 +46,16 @@ class SurahHeaderModel {
 
   @override
   String toString() {
-    return 'surahNo:$id, name: $nameArabic,name_latin: $nameLatin,numOfAyah: $ayah, SurahType: $type,Transliteration: $transliteration, AudioUrl: $audio';
+    return '''
+    surahNo:$id, 
+    surahNoArabic: $arabicIndex, 
+    name: $nameArabic,
+    name_latin: $nameLatin,
+    numOfAyah: $ayah, 
+    SurahType: $type,
+    Transliteration: $transliteration, 
+    AudioUrl: $audio''';
   }
+
+  String get arabicIndex => convertNumberToArabic(id.toString());
 }
