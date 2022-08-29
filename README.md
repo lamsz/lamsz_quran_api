@@ -109,7 +109,7 @@ Returns name, aya list, aya translation list and transliteration (latin):
     {
       "id": 1,
       "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-      "translation": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.",
+      "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
       "transliteration": "",
     },...
  ]

@@ -119,12 +119,10 @@ filterText(String text) {
 ///  "translation": [
 ///    {
 ///      "id": "1",
-///      "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang."
+///      "text": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang."
 ///    },...
 /// ]
 ///```
-///
-///Length of the list is the total number of surah in Al Quran.
 Future<SurahContentModel> getSurahData(
     {required int surahNumber, required String translationLang}) async {
   return await QuranDatasource.instance.getSurahContent(
@@ -157,7 +155,8 @@ Future<Aya> getAyaData(
     {required int surahNumber,
     required int ayaNumber,
     required String translationLang}) async {
+  var arrayNumber = ayaNumber - 1;
   var surah = await QuranDatasource.instance.getSurahContent(
       surahNumber: surahNumber, translationLang: translationLang);
-  return surah.aya![ayaNumber];
+  return surah.aya![arrayNumber];
 }
