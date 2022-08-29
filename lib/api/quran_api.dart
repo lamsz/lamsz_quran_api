@@ -104,7 +104,8 @@ filterText(String text) {
 ///getSurahData(surahNumber: 1, translationLang: 'english');
 ///```
 ///
-/// Returns name, aya list, aya translation list and transliteration (latin):
+/// Returns name, aya list, aya translation list and transliteration (latin),
+/// or empty Surah if request not valid
 ///
 ///```dart
 /// {
@@ -137,7 +138,8 @@ Future<SurahContentModel> getSurahData(
 ///getAya(surahNumber: 1, aya: 1, translationLang: 'english');
 ///```
 ///
-/// Returns number, arabic text, translation, transliteration:
+/// Returns number, arabic text, translation, transliteration,
+/// or empty Aya if not valid
 ///
 ///```dart
 ///
@@ -158,5 +160,7 @@ Future<Aya> getAyaData(
   var arrayNumber = ayaNumber - 1;
   var surah = await QuranDatasource.instance.getSurahContent(
       surahNumber: surahNumber, translationLang: translationLang);
-  return surah.aya![arrayNumber];
+  return (surah.aya?.length ?? 0) > arrayNumber && arrayNumber >= 0
+      ? surah.aya![arrayNumber]
+      : Aya();
 }
