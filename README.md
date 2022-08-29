@@ -48,18 +48,20 @@ It will returns List of Surahs such as
 
 ```dart
 {
-surah: [
-    {
-      "id": "1",
-      "name_arabic": "الفاتحة",
-      "name_latin": "Al Fatihah",
-      "asma": "الفاتحة",
-      "ayah": 7,
-      "type": "Makkiyah",
-      "transliteration": "Al Fatihah",
-      "audio": "https://server8.mp3quran.net/afs/001.mp3"
-    },...]
- }
+    surah:
+        [
+            {
+            "id": 1,
+            "name_arabic": "الفاتحة",
+            "name_latin": "Al Fatihah",
+            "asma": "الفاتحة",
+            "ayah": 7,
+            "type": "Makkiyah",
+            "transliteration": "Al Fatihah",
+            "audio": "https://server8.mp3quran.net/afs/001.mp3"
+            },...
+        ]
+}
 ```
 You could get the number of Surah in Al Quran, by get the length of the list
 
@@ -76,18 +78,21 @@ searchSurah('Fatihah');
 It will returns List of Surahs similar to get surah list
 
 ```dart
- [
-    {
-      "id": "1",
-      "name_arabic": "الفاتحة",
-      "name_latin": "Al Fatihah",
-      "asma": "الفاتحة",
-      "ayah": 7,
-      "type": "Makkiyah",
-      "transliteration": "Al Fatihah",
-      "audio": "https://server8.mp3quran.net/afs/001.mp3"
-    }
- ]
+{
+    surah:
+        [
+            {
+            "id": 1,
+            "name_arabic": "الفاتحة",
+            "name_latin": "Al Fatihah",
+            "asma": "الفاتحة",
+            "ayah": 7,
+            "type": "Makkiyah",
+            "transliteration": "Al Fatihah",
+            "audio": "https://server8.mp3quran.net/afs/001.mp3"
+            },...
+        ]
+ }
 ```
 
 ## Get Single Surah Data
@@ -102,17 +107,24 @@ getSurahData(surahNumber: 1, translationLang: 'bahasa');
 Returns name, aya list, aya translation list and transliteration (latin):
 
 ```dart
- {
-  "id": "1",
-  "name": "الفاتحة",
-  "aya": [
-    {
-      "id": 1,
-      "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-      "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
-      "transliteration": "",
-    },...
- ]
+{
+    "id": 1,
+    "name": "الفاتحة",
+    "remark": "...",
+    "translationLang": "bahasa",
+    "aya": 
+        [
+            {
+                "id": 1,
+                "arabic_index": "\u0661",
+                "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+                "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+                "transliteration": "...",
+                "audioURL" : "...",
+            },...
+        ]
+
+}
   
 ```
 
@@ -128,10 +140,12 @@ getAya(surahNumber: 1, aya: 1, translationLang: 'bahasa');
  Returns number, arabic text, translation, transliteration:
 
 ```dart
-    {
-      "id": "1",
-      "text":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-      "translation": "Dengan Menyebut Nama Allah yang Maha Pengasih lagi Maha Penyayang"
-
-    }
+{
+    "id": 1,
+    "arabic_index": "\u0661",
+    "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+    "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+    "transliteration": "...",
+    "audioURL" : "...",
+}
 ```
