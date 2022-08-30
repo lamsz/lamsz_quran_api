@@ -29,6 +29,9 @@ class QuranDatasource {
 
   Future<SurahContentModel> getSurahContent(
       {required int surahNumber, required String translationLang}) async {
+    if (surahNumber < 1 || surahNumber > 114) {
+      return SurahContentModel();
+    }
     //call if the object still empty
     if (surah.id == null || surah.id != surahNumber) {
       surah = await getSurahArabicContent(surahNumber);

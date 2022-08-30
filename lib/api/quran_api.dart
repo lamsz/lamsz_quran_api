@@ -14,18 +14,20 @@ import '../model/surah_header_model.dart';
 ///
 ///```dart
 ///{
-///surah: [
-///    {
-///      "id": "1",
-///      "name_arabic": "الفاتحة",
-///      "name_latin": "Al Fatihah",
-///      "asma": "الفاتحة",
-///      "ayah": 7,
-///      "type": "Makkiyah",
-///      "transliteration": "Al Fatihah",
-///      "audio": "https://server8.mp3quran.net/afs/001.mp3"
-///    },...]
-/// }
+/// surah:
+///       [
+///         {
+///         "id": 1,
+///         "name_arabic": "الفاتحة",
+///         "name_latin": "Al Fatihah",
+///         "asma": "الفاتحة",
+///         "ayah": 7,
+///         "type": "Makkiyah",
+///         "transliteration": "Al Fatihah",
+///         "audio": "https://server8.mp3quran.net/afs/001.mp3"
+///         },...
+///       ]
+///}
 ///```
 ///
 ///Length of the list is the total number of surah in Al Quran.
@@ -44,18 +46,21 @@ Future<List<SurahHeaderModel>> getSurahList() {
 /// Returns List of Surahs:
 ///
 ///```dart
-/// [
-///    {
-///      "id": "1",
-///      "name_arabic": "الفاتحة",
-///      "name_latin": "Al Fatihah",
-///      "asma": "الفاتحة",
-///      "ayah": 7,
-///      "type": "Makkiyah",
-///      "transliteration": "Al Fatihah",
-///      "audio": "https://server8.mp3quran.net/afs/001.mp3"
-///    }
-/// ]
+///{
+/// surah:
+///       [
+///         {
+///         "id": 1,
+///         "name_arabic": "الفاتحة",
+///         "name_latin": "Al Fatihah",
+///         "asma": "الفاتحة",
+///         "ayah": 7,
+///         "type": "Makkiyah",
+///         "transliteration": "Al Fatihah",
+///         "audio": "https://server8.mp3quran.net/afs/001.mp3"
+///         },...
+///       ]
+///}
 ///```
 ///
 ///Length of the list is the total number of surah in Al Quran.
@@ -101,30 +106,30 @@ filterText(String text) {
 ///Example:
 ///
 ///```dart
-///getSurahData(surahNumber: 1, translationLang: 'english');
+///getSurahData(surahNumber: 1, translationLang: 'bahasa');
 ///```
 ///
-/// Returns name, aya list, aya translation list and transliteration (latin):
+/// Returns name, aya list, aya translation list and transliteration (latin),
+/// or empty Surah if request not valid
 ///
 ///```dart
-/// {
-///  "id": "1",
-///  "name": "الفاتحة",
-///  "aya": [
-///    {
-///      "id": "1",
-///      "text":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-///    },...
-/// ]
-///  "translation": [
-///    {
-///      "id": "1",
-///      "text": "Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang."
-///    },...
-/// ]
+///{
+/// "id": 1,
+/// "name": "الفاتحة",
+/// "remark": "...",
+/// "translationLang": "bahasa",
+/// "aya":
+///       [
+///         {
+///           "id": 1,
+///           "arabic_index": "\u0661",
+///           "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+///           "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+///           "transliteration": "...",
+///         },...
+///       ]
+///}
 ///```
-///
-///Length of the list is the total number of surah in Al Quran.
 Future<SurahContentModel> getSurahData(
     {required int surahNumber, required String translationLang}) async {
   return await QuranDatasource.instance.getSurahContent(
@@ -139,17 +144,17 @@ Future<SurahContentModel> getSurahData(
 ///getAya(surahNumber: 1, aya: 1, translationLang: 'english');
 ///```
 ///
-/// Returns number, arabic text, translation, transliteration:
+/// Returns number, arabic text, translation, transliteration,
+/// or empty Aya if not valid
 ///
 ///```dart
-///
-///
-///    {
-///      "id": "1",
-///      "text":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-///      "translation": "Dengan Menyebut Nama Allah yang Maha Pengasih lagi Maha Penyayang"
-///
-///    }
+///{
+///   "id": 1,
+///   "arabic_index": "\u0661",
+///   "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+///   "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+///   "transliteration": ...
+///}
 ///```
 ///
 //
@@ -157,7 +162,10 @@ Future<Aya> getAyaData(
     {required int surahNumber,
     required int ayaNumber,
     required String translationLang}) async {
+  var arrayNumber = ayaNumber - 1;
   var surah = await QuranDatasource.instance.getSurahContent(
       surahNumber: surahNumber, translationLang: translationLang);
-  return surah.aya![ayaNumber];
+  return (surah.aya?.length ?? 0) > arrayNumber && arrayNumber >= 0
+      ? surah.aya![arrayNumber]
+      : Aya();
 }
