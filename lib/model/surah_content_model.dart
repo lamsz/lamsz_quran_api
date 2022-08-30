@@ -74,15 +74,12 @@ class Aya {
   String? transliteration;
   String? audioURL;
 
-  Aya({this.id, this.arabic});
-
-  Aya.fromJson(Map<String, dynamic> json) {
-    id = json['id'];
-    arabic = json['arabic'];
-    translation = json['translation'];
-    transliteration = json['transliteration'];
-    audioURL = json['audioURL'];
-  }
+  Aya(
+      {this.id,
+      this.arabic,
+      this.translation,
+      this.transliteration,
+      this.audioURL});
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
