@@ -7,6 +7,8 @@ class SurahContentModel {
   List<Aya>? aya;
   List<String>? _ayaList;
   String? translationLang;
+  String? tafseer;
+  String? nameTranslation;
 
   SurahContentModel({
     this.id,
@@ -59,7 +61,17 @@ class SurahContentModel {
     for (var element in ayaTransliteration) {
       var ayaTemp = aya![number - 1];
       ayaTemp.transliteration = element;
-      // aya![number - 1] = ayaTemp;
+      aya![number - 1] = ayaTemp;
+      number++;
+    }
+  }
+
+  void setAyaTafseer(List<String> ayaTafseer) {
+    int number = 1;
+    for (var element in ayaTafseer) {
+      var ayaTemp = aya![number - 1];
+      ayaTemp.tafseer = element;
+      aya![number - 1] = ayaTemp;
       number++;
     }
   }
@@ -72,6 +84,7 @@ class Aya {
   String? arabic;
   String? translation;
   String? transliteration;
+  String? tafseer;
   String? audioURL;
 
   Aya(
@@ -79,6 +92,7 @@ class Aya {
       this.arabic,
       this.translation,
       this.transliteration,
+      this.tafseer,
       this.audioURL});
 
   Map<String, dynamic> toJson() {
@@ -98,6 +112,7 @@ class Aya {
      arabicIndex: $arabicIndex,
      arabicText: $arabic,
      translation: ${translation ?? ''}, 
+     tafseer: ${tafseer ?? ''},
      translliteration: ${transliteration ?? ''},
      audioURL : ${audioURL ?? ''}""";
   }
