@@ -59,7 +59,7 @@ class QuranDatasource {
   Future<List<String>> getSurahTranslationContent(
       {required int surahNumber, required String lang}) async {
     var jsonPath =
-        'packages/$packageName/lib/assets/translation_${lang}/translation_$lang$surahNumber.json';
+        'packages/$packageName/lib/assets/translation_$lang/translation_$lang$surahNumber.json';
     String data = await rootBundle.loadString(jsonPath);
     var dataList = json.decode(data);
     return dataList['ayaTranslation'].cast<String>();
