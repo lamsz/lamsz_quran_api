@@ -1,5 +1,5 @@
 name: lamsz_quran_api
-description: A dart api for 
+description: An offline Al Quran API for flutter
 version: 0.0.1
 homepage: https://lamsz.id
 publish_to: https://pub.lamsz.my.id
