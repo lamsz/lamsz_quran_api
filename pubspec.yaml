@@ -28,12 +28,6 @@ flutter:
     - lib/assets/
     - lib/assets/surah/
     - lib/assets/quran_surah.json
-<<<<<<< HEAD
-    - lib/assets/tafseer/bahasa/jalalayn/
-    - lib/assets/translation/english/
-    - lib/assets/translation/bahasa/
-    - lib/assets/transliteration/bahasa/
-=======
     - lib/assets/translation/
     - lib/assets/translation/bahasa/
     - lib/assets/translation/english/
@@ -41,6 +35,6 @@ flutter:
     - lib/assets/transliteration/english/
     - lib/assets/tafseer/bahasa/jalalayn/
     - lib/assets/tafseer/english/hilalikhan/
->>>>>>> main
+
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
