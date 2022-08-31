@@ -21,7 +21,8 @@ class QuranDatasource {
   };
 
   static const _tafseerMap = {
-    'bahasa': {'jalalayn': 'Jalalayn'}
+    'bahasa': {'jalalayn': 'Jalalayn'},
+    'english': {'hilalikhan': 'Hilalikhan'}
   };
 
   var packageName = 'lamsz_quran_api';
@@ -50,7 +51,8 @@ class QuranDatasource {
     //call if the object still empty
     if (surah.id == null || surah.id != surahNumber) {
       surah = await getSurahArabicContent(surahNumber);
-      await _getAndSetTransliteration(surahNumber: surahNumber);
+      await _getAndSetTransliteration(
+          surahNumber: surahNumber, translationLang: translationLang);
     }
 
     if (surah.translationLang == null ||
@@ -99,9 +101,10 @@ class QuranDatasource {
     return surahArabic;
   }
 
-  Future<void> _getAndSetTransliteration({required int surahNumber}) async {
+  Future<void> _getAndSetTransliteration(
+      {required int surahNumber, required String translationLang}) async {
     var jsonPath =
-        'packages/$packageName/lib/assets/transliteration/$surahNumber.json';
+        'packages/$packageName/lib/assets/transliteration/$translationLang/$surahNumber.json';
     var dataList = await loadJsonAssets(jsonPath);
     surah.setAyaTransliteration((dataList['ayaTranslation']).cast<String>());
   }

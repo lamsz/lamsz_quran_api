@@ -31,7 +31,9 @@ flutter:
     - lib/assets/translation/
     - lib/assets/translation/bahasa/
     - lib/assets/translation/english/
+    - lib/assets/transliteration/bahasa/
+    - lib/assets/transliteration/english/
     - lib/assets/tafseer/bahasa/jalalayn/
-    - lib/assets/transliteration/
+    - lib/assets/tafseer/english/hilalikhan/
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
