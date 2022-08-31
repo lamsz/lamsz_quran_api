@@ -60,12 +60,15 @@ class _MyHomePageState extends State<MyHomePage> {
 
   loadSurah(String translationLang) async {
     var surah = await getSurahData(
-        surahNumber: defaultSurah, translationLang: translationLang);
+        surahNumber: defaultSurah,
+        translationLang: translationLang,
+        tafseer: 'jalalayn');
     var surahList = await getSurahList();
     var aya = await getAyaData(
         surahNumber: defaultSurah,
         ayaNumber: defaultAyah,
-        translationLang: translationLang);
+        translationLang: translationLang,
+        tafseer: 'jalalayn');
     setState(() {
       surahData = surah;
       surahListData = surahList;
@@ -187,7 +190,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: ListTile(
                               leading: Text(surahData.aya![i].arabicIndex),
                               title: Text(
-                                surahData.aya![i].toString(),
+                                '''${surahData.aya![i].toString()}
+                                    \n surahNameTranslation: ${surahData.nameTranslation ?? ""}''',
                                 textAlign: TextAlign.start,
                               ),
                             ),
