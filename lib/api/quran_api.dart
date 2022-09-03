@@ -2,6 +2,17 @@ import '../datasource/quran_datasource.dart';
 import '../model/surah_content_model.dart';
 import '../model/surah_header_model.dart';
 
+///Optional initiation of json assets based URL,
+///in case the current assets URL could not be used
+///Example
+///
+///```dart
+///initQuran(jsonAssetsURL: 'https://raw.githubusercontent.com/lamsz/lamsz_quran_api/main/lib/assets');
+///
+initQuran({String? jsonAssetsURL}) {
+  QuranDatasource.instance.initQuran(jsonAssetBaseURL: jsonAssetsURL);
+}
+
 ///Returns Al Quran data containing list of surah and its detail
 ///
 ///Example:

@@ -10,9 +10,10 @@ class QuranDatasource {
   static final QuranDatasource _instance = QuranDatasource._();
   static const String offline = 'offline';
   static const String online = 'online';
+  var _jsonBaseURL = '';
 
   QuranDatasource._();
-
+  //initiate singleton, so it won't create another object if exists
   static QuranDatasource get instance => _instance;
   var surahList = <SurahHeaderModel>[];
   var surah = SurahContentModel();
@@ -40,6 +41,17 @@ class QuranDatasource {
   };
 
   var packageName = 'lamsz_quran_api';
+
+  String get jsonAssetURL => _jsonBaseURL.contains('http')
+      ? _jsonBaseURL
+      : 'https://raw.githubusercontent.com/lamsz/lamsz_quran_api/main/lib/assets';
+
+  /// init quran, optional in case url of the assets needs to be changed
+  initQuran({String? jsonAssetBaseURL}) {
+    _jsonBaseURL = jsonAssetBaseURL ?? '';
+  }
+
+  /// returns list of all Quran surah and its attributes
   Future<List<SurahHeaderModel>> getSurahList() async {
     if (surahList.isEmpty) {
       String jsonPath = 'packages/$packageName/lib/assets/quran_surah.json';
@@ -51,6 +63,8 @@ class QuranDatasource {
     return surahList;
   }
 
+  /// returns surah data, including aya, aya translation, transliteration
+  /// and tafseer
   Future<SurahContentModel> getSurahContent(
       {required int surahNumber,
       String? translationLang,
@@ -93,6 +107,7 @@ class QuranDatasource {
     return surah;
   }
 
+  /// get surah arabic content including aya
   Future<SurahContentModel> getSurahArabicContent(int surahNumber) async {
     SurahContentModel surahArabic = SurahContentModel();
     String jsonPath =
@@ -102,6 +117,7 @@ class QuranDatasource {
     return surahArabic;
   }
 
+  // set transliteration of ayas into a surah retrieved
   Future<void> _getAndSetTransliteration(
       {required int surahNumber, String? transliterationLang}) async {
     var retrievalType = _transliterationLangMap[transliterationLang ?? ''];
@@ -113,7 +129,7 @@ class QuranDatasource {
           'packages/$packageName/lib/assets/transliteration/$transliterationLang/$surahNumber.json';
       if (retrievalType != offline) {
         jsonPath =
-            'https://raw.githubusercontent.com/lamsz/$packageName/main/lib/assets/transliteration/$transliterationLang/$surahNumber.json';
+            '$jsonAssetURL/transliteration/$transliterationLang/$surahNumber.json';
       }
       var dataList = await _loadData(jsonPath, retrievalType);
       surah.setAyaTransliteration(
@@ -121,6 +137,7 @@ class QuranDatasource {
     }
   }
 
+  /// set translation of ayas into a surah retrieved
   Future<void> _getAndSetTranslation({
     required int surahNumber,
     String? translationLang,
@@ -134,7 +151,7 @@ class QuranDatasource {
           'packages/$packageName/lib/assets/translation/$translationLang/$surahNumber.json';
       if (retrievalType != offline) {
         jsonPath =
-            'https://raw.githubusercontent.com/lamsz/$packageName/main/lib/assets/translation/$translationLang/$surahNumber.json';
+            '$jsonAssetURL/translation/$translationLang/$surahNumber.json';
       }
       var dataList = await _loadData(jsonPath, retrievalType);
       surah.setAyaTranslation(
@@ -143,6 +160,7 @@ class QuranDatasource {
     }
   }
 
+  /// set tafseer of ayas into a surah retrieved
   Future<void> _getAndSetTafseer(
       {required int surahNumber,
       String? translationLang,
@@ -156,13 +174,14 @@ class QuranDatasource {
           'packages/$packageName/lib/assets/tafseer/$translationLang/$tafseer/$surahNumber.json';
       if (retrievalType != offline) {
         jsonPath =
-            'https://raw.githubusercontent.com/lamsz/$packageName/main/lib/assets/tafseer/$translationLang/$tafseer/$surahNumber.json';
+            '$jsonAssetURL/tafseer/$translationLang/$tafseer/$surahNumber.json';
       }
       var dataList = await _loadData(jsonPath, retrievalType);
       surah.setAyaTafseer((dataList['ayaTranslation'] ?? []).cast<String>());
     }
   }
 
+  /// returns json data either from assets or url
   Future<dynamic> _loadData(String jsonPath, String type) async {
     if (type == offline) {
       return await loadJsonAssets(jsonPath);
@@ -171,6 +190,7 @@ class QuranDatasource {
     }
   }
 
+  /// returns json data from preincluded json files
   Future<dynamic> loadJsonAssets(String jsonPath) async {
     String data = '';
     try {
@@ -181,6 +201,7 @@ class QuranDatasource {
     return json.decode(data);
   }
 
+  /// returns json data from cloud using http request
   Future<dynamic> loadJsonFromURL(String jsonURL) async {
     var url = Uri.parse(jsonURL);
     var response = await http.get(url);
@@ -191,6 +212,7 @@ class QuranDatasource {
   }
 }
 
+/// IsOk is an extension to check http response success status
 extension IsOk on http.Response {
   bool get ok {
     return (statusCode ~/ 100) == 2;
