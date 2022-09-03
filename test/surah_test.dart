@@ -126,7 +126,7 @@ void main() {
     expect(surahData.aya!.length, 7);
     expect(surahData.translationLang, 'invalid');
     expect(surahData.aya?[0].arabic?.isEmpty, false);
-    expect(surahData.aya?[0].translation, null);
+    expect(surahData.aya?[0].translation, '');
   });
 
   test('Get Surah Online translation input', () async {
