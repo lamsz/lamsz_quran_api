@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import '../util/util.dart';
 
 class SurahHeaderModel {
@@ -22,12 +24,12 @@ class SurahHeaderModel {
 
   SurahHeaderModel.fromJson(Map<String, dynamic> json) {
     id = json['id'];
-    nameArabic = json['name_arabic'];
-    nameLatin = json['name_latin'];
+    nameArabic = json['ar'];
+    nameLatin = json['ltn'];
     asma = json['asma'];
-    ayah = json['ayah'];
+    ayah = json['len'];
     type = json['type'];
-    transliteration = json['transliteration'];
+    transliteration = json['trl'];
     audio = json['audio'];
   }
 
@@ -37,24 +39,17 @@ class SurahHeaderModel {
     data['name_arabic'] = nameArabic;
     data['name_latin'] = nameLatin;
     data['asma'] = asma;
-    data['ayah'] = ayah;
+    data['surahLength'] = ayah;
     data['type'] = type;
-    data['transliteration'] = transliteration;
-    data['audio'] = audio;
+    data['transliteration'] = transliteration ?? '';
+    data['audio'] = audio ?? '';
     return data;
   }
 
   @override
   String toString() {
-    return '''
-    surahNo:$id, 
-    surahNoArabic: $arabicIndex, 
-    name: $nameArabic,
-    name_latin: $nameLatin,
-    numOfAyah: $ayah, 
-    SurahType: $type,
-    Transliteration: $transliteration, 
-    AudioUrl: $audio''';
+    //return jsonmodel to string
+    return jsonEncode(toJson());
   }
 
   String get arabicIndex => convertNumberToArabic(id.toString());

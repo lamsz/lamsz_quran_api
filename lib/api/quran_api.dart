@@ -107,7 +107,10 @@ filterText(String text) {
 ///Example:
 ///
 ///```dart
-///  getSurahData(surahNumber: 1, translationLang: 'bahasa', tafseer: 'jalalayn');
+///  getSurahData(surahNumber: 1
+/// , translationLang: 'bahasa'
+/// , transliterationLang:
+/// 'bahasa', tafseer: 'jalalayn');
 ///```
 ///
 /// Returns name, aya list, aya translation list and transliteration (latin),
@@ -119,6 +122,8 @@ filterText(String text) {
 /// "name": "الفاتحة",
 /// "remark": "...",
 /// "translationLang": "bahasa",
+/// "transliterationLang": "bahasa",
+/// "tafseer": "jalalayn",
 /// "aya":
 ///       [
 ///         {
@@ -127,17 +132,20 @@ filterText(String text) {
 ///           "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
 ///           "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
 ///           "transliteration": "...",
+///           "tafseer":"";
 ///         },...
 ///       ]
 ///}
 ///```
 Future<SurahContentModel> getSurahData(
     {required int surahNumber,
-    required String translationLang,
+    String? translationLang,
+    String? transliterationLang,
     String? tafseer}) async {
   return await QuranDatasource.instance.getSurahContent(
       surahNumber: surahNumber,
       translationLang: translationLang,
+      transliterationLang: transliterationLang,
       tafseer: tafseer);
 }
 
@@ -146,7 +154,11 @@ Future<SurahContentModel> getSurahData(
 ///Example:
 ///
 ///```dart
-///getAya(surahNumber: 1, aya: 1, translationLang: 'english');
+///getAya(surahNumber: 1,
+///aya: 1,
+///translationLang: 'english'
+///transliterationLang: 'english',
+///tafseer='shaheehinter');
 ///```
 ///
 /// Returns number, arabic text, translation, transliteration,
@@ -158,7 +170,8 @@ Future<SurahContentModel> getSurahData(
 ///   "arabic_index": "\u0661",
 ///   "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
 ///   "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
-///   "transliteration": ...
+///   "transliteration": "...",
+///   "tafseer": "..."
 ///}
 ///```
 ///
@@ -166,12 +179,14 @@ Future<SurahContentModel> getSurahData(
 Future<Aya> getAyaData(
     {required int surahNumber,
     required int ayaNumber,
-    required String translationLang,
+    String? translationLang,
+    String? transliterationLang,
     String? tafseer}) async {
   var arrayNumber = ayaNumber - 1;
   var surah = await QuranDatasource.instance.getSurahContent(
       surahNumber: surahNumber,
       translationLang: translationLang,
+      transliterationLang: transliterationLang,
       tafseer: tafseer);
   return (surah.aya?.length ?? 0) > arrayNumber && arrayNumber >= 0
       ? surah.aya![arrayNumber]

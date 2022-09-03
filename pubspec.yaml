@@ -2,6 +2,7 @@ name: lamsz_quran_api
 description: An offline Al Quran API for flutter
 version: 0.0.1
 homepage: https://lamsz.id
+repository: https://github.com/lamsz/lamsz_quran_api
 publish_to: https://pub.lamsz.my.id
 
 environment:
@@ -11,6 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.5
 
 dev_dependencies:
   flutter_test:
@@ -31,10 +33,11 @@ flutter:
     - lib/assets/translation/
     - lib/assets/translation/bahasa/
     - lib/assets/translation/english/
-    - lib/assets/transliteration/bahasa/
-    - lib/assets/transliteration/english/
-    - lib/assets/tafseer/bahasa/jalalayn/
-    - lib/assets/tafseer/english/hilalikhan/
+    #  Other than translation bahasa and english will be online / cloud based
+    # - lib/assets/transliteration/bahasa/
+    # - lib/assets/transliteration/english/
+    # - lib/assets/tafseer/bahasa/jalalayn/
+    # - lib/assets/tafseer/english/hilalikhan/
 
   # For details regarding fonts in packages, see
   # https://flutter.dev/custom-fonts/#from-packages
