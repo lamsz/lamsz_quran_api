@@ -195,7 +195,7 @@ class QuranDatasource {
     String data = '';
     try {
       data = await rootBundle.loadString(jsonPath);
-    } on Exception catch (e) {
+    } on Exception {
       data = '';
     }
     return json.decode(data);
