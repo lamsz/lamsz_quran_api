@@ -28,7 +28,7 @@ void main() {
         ayaNumber: 1,
         translationLang: translationLang,
         tafseer: 'testing');
-    expect(ayaData.tafseer, null);
+    expect(ayaData.tafseer, '');
   });
 
   //negative test, it should return empty aya
@@ -71,7 +71,7 @@ void main() {
         surahNumber: 114, ayaNumber: 1, translationLang: translationLang);
     expect(ayaData.id, 1);
     expect(ayaData.translation,
-        'Katakanlah: \"Aku berlindung kepada Tuhan (yang memelihara dan menguasai) manusia.');
+        'Katakanlah: "Aku berlindung kepada Tuhan (yang memelihara dan menguasai) manusia.');
     expect(ayaData.arabic, 'قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ');
     expect(ayaData.toString(), toStringData);
   });

@@ -26,7 +26,7 @@ void main() {
 
   test('Search Surah Resulting in one Surah', () async {
     var toStringData =
-        '{"id":1,"arabic":"الفاتحة","latin":"Al Fatihah","asma":"الفاتحة","surahLength":7,"type":"Makkiyah","transliteration":"Al Fatihah","audio":"https://server8.mp3quran.net/afs/001.mp3"}';
+        '{"id":1,"name_arabic":"الفاتحة","name_latin":"Al Fatihah","asma":"الفاتحة","surahLength":7,"type":"Makkiyah","transliteration":"Al Fatihah","audio":"https://server8.mp3quran.net/afs/001.mp3"}';
     var surahKeyword = 'Al Fatihah';
     var surah = await searchSurah(surahKeyword);
     expect(surah.length, 1);
