@@ -57,18 +57,24 @@ class _MyHomePageState extends State<MyHomePage> {
   var defaultLang = 'bahasa';
   var defaultSurah = 1;
   var defaultAyah = 1;
+  var withTransliteration = true;
+  var withTafseer = true;
+  var withTranslation = true;
+  var tafseer = {'bahasa': 'jalalayn', 'english': 'shaheehinter'};
 
   loadSurah(String translationLang) async {
     var surah = await getSurahData(
         surahNumber: defaultSurah,
-        translationLang: translationLang,
-        tafseer: 'jalalayn');
+        translationLang: withTranslation ? translationLang : null,
+        transliterationLang: withTransliteration ? translationLang : null,
+        tafseer: withTafseer ? tafseer[defaultLang] : null);
     var surahList = await getSurahList();
     var aya = await getAyaData(
         surahNumber: defaultSurah,
         ayaNumber: defaultAyah,
-        translationLang: translationLang,
-        tafseer: 'jalalayn');
+        translationLang: withTranslation ? translationLang : null,
+        transliterationLang: withTransliteration ? translationLang : null,
+        tafseer: withTafseer ? tafseer[defaultLang] : null);
     setState(() {
       surahData = surah;
       surahListData = surahList;
@@ -106,6 +112,24 @@ class _MyHomePageState extends State<MyHomePage> {
     loadSurah(defaultLang);
   }
 
+  toggleTranslation() {
+    withTranslation = !withTranslation;
+
+    loadSurah(defaultLang);
+  }
+
+  toggleTransliteration() {
+    withTransliteration = !withTransliteration;
+
+    loadSurah(defaultLang);
+  }
+
+  toggleTafseer() {
+    withTafseer = !withTafseer;
+
+    loadSurah(defaultLang);
+  }
+
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
@@ -136,6 +160,17 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: const Text('change Surah')),
                   TextButton(
                       onPressed: changeAya, child: const Text('change Aya')),
+                  TextButton(
+                      onPressed: toggleTranslation,
+                      child: Text(
+                          'Translation ${withTranslation ? "ON" : "OFF"}')),
+                  TextButton(
+                      onPressed: toggleTransliteration,
+                      child: Text(
+                          'Transliteration ${withTransliteration ? "ON" : "OFF"}')),
+                  TextButton(
+                      onPressed: toggleTafseer,
+                      child: Text('Tafseer ${withTafseer ? "ON" : "OFF"}')),
                 ],
               ),
             ),

@@ -25,17 +25,12 @@ void main() {
   });
 
   test('Search Surah Resulting in one Surah', () async {
-    var toStringData = '    surahNo:1, \n'
-        '    surahNoArabic: ١, \n'
-        '    name: الفاتحة,\n'
-        '    name_latin: Al Fatihah,\n'
-        '    numOfAyah: 7, \n'
-        '    SurahType: Makkiyah,\n'
-        '    Transliteration: Al Fatihah, \n'
-        '    AudioUrl: https://server8.mp3quran.net/afs/001.mp3';
+    var toStringData =
+        '{"id":1,"arabic":"الفاتحة","latin":"Al Fatihah","asma":"الفاتحة","surahLength":7,"type":"Makkiyah","transliteration":"Al Fatihah","audio":"https://server8.mp3quran.net/afs/001.mp3"}';
     var surahKeyword = 'Al Fatihah';
     var surah = await searchSurah(surahKeyword);
     expect(surah.length, 1);
+    expect(surah[0].arabicIndex, '\u0661');
     expect(surah[0].nameLatin, surahKeyword);
     expect(surah[0].toString(), toStringData);
     expect(surah[0].toJson().isEmpty, false);

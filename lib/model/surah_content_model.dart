@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import '../util/util.dart';
 
 class SurahContentModel {
@@ -7,6 +9,7 @@ class SurahContentModel {
   List<Aya>? aya;
   List<String>? _ayaList;
   String? translationLang;
+  String? transliterationLang;
   String? tafseer;
   String? nameTranslation;
 
@@ -48,9 +51,13 @@ class SurahContentModel {
 
   void setAyaTranslation(List<String> ayaTranslation) {
     int number = 1;
-    for (var element in ayaTranslation) {
-      var ayaTemp = aya![number - 1];
-      ayaTemp.translation = element;
+    bool isEmpty = true;
+    if (ayaTranslation.length == aya!.length) {
+      isEmpty = false;
+    }
+    for (var element in aya!) {
+      var ayaTemp = element;
+      ayaTemp.translation = isEmpty ? '' : ayaTranslation[number - 1];
       aya![number - 1] = ayaTemp;
       number++;
     }
@@ -58,9 +65,13 @@ class SurahContentModel {
 
   void setAyaTransliteration(List<String> ayaTransliteration) {
     int number = 1;
-    for (var element in ayaTransliteration) {
-      var ayaTemp = aya![number - 1];
-      ayaTemp.transliteration = element;
+    bool isEmpty = true;
+    if (ayaTransliteration.length == aya!.length) {
+      isEmpty = false;
+    }
+    for (var element in aya!) {
+      var ayaTemp = element;
+      ayaTemp.transliteration = isEmpty ? '' : ayaTransliteration[number - 1];
       aya![number - 1] = ayaTemp;
       number++;
     }
@@ -68,9 +79,13 @@ class SurahContentModel {
 
   void setAyaTafseer(List<String> ayaTafseer) {
     int number = 1;
-    for (var element in ayaTafseer) {
-      var ayaTemp = aya![number - 1];
-      ayaTemp.tafseer = element;
+    bool isEmpty = true;
+    if (ayaTafseer.length == aya!.length) {
+      isEmpty = false;
+    }
+    for (var element in aya!) {
+      var ayaTemp = element;
+      ayaTemp.tafseer = isEmpty ? '' : ayaTafseer[number - 1];
       aya![number - 1] = ayaTemp;
       number++;
     }
@@ -98,23 +113,18 @@ class Aya {
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = <String, dynamic>{};
     data['id'] = id;
-    data['arabic'] = arabic;
-    data['translation'] = translation;
-    data['transliteration'] = transliteration;
-    data['audioURL'] = audioURL;
+    data['ar'] = arabic;
+    data['translation'] = translation ?? '';
+    data['tafseer'] = tafseer ?? '';
+    data['transliteration'] = transliteration ?? '';
+    data['audio'] = audioURL ?? '';
     return data;
   }
 
   @override
   String toString() {
-    return """
-     id: $id, 
-     arabicIndex: $arabicIndex,
-     arabicText: $arabic,
-     translation: ${translation ?? ''}, 
-     tafseer: ${tafseer ?? ''},
-     translliteration: ${transliteration ?? ''},
-     audioURL : ${audioURL ?? ''}""";
+    //return json model to string
+    return jsonEncode(toJson());
   }
 
   String get arabicIndex => convertNumberToArabic(id.toString());

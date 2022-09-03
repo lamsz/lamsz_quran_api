@@ -5,7 +5,7 @@
 
 # About Lamsz Quran API
 
-- Lamsz Quran API is an offline quran api which provide basic features to create an Al Quran application in Flutter
+- Lamsz Quran API is an mixed offline and cloud quran api which provide basic features to create an Al Quran application in Flutter. The reason it is mixed to keep the package as small as possible
 
 # Features
 
@@ -15,9 +15,19 @@ Lamsz Quran API provide several features as follows
 - Get Single Surah Data content of a surah,
 - Get single aya 
 - Get translation of aya
-   - english 
+   - english (offline)
+   - bahasa (offline)
+   - malay (cloud - http call)
+- Get transliteration of aya
+   - english (cloud - http call)
+   - bahasa (cloud - http call)
+- Get tafseer of aya based on language in translation
    - bahasa
-- TODO: Get tafsir of aya
+        - jalalayn (cloud - http call)
+        - quraish (cloud - http call)
+   - english
+        - hilalikhan (cloud - http call)
+        - shaheehinter (cloud - http call)
 
 # Installing
 
@@ -100,32 +110,41 @@ Returns Surah Data such as surah name, aya, translation and transliteration
 
 Example:
 
+Returns Surah Data such as surah name, aya, translation, tafseer
+ and transliteration
+
+Example:
+
 ```dart
-getSurahData(surahNumber: 1, translationLang: 'bahasa');
+  getSurahData(surahNumber: 1
+ , translationLang: 'bahasa'
+ , transliterationLang:
+ 'bahasa', tafseer: 'jalalayn');
 ```
 
-Returns name, aya list, aya translation list and transliteration (latin):
+ Returns name, aya list, aya translation list and transliteration (latin),
+ or empty Surah if request not valid
 
 ```dart
 {
-    "id": 1,
-    "name": "الفاتحة",
-    "remark": "...",
-    "translationLang": "bahasa",
-    "aya": 
-        [
-            {
-                "id": 1,
-                "arabic_index": "\u0661",
-                "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-                "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
-                "transliteration": "...",
-                "audioURL" : "...",
-            },...
-        ]
-
+ "id": 1,
+ "name": "الفاتحة",
+ "remark": "...",
+ "translationLang": "bahasa",
+ "transliterationLang": "bahasa",
+ "tafseer": "jalalayn",
+ "aya":
+       [
+         {
+           "id": 1,
+           "arabic_index": "\u0661",
+           "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+           "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+           "transliteration": "...",
+           "tafseer":"";
+         },...
+       ]
 }
-  
 ```
 
 ## Get Single Aya
@@ -134,18 +153,23 @@ Returns Aya Data such as number, arabic text, translation, transliteration
 Example:
 
 ```dart
-getAya(surahNumber: 1, aya: 1, translationLang: 'bahasa');
+getAya(surahNumber: 1,
+aya: 1,
+translationLang: 'english'
+transliterationLang: 'english',
+tafseer='shaheehinter');
 ```
 
- Returns number, arabic text, translation, transliteration:
+ Returns number, arabic text, translation, transliteration,
+ or empty Aya if not valid
 
 ```dart
 {
-    "id": 1,
-    "arabic_index": "\u0661",
-    "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
-    "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
-    "transliteration": "...",
-    "audioURL" : "...",
+   "id": 1,
+   "arabic_index": "\u0661",
+   "arabic":  "بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ",
+   "translation": "Dengan menyebut nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
+   "transliteration": "...",
+   "tafseer": "..."
 }
 ```

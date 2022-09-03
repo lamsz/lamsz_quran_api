@@ -1,31 +1,57 @@
 import 'dart:convert';
 
-import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
 
-import '../model/surah_header_model.dart';
 import '../model/surah_content_model.dart';
+import '../model/surah_header_model.dart';
 
 class QuranDatasource {
   static final QuranDatasource _instance = QuranDatasource._();
+  static const String offline = 'offline';
+  static const String online = 'online';
+  var _jsonBaseURL = '';
 
   QuranDatasource._();
-
+  //initiate singleton, so it won't create another object if exists
   static QuranDatasource get instance => _instance;
   var surahList = <SurahHeaderModel>[];
   var surah = SurahContentModel();
 
   static const _translationLangMap = {
-    'bahasa': 'Bahasa Indonesia',
-    'english': 'English'
+    'bahasa': offline,
+    'english': offline,
+    'malay': online,
+  };
+
+  static const _transliterationLangMap = {
+    'bahasa': online,
+    'english': online,
   };
 
   static const _tafseerMap = {
-    'bahasa': {'jalalayn': 'Jalalayn'},
-    'english': {'hilalikhan': 'Hilalikhan'}
+    'bahasa': {
+      'jalalayn': online,
+      'quraish': online,
+    },
+    'english': {
+      'hilalikhan': online,
+      'shaheehinter': online,
+    }
   };
 
   var packageName = 'lamsz_quran_api';
+
+  String get jsonAssetURL => _jsonBaseURL.contains('http')
+      ? _jsonBaseURL
+      : 'https://raw.githubusercontent.com/lamsz/lamsz_quran_api/main/lib/assets';
+
+  /// init quran, optional in case url of the assets needs to be changed
+  initQuran({String? jsonAssetBaseURL}) {
+    _jsonBaseURL = jsonAssetBaseURL ?? '';
+  }
+
+  /// returns list of all Quran surah and its attributes
   Future<List<SurahHeaderModel>> getSurahList() async {
     if (surahList.isEmpty) {
       String jsonPath = 'packages/$packageName/lib/assets/quran_surah.json';
@@ -37,61 +63,51 @@ class QuranDatasource {
     return surahList;
   }
 
+  /// returns surah data, including aya, aya translation, transliteration
+  /// and tafseer
   Future<SurahContentModel> getSurahContent(
       {required int surahNumber,
-      required String translationLang,
+      String? translationLang,
+      String? transliterationLang,
       String? tafseer}) async {
     if (surahNumber < 1 || surahNumber > 114) {
       return SurahContentModel();
     }
 
-    translationLang = checkAndSetLang(translationLang);
-    tafseer = checkAndSetTafseer(translationLang, tafseer);
-
     //call if the object still empty
-    if (surah.id == null || surah.id != surahNumber) {
+    if (surah.id != surahNumber) {
       surah = await getSurahArabicContent(surahNumber);
-      await _getAndSetTransliteration(
-          surahNumber: surahNumber, translationLang: translationLang);
     }
 
-    if (surah.translationLang == null ||
-        surah.translationLang != translationLang) {
+    //check if need to re-retrieve or not
+    if (surah.translationLang != translationLang) {
       await _getAndSetTranslation(
           surahNumber: surahNumber, translationLang: translationLang);
     }
 
-    if (surah.tafseer == null || surah.tafseer != tafseer) {
+    //check if need to re-retrieve or not
+    if (surah.transliterationLang != transliterationLang) {
+      await _getAndSetTransliteration(
+        surahNumber: surahNumber,
+        transliterationLang: transliterationLang,
+      );
+    }
+
+    //check if need to re-retrieve or not
+    if (surah.tafseer != tafseer) {
       await _getAndSetTafseer(
           surahNumber: surahNumber,
           translationLang: translationLang,
           tafseer: tafseer);
     }
     surah.translationLang = translationLang;
+    surah.transliterationLang = transliterationLang;
     surah.tafseer = tafseer;
 
     return surah;
   }
 
-  Map<String, String> get translationLanguageList => _translationLangMap;
-  Map<String, Map<String, String>> get tafseerList => _tafseerMap;
-
-  String checkAndSetLang(String translationLang) {
-    //ensure that default lang returned if the request is invalid
-    if (!translationLanguageList.containsKey(translationLang)) {
-      translationLang = translationLanguageList.keys.toList().first;
-    }
-    return translationLang;
-  }
-
-  String checkAndSetTafseer(String translationLang, String? tafseer) {
-    //ensure that default tafseer returned if the request is invalid
-    if (!tafseerList[translationLang]!.containsKey(tafseer)) {
-      tafseer = tafseerList[translationLang]!.keys.toList().first;
-    }
-    return tafseer!;
-  }
-
+  /// get surah arabic content including aya
   Future<SurahContentModel> getSurahArabicContent(int surahNumber) async {
     SurahContentModel surahArabic = SurahContentModel();
     String jsonPath =
@@ -101,42 +117,104 @@ class QuranDatasource {
     return surahArabic;
   }
 
+  // set transliteration of ayas into a surah retrieved
   Future<void> _getAndSetTransliteration(
-      {required int surahNumber, required String translationLang}) async {
-    var jsonPath =
-        'packages/$packageName/lib/assets/transliteration/$translationLang/$surahNumber.json';
-    var dataList = await loadJsonAssets(jsonPath);
-    surah.setAyaTransliteration((dataList['ayaTranslation']).cast<String>());
+      {required int surahNumber, String? transliterationLang}) async {
+    var retrievalType = _transliterationLangMap[transliterationLang ?? ''];
+    //this means translation is off or invalid
+    if (retrievalType == null || retrievalType == '') {
+      surah.setAyaTransliteration(<String>[]);
+    } else {
+      var jsonPath =
+          'packages/$packageName/lib/assets/transliteration/$transliterationLang/$surahNumber.json';
+      if (retrievalType != offline) {
+        jsonPath =
+            '$jsonAssetURL/transliteration/$transliterationLang/$surahNumber.json';
+      }
+      var dataList = await _loadData(jsonPath, retrievalType);
+      surah.setAyaTransliteration(
+          (dataList['ayaTranslation'] ?? []).cast<String>());
+    }
   }
 
-  Future<void> _getAndSetTranslation(
-      {required int surahNumber, required String translationLang}) async {
-    var jsonPath =
-        'packages/$packageName/lib/assets/translation/$translationLang/$surahNumber.json';
-    var dataList = await loadJsonAssets(jsonPath);
-    surah.setAyaTranslation((dataList['ayaTranslation']).cast<String>());
-    surah.nameTranslation = dataList['translation'];
+  /// set translation of ayas into a surah retrieved
+  Future<void> _getAndSetTranslation({
+    required int surahNumber,
+    String? translationLang,
+  }) async {
+    var retrievalType = _translationLangMap[translationLang ?? ''];
+    //this means translation is off or invalid
+    if (retrievalType == null || retrievalType == '') {
+      surah.setAyaTranslation(<String>[]);
+    } else {
+      var jsonPath =
+          'packages/$packageName/lib/assets/translation/$translationLang/$surahNumber.json';
+      if (retrievalType != offline) {
+        jsonPath =
+            '$jsonAssetURL/translation/$translationLang/$surahNumber.json';
+      }
+      var dataList = await _loadData(jsonPath, retrievalType);
+      surah.setAyaTranslation(
+          ((dataList['ayaTranslation']) ?? []).cast<String>());
+      surah.nameTranslation = dataList['translation'];
+    }
   }
 
+  /// set tafseer of ayas into a surah retrieved
   Future<void> _getAndSetTafseer(
       {required int surahNumber,
-      required String translationLang,
+      String? translationLang,
       String? tafseer}) async {
-    var jsonPath =
-        'packages/$packageName/lib/assets/tafseer/$translationLang/$tafseer/$surahNumber.json';
-    var dataList = await loadJsonAssets(jsonPath);
-    surah.setAyaTafseer((dataList['ayaTranslation']).cast<String>());
+    var retrievalType = _tafseerMap[translationLang]?[tafseer];
+    //this means tafseer is off or invalid
+    if (retrievalType == null || retrievalType == '') {
+      surah.setAyaTafseer(<String>[]);
+    } else {
+      var jsonPath =
+          'packages/$packageName/lib/assets/tafseer/$translationLang/$tafseer/$surahNumber.json';
+      if (retrievalType != offline) {
+        jsonPath =
+            '$jsonAssetURL/tafseer/$translationLang/$tafseer/$surahNumber.json';
+      }
+      var dataList = await _loadData(jsonPath, retrievalType);
+      surah.setAyaTafseer((dataList['ayaTranslation'] ?? []).cast<String>());
+    }
   }
 
+  /// returns json data either from assets or url
+  Future<dynamic> _loadData(String jsonPath, String type) async {
+    if (type == offline) {
+      return await loadJsonAssets(jsonPath);
+    } else {
+      return await loadJsonFromURL(jsonPath);
+    }
+  }
+
+  /// returns json data from preincluded json files
   Future<dynamic> loadJsonAssets(String jsonPath) async {
     String data = '';
     try {
       data = await rootBundle.loadString(jsonPath);
     } on Exception catch (e) {
-      debugPrint(e.toString());
       data = '';
     }
-    var dataList = json.decode(data);
-    return dataList;
+    return json.decode(data);
+  }
+
+  /// returns json data from cloud using http request
+  Future<dynamic> loadJsonFromURL(String jsonURL) async {
+    var url = Uri.parse(jsonURL);
+    var response = await http.get(url);
+    if (response.ok) {
+      return json.decode(response.body);
+    }
+    return {};
+  }
+}
+
+/// IsOk is an extension to check http response success status
+extension IsOk on http.Response {
+  bool get ok {
+    return (statusCode ~/ 100) == 2;
   }
 }

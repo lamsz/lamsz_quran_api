@@ -20,7 +20,7 @@ void main() {
     expect(ayaData.id, null);
   });
 
-  //negative test, it should return aya with default available tafseer
+  //negative test, it should return aya with no tafseer
   test('Get Aya Invalid Tafseer Higher Boundary', () async {
     var translationLang = 'bahasa';
     var ayaData = await getAyaData(
@@ -28,7 +28,7 @@ void main() {
         ayaNumber: 1,
         translationLang: translationLang,
         tafseer: 'testing');
-    expect(ayaData.tafseer!.isEmpty, false);
+    expect(ayaData.tafseer, null);
   });
 
   //negative test, it should return empty aya
@@ -40,14 +40,13 @@ void main() {
   });
 
   //negative test, it should return empty aya
-  test('Get Aya Invalid Surah Lower Boundary', () async {
+  test('Get Aya Invalid Surah Higher Boundary', () async {
     var translationLang = 'bahasa';
     var ayaData = await getAyaData(
         surahNumber: 115, ayaNumber: 1, translationLang: translationLang);
     expect(ayaData.id, null);
   });
 
-  //negative test, it should return empty aya
   test('Get First Surah Single Aya', () async {
     var translationLang = 'bahasa';
     var tafseer = 'jalalayn';
@@ -65,13 +64,8 @@ void main() {
   });
 
   test('Get Last Surah Single Aya', () async {
-    var toStringData = '     id: 1, \n'
-        '     arabicIndex: ١,\n'
-        '     arabicText: قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ,\n'
-        '     translation: Katakanlah: "Aku berlindung kepada Tuhan (yang memelihara dan menguasai) manusia., \n'
-        '     tafseer: (Katakanlah, "Aku berlindung kepada Rabb manusia) Yang menciptakan dan Yang memiliki mereka; di sini manusia disebutkan secara khusus sebagai penghormatan buat mereka; dan sekaligus untuk menyesuaikan dengan pengertian Isti\'adzah dari kejahatan yang menggoda hati mereka.,\n'
-        '     translliteration: qul a\'uu<u>dz</u>u birabbi <strong>al</strong>nn<u>aa</u>s<strong>i</strong>,\n'
-        '     audioURL : ';
+    var toStringData =
+        '{"id":1,"ar":"قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ","translation":"Katakanlah: \\"Aku berlindung kepada Tuhan (yang memelihara dan menguasai) manusia.","tafseer":"","transliteration":"","audio":""}';
     var translationLang = 'bahasa';
     var ayaData = await getAyaData(
         surahNumber: 114, ayaNumber: 1, translationLang: translationLang);
