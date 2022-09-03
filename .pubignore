@@ -3,3 +3,6 @@ example/
 lib/assets/translation/malay/
 lib/assets/transliteration/
 lib/assets/tafseer/
+coverage/
+doc/
+delete.sh
