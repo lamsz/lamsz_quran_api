@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout the code
         uses: actions/checkout@v3
-      - uses: subosito/flutter-action@@v2
+      - uses: subosito/flutter-action@v2
         with:
           channel: "stable"
       - name: Restore packages
