@@ -170,8 +170,8 @@ class _QuranState extends State<Quran> {
       padding: const EdgeInsets.all(3.0),
       child: Container(
           color: (i % 2 == 1)
-              ? themeColor!.withOpacity(0.15)
-              : themeColor!.withOpacity(0.03),
+              ? themeColor.withOpacity(0.15)
+              : themeColor.withOpacity(0.03),
           child: Center(
             child: ListTile(
                 onTap: () {
@@ -184,8 +184,8 @@ class _QuranState extends State<Quran> {
                                 surahNumber: searchList[i].id!,
                                 surahArabicName: searchList[i].nameArabic!,
                                 surahTranslationName: searchList[i].nameLatin!,
-                                themeColor: themeColor!,
-                                translationLang: translationLang!,
+                                themeColor: themeColor,
+                                translationLang: translationLang,
                               )));
                 },
                 leading: Text((searchList[i].id).toString()),
