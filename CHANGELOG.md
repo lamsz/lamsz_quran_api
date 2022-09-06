@@ -6,3 +6,7 @@
 
 ## 0.0.2
 * Fixing changelog
+
+## 0.0.3
+* Flutter formatting
+* Add example on how to use the package
