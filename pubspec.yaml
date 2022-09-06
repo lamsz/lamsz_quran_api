@@ -1,9 +1,8 @@
 name: lamsz_quran_api
 description: A mixed of offline and cloud Al Quran API for flutter. Basic Al Quran is provided offline
-version: 0.0.1
+version: 0.0.3
 homepage: https://lamsz.id
 repository: https://github.com/lamsz/lamsz_quran_api
-publish_to: https://pub.dev
 
 environment:
   sdk: ">=2.17.6 <3.0.0"

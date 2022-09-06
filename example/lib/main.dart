@@ -33,7 +33,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 /// this is simple example of the capabilities of the quran api package
 /// uncomment this and replace quran object with MyHomePage to see
 // class MyHomePage extends StatefulWidget {
