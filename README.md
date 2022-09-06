@@ -2,6 +2,8 @@
 - [Installing](#installing)
 - [Features](#features)
 - [Using the API](#usage)
+- [Issues and Feedback](#issues-and-feedback)
+
 
 # About Lamsz Quran API
 
@@ -173,3 +175,13 @@ tafseer='shaheehinter');
    "tafseer": "..."
 }
 ```
+
+## Example
+
+For more detail usage, please see the [example application](https://github.com/lamsz/lamsz_quran_api/tree/main/example) of Quran application which using Lamsz Quran API
+
+# Issues and Feedback
+
+Please file specific issues, bugs, or feature requests in our [issue tracker](https://github.com/lamsz/lamsz_quran_api/issues/new).
+
+To contribute a change to this plugin, open a [pull request](https://github.com/lamsz/lamsz_quran_api/pulls).

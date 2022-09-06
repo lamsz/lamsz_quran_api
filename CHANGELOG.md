@@ -10,3 +10,4 @@
 ## 0.0.3
 * Flutter formatting
 * Add example on how to use the package
+* Add how to raise issues or contribute in the readme file

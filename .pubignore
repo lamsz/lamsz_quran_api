@@ -5,3 +5,4 @@ lib/assets/tafseer/
 coverage/
 doc/
 delete.sh
+build/
